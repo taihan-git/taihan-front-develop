@@ -1,0 +1,505 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+::before, ::after {
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+body {
+  font-family: "NotoSansKR", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  word-break: keep-all;
+  word-wrap: break-word;
+  letter-spacing: -0.4px;
+}
+
+button {
+  line-height: 1;
+  font-family: "NotoSansKR", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  background: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 0;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* 테이블 스타일 초기화 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+
+th, td {
+  font-weight: 500;
+}
+
+td {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+legend, caption {
+  visibility: hidden;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+address, caption, em, var {
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* 링크 */
+a {
+  color: #000000;
+  text-decoration: none;
+  outline: none;
+}
+
+/* 이미지, 폼관련 요소 */
+img {
+  border: 0;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+label,
+select,
+input,
+textarea {
+  vertical-align: middle;
+}
+
+input[type=text],
+input[type=submit],
+input[type=password],
+input[type=search],
+input[type=number],
+input[type=reset],
+input[type=email], input[type=tel],
+input[type=search],
+input[type=file],
+input[type=email],
+input[type=tel],
+textarea {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  color: #000000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-radius: 0;
+  border: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #f2f2f2;
+  font-family: "NotoSansKR", sans-serif;
+}
+
+input[type=file] {
+  display: block;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border: 0;
+  vertical-align: middle;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+input[readonly] {
+  background: #fff;
+  color: #000;
+}
+
+input:disabled {
+  background: #fff;
+}
+
+input[type=text],
+input[type=password] {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+textarea:focus,
+input[type=text]:hover,
+input[type=password]:hover,
+input[type=tel]:hover,
+textarea:hover {
+  outline: none;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=text]::-ms-clear {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+select {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #f2f2f2;
+  font-family: "NotoSansKR", sans-serif;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+select:required:invalid {
+  color: #808080;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: #000000;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+option {
+  color: #000000;
+}
+option:disabled {
+  color: #808080;
+}
+
+textarea {
+  border: solid 1px #b8bcc1;
+  height: 90px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border-radius: 0;
+  overflow: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button:focus,
+button:hover {
+  outline: none;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+input::-moz-placeholder {
+  color: #000000;
+}
+
+input::-ms-input-placeholder {
+  color: #000000;
+}
+
+input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+input:-moz-placeholder {
+  color: #000000;
+}
+
+input:-ms-input-placeholder {
+  color: #000000;
+}
+
+input::-ms-input-placeholder {
+  color: #000000;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input::-ms-reveal {
+  display: none;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #000000;
+}
+
+textarea::-moz-placeholder {
+  color: #000000;
+}
+
+textarea::-ms-input-placeholder {
+  color: #000000;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #000000;
+}
+
+textarea:-moz-placeholder {
+  color: #000000;
+}
+
+textarea:-ms-input-placeholder {
+  color: #000000;
+}
+
+textarea::-ms-input-placeholder {
+  color: #000000;
+}
+
+textarea::placeholder {
+  color: #000000;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder,
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder,
+input:focus::-ms-input-placeholder,
+textarea:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+.hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.t-l {
+  text-align: left !important;
+}
+.t-r {
+  text-align: right !important;
+}
+.t-c {
+  text-align: center !important;
+}
+
+img.max {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a7a7a7;
+}
+
+.table-wrap table th, .table-wrap table td {
+  padding: 20px 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+.table-wrap table thead th {
+  background: #000;
+  color: #fff;
+  min-height: 80px;
+}
+.table-wrap table tbody td {
+  border-bottom: 1px solid #ccc;
+}
+.table-wrap table tbody tr:last-child td {
+  border-bottom-color: #000000;
+}
+.table-wrap table th, .table-wrap table td {
+  border-left: 1px solid #ccc;
+}
+.table-wrap table th:first-child, .table-wrap table td:first-child {
+  border-left: 0;
+}
+
+.pager-wrap {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+.pager-wrap a {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  margin: 7px;
+  color: #808080;
+}
+.pager-wrap .active {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #000000;
+  margin: 7px;
+  border-bottom: 1px solid #000000;
+}
+
+.bentley .table-wrap table th, .bentley .table-wrap table td {
+  max-width: 140px;
+  word-break: keep-all;
+}
+
+@media (max-width: 750px) {
+  .table-wrap {
+    position: relative;
+  }
+  .table-wrap .scroll {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  .table-wrap .scroll::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  .table-wrap .scroll table {
+    width: auto;
+    table-layout: fixed;
+  }
+  .table-wrap .scroll table th, .table-wrap .scroll table td {
+    min-width: 40px;
+    white-space: nowrap;
+  }
+
+  .pager-wrap {
+    margin-top: 30px;
+  }
+
+  .bentley .table-wrap table th, .bentley .table-wrap table td {
+    white-space: inherit;
+  }
+}
+
+/*# sourceMappingURL=common.css.map */

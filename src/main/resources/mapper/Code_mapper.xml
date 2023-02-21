@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Converted at: Mon Mar 23 17:00:32 KST 2015-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.taihan.front.dao.CodeMapper">
+
+  <select id="selectCodes" parameterType="String" resultType="Code">
+    /* [Code_mapper][selectCodes][하위 코드 조회] */
+    SELECT
+      CD
+      ,UP_CD
+      ,CD_NM
+      ,CD_EXP
+      ,ORD
+      ,DISP_YN
+      ,REG_DT
+    FROM TB_COMMON_CODE
+    WHERE 1=1
+      AND UP_CD = #{upCd}
+      AND DEL_YN = 'N'
+      AND DISP_YN = 'Y'
+    ORDER BY ORD
+  </select>
+</mapper>

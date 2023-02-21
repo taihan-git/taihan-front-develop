@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+  maxBytesLocalHeap="300M">
+
+  <!-- 참고문서 : https://www.ehcache.org/ehcache.xml -->
+
+  <sizeOfPolicy maxDepth="100000"/>
+
+  <defaultCache
+    eternal="false"
+    maxEntriesLocalHeap="0"
+    timeToIdleSeconds="1200"
+    timeToLiveSeconds="1200"
+    memoryStoreEvictionPolicy="LRU">
+  </defaultCache>
+
+  <cache
+    name="codeCache"
+    eternal="false">
+  </cache>
+
+  <cache
+    name="stockInfo"
+    eternal="false"
+    timeToIdleSeconds="600"
+    timeToLiveSeconds="1800">
+  </cache>
+</ehcache>

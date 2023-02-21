@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Converted at: Mon Mar 23 17:00:32 KST 2015-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.taihan.front.dao.CustomerMapper">
+
+
+    <sql id="whereCustomer">
+    	<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(lang)">
+            AND A.LANG = #{lang}
+        </if>
+        AND A.DEL_YN = 'N'
+        AND A.DISPLAY_YN = 'Y'
+    </sql>
+
+    <select id="selectQnaCategoryList" parameterType="Qna" resultType="Qna">
+        /* [Customer_mapper][selectQnaCategoryList][1:1 문의 카테고리 조회] */
+        SELECT
+             A.IDX
+             , A.MENU_TYPE
+             , A.MENU_DEPTH
+             , A.MENU_PARENT
+             , A.MENU_CODE
+             , A.MENU_NAME
+        FROM TB_INQUIRY_MENU A
+        WHERE 1 = 1
+            <choose>
+                <when test="@org.apache.commons.lang3.StringUtils@isEmpty(menuCode)">
+                    AND (A.MENU_PARENT = '' OR A.MENU_PARENT IS NULL)
+                </when>
+                <otherwise>
+                    AND A.MENU_PARENT = #{menuCode}
+                </otherwise>
+            </choose>
+            <if test="schCate == 'inqu'">
+                AND A.MENU_TYPE = 'inqu'
+            </if>
+            <if test="schCate == 'coun'">
+                AND A.MENU_TYPE = 'coun'
+                ORDER BY (CASE WHEN A.MENU_NAME = 'etc.' THEN 1
+				          ELSE 0
+				          END),A.MENU_NAME ASC;
+            </if>
+    </select>
+
+    <insert id="saveQna" parameterType="Qna" useGeneratedKeys="true" keyProperty="muid">
+        /* [Customer_mapper][saveQna][1:1 문의 등록] */
+        INSERT INTO TB_INQUIRY_QNA
+            (
+                LANG
+                , CONTINENT
+                , COUNTRY
+                , UTO1
+                , UTO2
+                , TITLE
+                , MEMO
+                , ORG_PC_FILE
+                , SYS_PC_FILE
+                , NAME
+                , EMAIL
+                , TEL
+                , PHONE
+                , COMPANY
+                , DATE
+                , STATUS
+                , USER_IP
+            )
+        VALUES
+            (
+                 #{lang}
+                 , #{continent}
+                 , #{country}
+                 , #{uto1}
+                 , #{uto2}
+                 , #{title}
+                 , #{memo}
+                 , #{orgPcFile}
+                 , #{sysPcFile}
+                 , #{name}
+                 , #{email}
+                 , #{tel}
+                 , #{phone}
+                 , #{company}
+                 , NOW()
+                 , 'idle'
+                 , #{userIp}
+            )
+    </insert>
+
+
+    <!-- 대리점 리스트 조회 -->
+    <select id="selectAgencyList" parameterType="Agency" resultType="Agency">
+        /* [Customer_mapper][selectAgencyList] 대리점 리스트 조회 */
+        SELECT
+            IDX
+            , AGENCY_NM
+            , AGENCY_ADDR
+            , AGENCY_TEL
+            , GOOGLE_MAP_URL
+            , (SELECT
+                   AGENCY_PRODUCT_NM
+               FROM TB_AGENCY_PRODUCT B
+               WHERE B.AGENCY_PRODUCT_ID = A.AGENCY_PRODUCT_ID
+            ) AS AGENCY_PRODUCT_NM
+        FROM TB_AGENCY_INFO A
+        WHERE 1=1
+            AND A.DEL_YN = 'N'
+            AND A.DISPLAY_YN = 'Y'
+        <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(schArea)">
+            AND A.AGENCY_AREA_PARNT_ID = #{schArea}
+        </if>
+        <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(schProduct)">
+            AND A.AGENCY_PRODUCT_ID = #{schProduct}
+        </if>
+        ORDER BY A.IDX DESC
+    </select>
+
+    <!-- 대리점 지역 리스트 조회 -->
+    <select id="selectAgencyAreaList" parameterType="Agency" resultType="Agency">
+        /* [Customer_mapper][selectAgencyAreaList] 대리점 지역 리스트 조회 */
+        SELECT * FROM TB_AGENCY_AREA WHERE AGENCY_AREA_PARNT_ID IS NULL
+    </select>
+
+    <!-- 대리점 품목 리스트 조회 -->
+    <select id="selectAgencyProductList" parameterType="Agency" resultType="Agency">
+        /* [Customer_mapper][selectAgencyProductList] 대리점 품목 리스트 조회 */
+        SELECT * FROM TB_AGENCY_PRODUCT
+        ORDER BY FIELD(AGENCY_PRODUCT_ID , 1, 2, 4 ,3)
+    </select>
+
+    <!-- 카탈로그 리스트 조회 -->
+    <select id="selectCatalogList" parameterType="Catalog" resultType="Catalog">
+        /* [Customer_mapper][selectCatalogList]  카탈로그 리스트 조회 */
+        SELECT
+            IDX
+            ,TITLE
+            ,ORG_PDF_FILE
+            ,SYS_PDF_FILE
+            ,ORG_IMG_FILE
+            ,SYS_IMG_FILE
+            ,PROD_CATE_ID
+            ,LANG
+            ,DISPLAY_YN
+        FROM TB_PROD_CATALOG A
+        WHERE 1=1
+        <include refid="whereCustomer" />
+        <if test="@org.apache.commons.lang3.ArrayUtils@isNotEmpty(titles)">
+            AND A.TITLE IN
+            <foreach collection="titles" item="item" open="(" close=")" separator=",">
+                trim(#{item})
+            </foreach>
+        </if>
+        ORDER BY A.PROD_CATE_ID,ORD
+    </select>
+
+
+    <select id="selectCertDataList" parameterType="Qc" resultType="Qc">
+        /* [Customer_mapper][selectCertDataList] 품질인증 리스트 조회 */
+        SELECT
+            IDX
+            , TITLE
+            , ORG_THUM_IMG_FILE
+            , SYS_THUM_IMG_FILE
+            , ORG_FILE
+            , SYS_FILE
+            , THUM_IMG_TEXT
+            , INTRO_TEXT
+            , QC_CATE
+        FROM TB_QC A
+        WHERE 1=1
+        <include refid="whereCustomer" />
+        ORDER BY A.IDX DESC
+    </select>
+
+    <select id="selectReportList" parameterType="Report" resultType="Report">
+        /* [Customer_mapper][selectReport] 리포트 리스트 조회 */
+        SELECT
+            IDX
+            , TITLE
+            , LANG
+            , REPORT_TYPE
+            , ORG_IMG_FILE
+            , SYS_IMG_FILE
+            , ORG_FILE
+            , SYS_FILE
+            , DISPLAY_YN
+            , REG_IDX
+            , UPD_IDX
+            , UPD_DT
+        FROM TB_REPORT A
+        WHERE 1=1
+            AND A.REPORT_TYPE = #{reportType}
+            <include refid="whereCustomer" />
+        ORDER BY A.IDX DESC
+        LIMIT #{firstIndex}, #{rowSize}
+    </select>
+
+    <select id="selectReportListCnt" parameterType="Report" resultType="int">
+        /* [Rsroom_mapper][selectReportListCnt]  리포트 리스트 카운트 조회 */
+        SELECT
+        COUNT(*) CNT
+        FROM TB_REPORT A
+        WHERE 1=1
+            AND A.REPORT_TYPE = #{reportType}
+        <include refid="whereCustomer" />
+    </select>
+</mapper>

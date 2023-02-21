@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.taihan.front.dao.GlobalMapper">
+	
+	<insert id="insertCaptcha" parameterType="Map">
+		INSERT INTO TB_CAPTCHA
+	    (PCID, ANSWER)
+	    VALUES
+	    (#{pcid}, #{answer})
+	    ON DUPLICATE KEY UPDATE
+	    ANSWER = #{answer}
+	</insert>
+	
+	<select id="selectCaptchaAnswer" parameterType="String" resultType="String">
+		SELECT ANSWER
+		  FROM TB_CAPTCHA
+		 WHERE PCID = #{pcid}
+	</select>
+	
+	<delete id="deleteCaptcha" parameterType="String">
+		DELETE FROM TB_CAPTCHA
+		 WHERE PCID = #{pcid}
+	</delete>
+	
+	
+	<select id="selectSeoResult" parameterType="SeoModel" resultType="SeoModel">
+		SELECT	
+			URI
+			,TITLE
+			,DESCRIPTION
+			,CONTENT	
+			,IMG_PATH			
+		FROM 
+			TB_SEO
+		WHERE
+			URI = #{uri}
+		LIMIT 1
+	</select>
+	<insert id="insertSeoUri" parameterType="SeoModel">
+		INSERT INTO TB_SEO (URI)
+		 VALUE (#{uri})
+	</insert>
+	
+	<select id="selectPrivacy" parameterType="Privacy" resultType="Privacy">
+		SELECT CONTENT,IDX
+		FROM TB_PERSONAL_INFO
+		WHERE 1 = 1
+			AND DEL_YN = 'N'
+		  	AND LANG = #{lang}
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(schIdx)">
+			AND IDX = #{schIdx}
+		</if>
+		<if test="@org.apache.commons.lang3.StringUtils@isEmpty(schIdx)">
+			AND IDX = (SELECT MAX(IDX) FROM TB_PERSONAL_INFO
+			                           WHERE 1 = 1
+											AND DEL_YN = 'N'
+											AND LANG = #{lang}
+					   )
+		</if>
+	</select>
+	
+	<select id="selectPrivacyList" parameterType="Privacy" resultType="Privacy">
+		SELECT IDX,TITLE
+		FROM TB_PERSONAL_INFO
+		WHERE 1 = 1
+			AND DEL_YN = 'N'
+		  	AND LANG = #{lang}
+		ORDER BY IDX DESC
+	</select>
+
+	<select id="selectFileCheck" resultType="int" parameterType="String">
+		SELECT
+			COUNT(*)
+		FROM
+			(
+				SELECT
+					SYS_FILE 			AS SYS_FILE1
+					 , SYS_THUM_IMG_FILE AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_BROCHURE
+
+				UNION ALL
+
+				SELECT
+					SYS_PC_IMG_FILE AS SYS_FILE1
+					 , '' AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_DISP_NEWS
+
+				UNION ALL
+
+				SELECT
+					SYS_FILE AS SYS_FILE1
+					 , '' AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_INQUIRY_FILE
+
+				UNION ALL
+
+
+				SELECT
+					SYS_PC_FILE  AS SYS_FILE1
+					 , '' AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_INQUIRY_QNA
+
+				UNION ALL
+
+				SELECT
+					SYS_FILE  AS SYS_FILE1
+					 , '' AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_IR_NOTICE
+
+				UNION ALL
+
+				SELECT
+					SYS_PC_IMG_FILE  AS SYS_FILE1
+					 , SYS_MO_IMG_FILE  AS SYS_FILE2
+					 , SYS_VIDEO_FILE  AS SYS_FILE3
+				FROM TB_MAIN_BANNER
+
+				UNION ALL
+
+				SELECT
+					SYS_THUM_IMG_FILE  AS SYS_FILE1
+					 , '' AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_NEWS_RELEASE
+
+				UNION ALL
+
+				SELECT
+					SYS_PC_IMG_FILE  AS SYS_FILE1
+					 , '' AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_NOTICE_POP
+
+				UNION ALL
+
+				SELECT
+					SYS_PDF_FILE  AS SYS_FILE1
+					 , SYS_IMG_FILE  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_PROD_CATALOG
+
+				UNION ALL
+
+				SELECT
+					SYS_THUM_IMG_FILE  AS SYS_FILE1
+					 , SYS_FILE  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_QC
+
+				UNION ALL
+
+				SELECT
+					SYS_IMG_FILE  AS SYS_FILE1
+					 , SYS_FILE  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_REPORT
+
+				UNION ALL
+
+				SELECT
+					SYS_PC_IMG_FILE  AS SYS_FILE1
+					 , ''  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_SUCCESS_CASE
+
+				UNION ALL
+
+				SELECT
+					SYS_THUM_IMG_FILE  AS SYS_FILE1
+					 , ''  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_SUCCESS_STORY
+
+				UNION ALL
+
+				SELECT
+					SYS_IMG_FILE  AS SYS_FILE1
+					 , ''  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_SUCCESS_STORY_CONT_SUB
+
+				UNION ALL
+
+				SELECT
+					SYS_THUM_IMG_FILE  AS SYS_FILE1
+					 , ''  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_TAIHAN_NEWS
+
+				UNION ALL
+
+				SELECT
+					SYS_THUM_IMG_FILE  AS SYS_FILE1
+					 , ''  AS SYS_FILE2
+					 , '' AS SYS_FILE3
+				FROM TB_WEBZINE
+			) Z
+		WHERE 1 = 1
+		  AND ( Z.SYS_FILE1 = #{fileName} OR Z.SYS_FILE2 = #{fileName} OR Z.SYS_FILE3 = #{fileName})
+	</select>
+
+
+
+</mapper>

@@ -1,0 +1,27 @@
+body {
+  font-family: "NotoSansKR", sans-serif;
+  letter-spacing: -0.5px;
+}
+
+button {
+  font-family: "NotoSansKR", sans-serif;
+  letter-spacing: 0;
+}
+
+[class^=btn-type] {
+  font-family: "VWAG_TheAntiqua", "NotoSerifKR", sans-serif;
+}
+
+.list-text:before {
+  top: 7px;
+}
+
+.list-type li:before {
+  top: 7px;
+}
+
+.btn-more [class^=ico-] {
+  margin-top: -1px;
+}
+
+/*# sourceMappingURL=common.css.map */

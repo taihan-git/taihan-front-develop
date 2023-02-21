@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.taihan.front.dao.BusinessMapper">
+
+	
+	<select id="getSolutionList" parameterType="Solution" resultType="Solution">
+		/* [Business_Mapper][getSolutionList] */
+		SELECT
+			IDX
+			, DISP_NM AS TITLE
+			, LANG
+			, CONTENT
+			, SYS_THUM_IMG_FILE
+			, SYS_MAIN_IMG_FILE
+			, `DESC`
+		FROM
+			TB_SOLUTION
+		WHERE 1=1
+		  AND DISPLAY_YN = 'Y'
+		  AND LANG = #{lang}
+		ORDER BY ORD ASC
+	</select>
+	
+	<resultMap id="mappingResultMap" type="Solution">
+		<collection property="mappingList" javaType="ArrayList" column="{tblIdx=IDX,tbl=TBL}" ofType="TblMapping" select="selectTblMapping"/>
+  	</resultMap>
+  	
+	<select id="getSolutionDetail" parameterType="Solution"  resultMap="mappingResultMap" flushCache="false" useCache="true">
+		/* [Business_Mapper][getSolutionList] */
+		SELECT
+			IDX
+			, TITLE
+			, LANG
+			, CONTENT
+			, SYS_THUM_IMG_FILE
+			, SYS_MAIN_IMG_FILE
+			, 'SOLUTION' TBL
+			, MENU_CD
+			,(
+                SELECT
+                GROUP_CONCAT(C.TITLE,'_', C.IDX)
+                FROM TB_TAG C
+                INNER JOIN TB_TAG_MAPPING B ON C.IDX = B.TAG_IDX
+                WHERE B.MAPPING_IDX = A.IDX AND B.MAPPING_TYPE = 'SOLUTION'
+            ) TAG_INFO_LIST
+            , (SELECT count(getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'URL')) FROM TB_TABLE_MAPPING WHERE TBL = 'SOLUTION' AND TBL_IDX = A.IDX AND (MAPPING_TARGET = '제품' OR MAPPING_TARGET = 'Product')) PRODUCT_CNT
+            , (SELECT count(getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'URL')) FROM TB_TABLE_MAPPING WHERE TBL = 'SOLUTION' AND TBL_IDX = A.IDX AND MAPPING_TARGET != '제품' AND MAPPING_TARGET != 'Product') CONTENT_CNT
+		FROM
+			TB_SOLUTION A
+		WHERE 1=1
+		  AND DISPLAY_YN = 'Y'
+		  AND LANG = #{lang}
+		  AND IDX = #{idx}
+	</select>
+	
+	<select id="getProductList" parameterType="Product" resultType="Product">
+		/* [Business_Mapper][getProductDetail] */
+		SELECT
+			IDX
+			, LANG
+			, PROD_CATE_NO
+			, PROD_CATE
+			, DISP_NM
+			, `TYPE`
+			, TOP_GUBUN
+			, TITLE
+			, concat('product/',SUBSTRING_INDEX(IMG_PATHS, '@', 1)) IMG_PATHS
+			, INTRO
+			, CATALOG
+		FROM
+			TB_PRODUCT A
+		WHERE 1=1
+		  AND DISPLAY_YN = 'Y'
+		  AND LANG = #{lang}
+		  <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(idxs)">
+			 AND IDX IN
+			<foreach collection="idxs" item="item" open="(" close=")" separator=",">
+				#{item}
+			</foreach>
+		 </if>
+		 <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(type)">
+			 AND TYPE LIKE CONCAT(#{type},'%')
+		 </if>
+		 <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(prodCateNo)">
+			 AND PROD_CATE_NO = #{prodCateNo}
+		 </if>
+		 ORDER BY `ORD` ASC
+	</select>
+	
+	<resultMap id="mappingResultMap2" type="Product">
+		<collection property="mappingList" javaType="ArrayList" column="{tblIdx=IDX,tbl=TBL}" ofType="TblMapping" select="selectTblMapping"/>
+  	</resultMap>
+  	
+	<select id="getProductDetail" parameterType="Product" resultMap="mappingResultMap2" flushCache="false" useCache="true">
+		/* [Business_Mapper][getProductDetail] */
+		SELECT
+			IDX
+			, LANG
+			, PROD_CATE_NO
+			, PROD_CATE
+			, `TYPE`
+			, TOP_GUBUN
+			, TITLE
+			, IMG_PATHS
+			, INTRO
+			, CATALOG
+			, SEO_TITLE
+			, SEO_DESCRIPTION
+			, 'PRODUCT' TBL
+			,(
+                SELECT
+                GROUP_CONCAT(C.TITLE,'_', C.IDX)
+                FROM TB_TAG C
+                INNER JOIN TB_TAG_MAPPING B ON C.IDX = B.TAG_IDX
+                WHERE B.MAPPING_IDX = A.IDX AND B.MAPPING_TYPE = 'PRODUCT'
+            ) TAG_INFO_LIST
+            , (SELECT count(getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'URL')) FROM TB_TABLE_MAPPING WHERE TBL = 'PRODUCT' AND TBL_IDX = A.IDX AND MAPPING_TARGET = 'solution') SOLUTION_CNT
+            , (SELECT count(getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'URL')) FROM TB_TABLE_MAPPING WHERE TBL = 'PRODUCT' AND TBL_IDX = A.IDX AND MAPPING_TARGET != 'solution') CONTENT_CNT
+		FROM
+			TB_PRODUCT A
+		WHERE 1=1
+		  AND DISPLAY_YN = 'Y'
+		  AND LANG = #{lang}
+		  AND IDX = #{idx}
+	</select>
+	
+	<resultMap id="tabInfoResultMap" type="ProductTab">
+		<collection property="infoList" javaType="ArrayList" column="{tabIdx=IDX}" ofType="kr.co.taihan.front.model.ProductTab$ProductTabInfo" select="selectProductTabInfo"/>
+  	</resultMap>
+  	
+	<select id="getProductDetailTab" parameterType="Product" resultMap="tabInfoResultMap" flushCache="false" useCache="true">
+		/* [Business_Mapper][getProductDetail] */
+		SELECT
+			IDX
+			, PROD_IDX
+			, TAB_NAME
+			, TAB_TITLE
+			, TAB_CONTENT
+			, TAB_IMG_PATH
+		FROM
+			TB_PRODUCT_TAB
+		WHERE 1=1
+		  AND PROD_IDX = #{idx}
+	</select>
+	
+	<select id="selectProductTabInfo" parameterType="kr.co.taihan.front.model.ProductTab$ProductTabInfo" resultType="kr.co.taihan.front.model.ProductTab$ProductTabInfo">
+		/* [Business_Mapper][getProductDetail] */
+		SELECT
+			IDX
+			, TAB_IDX
+			, INFO_TITLE
+			, INFO_CONTENT
+			, INFO_IMG_PATH
+		FROM
+			TB_PRODUCT_TABINFO
+		WHERE 1=1
+		  AND TAB_IDX = #{tabIdx}
+	</select>
+	
+	<select id="selectTblMapping" parameterType="TblMapping" resultType="TblMapping">
+		SELECT * FROM (
+			SELECT DISTINCT
+				 MAPPING_TITLE
+				, MAPPING_TARGET
+				, getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'TITLE') TITLE
+				, getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'IMG') IMG
+				, getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'URL') URL
+				, cast(getMappingInfo2(MAPPING_IDX,MAPPING_TARGET,'ORD') as unsigned)  ORD
+				, TAB
+			FROM
+				TB_TABLE_MAPPING
+		   WHERE TBL = #{tbl}
+		     <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(tblIdx)">
+			 AND TBL_IDX = #{tblIdx}
+			 </if>
+			 <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(tblIdxs)">
+				AND TBL_IDX IN
+				<foreach collection="tblIdxs" item="item" open="(" close=")" separator=",">
+					#{item}
+				</foreach>
+			</if>
+		     <if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(isSolution)">
+		     <choose>
+		     	<when test='"Y".equals(isSolution)'>
+		     	AND MAPPING_TARGET = 'solution'
+		     	</when>
+		     	<otherwise>
+		     	AND MAPPING_TARGET != 'solution'
+		     	</otherwise>
+		     </choose>
+			 </if>
+			 ORDER BY FIELD(MAPPING_TARGET, 'Success Story', '보도자료', '대한뉴스','Taihan News','제품','Products'),ORD DESC
+		) T1 where T1.URL IS NOT NULL
+	</select>
+	
+	<select id="selectWorkPlaceList" parameterType="WorkPlace" resultType="WorkPlace">
+		/* [Business_Mapper][selectGlobalNetworkList] */
+		SELECT
+			IDX
+			, TITLE
+			, INTRO_TEXT
+			, ORG_THUM_IMG_FILE
+			, SYS_THUM_IMG_FILE
+			, THUM_IMG_TEXT
+			, DISPLAY_YN
+		FROM
+			TB_WORKPLACE
+		WHERE 1=1
+		  AND DISPLAY_YN = 'Y'; 
+	</select>
+	
+	<!-- 사업장 상세 조회 -->
+	<select id="selectWorkPlace" parameterType="WorkPlace" resultType="WorkPlace">
+		/* [Content_mapper][selectWorkPlace] [사업장 상세 조회] */
+		SELECT
+			IDX
+			, TITLE
+			, INTRO_TEXT
+			, LANG
+			, ORG_THUM_IMG_FILE
+			, SYS_THUM_IMG_FILE
+			, THUM_IMG_TEXT
+			, DISPLAY_YN
+			, WORKPLACE_NAME
+			, SUB_TITLE
+			, SUB_INTRO_TEXT
+			, YEAR_DSP_YN
+			, PEOPLE_DSP_YN
+			, AREA_DSP_YN
+			, PROD_CAPACITY_DSP_YN
+			, PROD_ITEM_DSP_YN
+			, YEAR_DSP_TXT
+			, PEOPLE_DSP_TXT
+			, AREA_DSP_TXT
+			, PROD_CAPACITY_DSP_TXT
+			, PROD_ITEM_DSP_TXT
+			, ADDRESS
+			, MAP_URL
+			, TEL
+			, HOMEPAGE_URL
+			, HITS
+			, REG_IDX
+			,(SELECT
+					IFNULL(GROUP_CONCAT(D.TITLE),'') TAGS
+				FROM
+					TB_TAG_MAPPING C
+				JOIN TB_TAG D ON
+					C.TAG_IDX = D.IDX
+				WHERE
+					C.MAPPING_TYPE = 'WORKPLACE'
+			  AND C.MAPPING_IDX = A.IDX) TAGS
+			, DATE_FORMAT(REG_DT, '%Y.%m.%d') REG_DT
+			, UPD_IDX
+			, DATE_FORMAT(UPD_DT, '%Y.%m.%d') UPD_DT
+		FROM
+			TB_WORKPLACE A
+		WHERE 1=1
+		  AND IDX = #{idx}
+		  AND LANG = #{lang}
+	</select>
+	
+	<select id="selectWorkPlaceContList" parameterType="WorkPlaceCont" resultType="WorkPlaceCont">
+		/* [Content_mapper][selectWorkPlaceContList] [사업장 추가 콘텐츠 목록 조회] */
+		SELECT 
+			IDX
+			 , WORKPLACE_IDX
+			 , TITLE
+			 , CONTENT
+		     , REG_IDX
+			 , REG_DT
+		  FROM TB_WORKPLACE_CONT
+		 WHERE WORKPLACE_IDX = #{workplaceIdx}
+	</select>
+	
+	<select id="selectSuccessStoryCnt" parameterType="SuccessStory" resultType="int">
+		SELECT
+			count(*)
+		FROM
+			TB_SUCCESS_STORY A
+		WHERE DEL_YN = 'N'
+		  AND DISPLAY_YN = 'Y'
+		  AND LANG = #{lang}
+	</select>
+	
+	<select id="selectSuccessStoryList" parameterType="SuccessStory" resultType="SuccessStory">
+		SELECT
+			IDX
+			, TITLE
+			, LANG
+			, ORG_THUM_IMG_FILE
+			, SYS_THUM_IMG_FILE
+			, THUM_IMG_TEXT
+			, CATEGORY
+			, CONTRY
+		FROM
+			TB_SUCCESS_STORY A
+		WHERE DEL_YN = 'N'
+		  AND DISPLAY_YN = 'Y'
+		  AND LANG = #{lang}
+		  <if test='"Y".equals(topFixYn)'>
+		  AND TOP_FIX_YN = 'Y'
+		  ORDER BY A.REG_DT DESC
+		  LIMIT 5
+		  </if>
+		  <if test="@org.apache.commons.lang3.StringUtils@isEmpty(topFixYn)">
+		  ORDER BY A.REG_DT DESC
+		  LIMIT #{firstIndex}, #{rowSize}
+		  </if>
+	</select>
+	
+	<update id="updateSuccessStoryHits" parameterType="SuccessStory">
+		UPDATE TB_SUCCESS_STORY
+		   SET HITS = HITS + 1
+		 WHERE IDX = #{idx}
+	</update>
+	
+	<select id="selectSuccessStory" parameterType="SuccessStory" resultType="SuccessStory">
+		/* [Content_mapper][selectSuccessStory] */
+		SELECT
+			IDX
+			, TITLE
+			, LANG
+			, ORG_THUM_IMG_FILE
+			, SYS_THUM_IMG_FILE
+			, THUM_IMG_TEXT
+			, CATEGORY
+			, CONTRY
+			, TOP_FIX_YN
+			, DISPLAY_YN
+			, HITS
+			, PROD_DSP_YN
+			, AREA_DSP_YN
+			, OWNER_DSP_YN
+			, LNG_DSP_YN
+			, QNT_DSP_YN
+			, AMT_DSP_YN
+			, PERIOD_DSP_YN
+			, PROD_DSP_TXT
+			, AREA_DSP_TXT
+			, OWNER_DSP_TXT
+			, LNG_DSP_TXT
+			, QNT_DSP_TXT
+			, AMT_DSP_TXT
+			, PERIOD_DSP_TXT
+			, OFFICIAL_ADD_TXT
+			, OFFICIAL_INFO
+			,(
+                SELECT
+                GROUP_CONCAT(C.TITLE,'_', C.IDX)
+                FROM TB_TAG C
+                INNER JOIN TB_TAG_MAPPING B ON C.IDX = B.TAG_IDX
+                WHERE B.MAPPING_IDX = A.IDX AND B.MAPPING_TYPE = 'SUCCESS_STORY'
+            ) TAG_INFO_LIST
+			, REG_IDX
+			, DATE_FORMAT(REG_DT, '%Y.%m.%d') REG_DT
+			, UPD_IDX
+			, DATE_FORMAT(UPD_DT, '%Y.%m.%d') UPD_DT
+		FROM
+			TB_SUCCESS_STORY A
+		WHERE DEL_YN = 'N'
+		  AND DISPLAY_YN = 'Y'
+		  AND LANG = #{lang}
+		  AND IDX = #{idx}
+	</select>
+	
+	<resultMap id="storyContSubResultMap" type="SuccessStoryCont">
+		<collection property="contSubList" javaType="ArrayList" column="{storyContIdx=IDX}" ofType="SuccessStoryContSub" select="selectSuccessStoryContSub"/>
+  	</resultMap>
+  	
+	<select id="selectSuccessStoryContList" parameterType="SuccessStoryCont" resultMap="storyContSubResultMap" flushCache="false" useCache="true">
+		/* [Content_mapper][selectSuccessStoryContList] */
+		SELECT
+			   IDX 
+			 , STORY_IDX
+			 , TYPE
+			 , CONT_TITLE
+			 , CONTENT
+			 , IMG_TEXT
+			 , VIDEO_URL
+		     , REG_IDX
+			 , REG_DT
+		  FROM TB_SUCCESS_STORY_CONT
+		 WHERE STORY_IDX = #{storyIdx}
+	</select>
+	
+	<select id="selectSuccessStoryContSub" parameterType="SuccessStoryContSub" resultType="SuccessStoryContSub">
+		/* [Content_mapper][selectSuccessStoryContList] */
+		SELECT 
+			   STORY_CONT_IDX
+			 , ORG_IMG_FILE
+			 , SYS_IMG_FILE
+			 , IMG_CAPTION
+			 , MUNGU1
+		     , MUNGU2
+			 , MUNGU3
+			 , URL
+		  FROM TB_SUCCESS_STORY_CONT_SUB
+		 WHERE STORY_CONT_IDX = #{storyContIdx}
+	</select>
+	
+</mapper>

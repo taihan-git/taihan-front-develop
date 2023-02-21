@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<include resource="org/springframework/boot/logging/logback/defaults.xml" />
+
+	<springProfile name="loc">
+		<include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+		<root level="info">
+			<appender-ref ref="CONSOLE" />
+		</root>
+	</springProfile>
+
+	<springProfile name="dev">
+		<property name="LOG_FILE" value="/home/taihan/log/front/application.log"/>
+		<property name="LOG_FILE_MAX_HISTORY" value="15"/>
+		<include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+		<include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+		<root level="INFO">
+			<appender-ref ref="CONSOLE" />
+			<appender-ref ref="FILE" />
+		</root>
+	</springProfile>
+
+	<springProfile name="prd">
+		<property name="LOG_FILE" value="/home/taihan/log/front/application.log"/>
+		<property name="LOG_FILE_MAX_HISTORY" value="60"/>
+		<include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+		<include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+		<root level="INFO">
+			<appender-ref ref="CONSOLE" />
+			<appender-ref ref="FILE" />
+		</root>
+	</springProfile>
+
+	<logger name="jdbc" level="OFF"/>
+	<logger name="jdbc.sqlonly" level="OFF"/>
+	<logger name="jdbc.sqltiming" level="DEBUG"/>
+	<logger name="jdbc.audit" level="OFF"/>
+	<logger name="jdbc.resultset" level="OFF"/>
+	<logger name="jdbc.resultsettable" level="OFF"/>
+	<logger name="jdbc.connection" level="OFF"/>
+	<logger name="org.springframework" level = "WARN"/>
+
+</configuration>

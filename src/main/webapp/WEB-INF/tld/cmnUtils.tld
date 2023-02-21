@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+
+    <description>CommonUtil functions library</description>
+    <display-name>CommonUtil functions</display-name>
+    <tlib-version>1.1</tlib-version>
+    <short-name>cmnUtils</short-name>
+    <uri>/WEB-INF/tld/cmnUtils</uri>
+
+    <!-- StringUtil -->
+    <function>
+        <description>문자열 공백 여부</description>
+        <name>isEmpty</name>
+        <function-class>kr.co.d2.d2jwork.util.StringUtil</function-class>
+        <function-signature>java.lang.String isEmpty(java.lang.String)</function-signature>
+        <example>
+        ${cmnUtils:isEmpty(str)}
+        </example>
+    </function>
+
+    <function>
+        <description>문자열 공백 여부</description>
+        <name>isNotEmpty</name>
+        <function-class>kr.co.d2.d2jwork.util.StringUtil</function-class>
+        <function-signature>java.lang.String isNotEmpty(java.lang.String)</function-signature>
+        <example>
+        ${cmnUtils:isNotEmpty(str)}
+        </example>
+    </function>
+
+    <function>
+        <description>통화 변환 콤마 찍어주기</description>
+        <name>cvtNumber</name>
+        <function-class>kr.co.d2.d2jwork.util.StringUtil</function-class>
+        <function-signature>java.lang.String cvtNumber(int)</function-signature>
+        <example>
+        ${cmnUtils:cvtNumber(int)}
+        </example>
+    </function>
+    
+    <function>
+        <description>엔터코드 br 태그로 치환</description>
+        <name>replaceBR</name>
+        <function-class>kr.co.d2.d2jwork.util.StringUtil</function-class>
+        <function-signature>java.lang.String replaceBR(java.lang.String)</function-signature>
+        <example>
+        ${cmnUtils:replaceBR(str)}
+        </example>
+    </function>
+
+	<!-- CommonUtils -->
+	
+	<function>
+        <description>unescapeXml</description>
+        <name>unescapeXml</name>
+        <function-class>kr.co.taihan.front.common.util.CommonUtils</function-class>
+        <function-signature>java.lang.String unescapeXml(java.lang.String)</function-signature>
+        <example>
+        ${cmnUtils:unescapeXml(str)}
+        </example>
+    </function>
+    
+    <function>
+        <description>unescapeXmlWithOutReplaceBR</description>
+        <name>unescapeXmlWithOutReplaceBR</name>
+        <function-class>kr.co.taihan.front.common.util.CommonUtils</function-class>
+        <function-signature>java.lang.String unescapeXmlWithOutReplaceBR(java.lang.String)</function-signature>
+        <example>
+        ${cmnUtils:unescapeXmlWithOutReplaceBR(str)}
+        </example>
+    </function>
+    
+    <function>
+        <description>getYoutubeId</description>
+        <name>getYoutubeId</name>
+        <function-class>kr.co.taihan.front.common.util.CommonUtils</function-class>
+        <function-signature>java.lang.String getYoutubeId(java.lang.String)</function-signature>
+        <example>
+        ${cmnUtils:getYoutubeId(str)}
+        </example>
+    </function>
+    
+</taglib>

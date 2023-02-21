@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.taihan.front.dao.NewsMapper">
+
+	<sql id="whereNews">
+		AND DEL_YN = 'N'
+		AND DISPLAY_YN = 'Y'
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(schKey)">
+			<choose>
+				<when test="schField == 'TITLE'">
+					AND TITLE LIKE CONCAT('%',#{schKey},'%')
+				</when>
+				<when test="schField == 'CONTENT'">
+					AND CONTENT LIKE CONCAT('%',#{schKey},'%')
+				</when>
+			</choose>
+		</if>
+	</sql>
+
+	<sql id="whereIr">
+		AND A.DEL_YN = 'N'
+		AND A.DISPLAY_YN = 'Y'
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(schKey)">
+			<choose>
+				<when test="schField == 'TITLE'">
+					AND A.TITLE LIKE CONCAT('%',#{schKey},'%')
+				</when>
+				<when test="schField == 'CONTENT'">
+					AND A.CONTENT LIKE CONCAT('%',#{schKey},'%')
+				</when>
+			</choose>
+		</if>
+	</sql>
+
+	<select id="selectTaihanNewsListCnt" parameterType="TaihanNews" resultType="int">
+		/* [News_Mapper][selectTaihanNewsListCnt] */
+		SELECT
+			COUNT(*) CNT
+		FROM
+			TB_TAIHAN_NEWS A
+		WHERE 1=1
+		<include refid="whereNews"/>
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(topFixYn)">
+			AND A.TOP_FIX_YN = #{topFixYn}
+		</if>
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(lang)">
+			AND A.LANG = #{lang}
+		</if>
+	</select>
+
+	<select id="selectTaihanNewsList" parameterType="TaihanNews" resultType="TaihanNews">
+		/* [News_Mapper][selectTaihanNewsList] */
+		SELECT
+			IDX
+			, A.TITLE
+			, A.ORG_THUM_IMG_FILE
+			, A.SYS_THUM_IMG_FILE
+			, A.THUM_IMG_TEXT
+			, A.DISPLAY_YN
+			, A.TOP_FIX_YN
+		    , <![CDATA[ REGEXP_REPLACE(REGEXP_REPLACE(REGEXP_REPLACE(A.CONTENT, '&lt;','<'), '&gt;', '>'), '<[^>]+>','') ]]> AS CONTENT
+			, REG_DM AS REG_DT
+			, A.HITS
+		FROM TB_TAIHAN_NEWS A
+		WHERE 1=1
+		<include refid="whereNews"/>
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(topFixYn)">
+			AND A.TOP_FIX_YN = #{topFixYn}
+		</if>
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(lang)">
+			AND A.LANG = #{lang}
+		</if>
+		ORDER BY A.REG_DM DESC,IDX DESC
+		LIMIT #{firstIndex}, #{rowSize}
+	</select>
+	
+	<update id="updateTaihanNewsHit" parameterType="TaihanNews">
+		UPDATE TB_TAIHAN_NEWS
+		   SET HITS = HITS + 1
+		WHERE IDX = #{idx}
+	</update>
+	
+	<select id="selectTaihanNews" parameterType="TaihanNews" resultType="TaihanNews">
+		/* [News_Mapper][selectTaihanNewsList] 메인 배너 리스트 조회 */
+		SELECT  T1.*
+			  ,(SELECT
+                GROUP_CONCAT(C.TITLE,'_', C.IDX)
+                FROM TB_TAG C
+                INNER JOIN TB_TAG_MAPPING B ON C.IDX = B.TAG_IDX
+                WHERE B.MAPPING_IDX = T1.IDX AND B.MAPPING_TYPE = 'TAIHAN_NEWS'
+               ) TAGS FROM (
+					SELECT @NO := @NO + 1 AS ROWNUM, A.* FROM (
+					SELECT
+						IDX
+						, A.TITLE
+						, A.ORG_THUM_IMG_FILE
+						, A.SYS_THUM_IMG_FILE
+						, A.THUM_IMG_TEXT
+					    , A.CONTENT
+						, REG_DM AS REG_DT
+						, A.HITS
+						, A.TOP_FIX_YN 
+					FROM TB_TAIHAN_NEWS A
+					WHERE 1=1
+					<include refid="whereNews"/>
+					<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(lang)">
+						AND A.LANG = #{lang}
+					</if>
+					ORDER BY A.REG_DM DESC,IDX DESC
+				) A, ( SELECT @NO := 0 ) B
+		) T1
+		WHERE 1=1
+			<if test="@org.apache.commons.lang3.StringUtils@isEmpty(type)">
+				AND T1.IDX = #{idx}
+			</if>
+			<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(type)">
+				AND TOP_FIX_YN = 'N'
+				<choose>
+					<when test="type == 'after'">
+						AND ROWNUM <![CDATA[<]]> #{rowNum}
+						ORDER BY ROWNUM DESC 
+					</when>
+					<when test="type == 'before'">
+						AND ROWNUM <![CDATA[>]]> #{rowNum}
+					</when>
+				</choose>
+				LIMIT 1
+			</if>
+	</select>
+	
+	<select id="selectReleaseListCnt" parameterType="Release" resultType="int">
+		/* [News_Mapper][selectReleaseListCnt] */
+		SELECT
+			COUNT(*) CNT
+		FROM
+			TB_NEWS_RELEASE A
+		WHERE 1=1
+		<include refid="whereNews"/>
+	</select>
+
+	<select id="selectReleaseList" parameterType="Release" resultType="Release">
+		/* [News_Mapper][selectReleaseList] */
+		SELECT
+			IDX
+			, A.TITLE
+			, A.ORG_THUM_IMG_FILE
+			, A.SYS_THUM_IMG_FILE
+			, A.THUM_IMG_TEXT
+			, A.DISPLAY_YN
+		    , A.CONTENT
+			, REG_DM AS REG_DT
+			, A.HITS
+		FROM TB_NEWS_RELEASE A
+		WHERE 1=1
+		<include refid="whereNews"/>
+		ORDER BY A.REG_DM DESC,IDX DESC
+		LIMIT #{firstIndex}, #{rowSize}
+	</select>
+	
+	<update id="updateReleaseHit" parameterType="Release">
+		UPDATE TB_NEWS_RELEASE
+		   SET HITS = HITS + 1
+		WHERE IDX = #{idx}
+	</update>
+	
+	<select id="selectRelease" parameterType="Release" resultType="Release">
+		/* [News_Mapper][selectRelease] */
+		SELECT  T1.*
+			  ,(SELECT
+                GROUP_CONCAT(C.TITLE,'_', C.IDX)
+                FROM TB_TAG C
+                INNER JOIN TB_TAG_MAPPING B ON C.IDX = B.TAG_IDX
+                WHERE B.MAPPING_IDX = T1.IDX AND B.MAPPING_TYPE = 'NEWS_RELEASE'
+               ) TAGS FROM (
+					SELECT @NO := @NO + 1 AS ROWNUM, A.* FROM (
+					SELECT
+						IDX
+						, A.TITLE
+						, A.ORG_THUM_IMG_FILE
+						, A.SYS_THUM_IMG_FILE
+						, A.THUM_IMG_TEXT
+					    , A.CONTENT
+						, DATE_FORMAT(A.REG_DM,'%Y.%m.%d') AS REG_DT
+						, A.HITS
+					FROM TB_NEWS_RELEASE A
+					WHERE 1=1
+					<include refid="whereNews"/>
+					ORDER BY A.REG_DM DESC,IDX DESC
+				) A, ( SELECT @NO := 0 ) B
+		) T1
+		WHERE 1=1
+			<if test="@org.apache.commons.lang3.StringUtils@isEmpty(type)">
+				AND T1.IDX = #{idx}
+			</if>
+			<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(type)">
+				<choose>
+					<when test="type == 'after'">
+						AND ROWNUM <![CDATA[<]]> #{rowNum}
+						ORDER BY ROWNUM DESC 
+					</when>
+					<when test="type == 'before'">
+						AND ROWNUM <![CDATA[>]]> #{rowNum}
+					</when>
+				</choose>
+				LIMIT 1
+			</if>
+	</select>
+	
+	<select id="selectIrNoticeListCnt" resultType="int" parameterType="IrNotice">
+		/* [News_Mapper][selectIrNoticeListCnt]  IR 공고 리스트 카운트 조회 */
+		SELECT
+			COUNT(*) AS CNT
+		FROM TB_IR_NOTICE A
+		WHERE 1 = 1
+		<include refid="whereIr"/>
+	</select>
+
+	<select id="selectIrNoticeList" parameterType="IrNotice" resultType="IrNotice">
+		/* [News_Mapper][selectIrNoticeList] IR 공고 리스트 조회 */
+		SELECT * FROM (
+			SELECT @NO := @NO + 1 AS ROWNUM, A.* FROM (
+				SELECT
+					IDX
+					, A.TITLE
+					, A.ORG_FILE
+					, A.SYS_FILE
+					, A.DISPLAY_YN
+					, A.REG_IDX
+					, DATE_FORMAT(A.REG_DM,'%Y.%m.%d') AS REG_DT
+					, A.HITS
+				FROM TB_IR_NOTICE A
+				WHERE 1=1
+				<include refid="whereIr" />
+				ORDER BY A.REG_DM DESC,IDX DESC
+			) A, ( SELECT @NO := 0 ) B
+		) T1 
+		LIMIT #{firstIndex}, #{rowSize}
+	</select>
+
+	<update id="updateNoticeHit" parameterType="IrNotice">
+		/* [News_Mapper][updateHit] IR 공고 조회수 증가 */
+		UPDATE TB_IR_NOTICE
+		SET
+		    HITS = HITS + 1
+		WHERE IDX = #{idx}
+	</update>
+
+	<select id="selectIrNotice" parameterType="IrNotice" resultType="IrNotice">
+		/* [News_Mapper][selectIrNotice] IR 공고 리스트 상세 (이전,다음글포함) */
+		SELECT T1.ROWNUM
+		     , T1.IDX
+			 , T1.TITLE
+			 , T1.ORG_FILE
+			 , T1.SYS_FILE
+			 , T1.REG_DT
+			 , T1.CONTENT
+			 , CASE WHEN T1.ROWNUM = #{rowNum}
+			        THEN 'nowBoard'
+			        WHEN T1.ROWNUM = #{rowNum}-1
+			        THEN 'afterBoard'
+			        WHEN T1.ROWNUM = #{rowNum}+1
+			        THEN 'beforeBoard'
+			        END TYPE
+	       FROM 
+			(
+			SELECT @NO := @NO + 1 AS ROWNUM, A.* FROM (
+					SELECT
+						IDX
+						 , A.TITLE
+						 , A.ORG_FILE
+						 , A.SYS_FILE
+						 , DATE_FORMAT(A.REG_DM,'%Y.%m.%d') AS REG_DT
+						 , A.CONTENT
+					FROM TB_IR_NOTICE A
+					WHERE 1=1
+					<include refid="whereIr" />
+					ORDER BY A.REG_DM DESC,IDX DESC
+				) A, ( SELECT @NO := 0 ) B
+			) T1 
+		WHERE T1.ROWNUM <![CDATA[>=]]> #{rowNum}-1
+		  AND T1.ROWNUM <![CDATA[<=]]> #{rowNum}+1
+	</select>
+
+	<select id="selectWebZineListCnt" parameterType="WebZine" resultType="int">
+		/* [News_Mapper][selectWebZineListCnt] 웹진 리스트 카운트 조회 */
+		SELECT
+		    COUNT(A.IDX)
+		FROM TB_WEBZINE A
+		WHERE 1 = 1
+		AND A.DEL_YN = 'N'
+		AND A.DISPLAY_YN = 'Y'
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(year)">
+			AND A.YEAR = #{year}
+		</if>
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(topFixYn)">
+			AND A.TOP_FIX_YN = #{topFixYn}
+		</if>
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(lang)">
+			AND A.LANG = #{lang}
+		</if>
+	</select>
+
+	<select id="selectWebZineList" parameterType="WebZine" resultType="WebZine">
+		/* [News_Mapper][selectWebZineList] 웹진 리스트 조회 */
+		
+		SELECT
+			IDX
+			, A.TITLE
+			, A.ORG_THUM_IMG_FILE
+			, A.SYS_THUM_IMG_FILE
+			, A.THUM_IMG_TEXT
+			, A.DISPLAY_YN
+			, A.TOP_FIX_YN
+			, A.YEAR
+			, A.REG_DT
+			, A.HITS
+		    , A.URL
+			, A.MUNGU1
+			, A.MUNGU1_URL
+			, A.MUNGU2
+			, A.MUNGU2_URL
+			, A.MUNGU3
+			, A.MUNGU3_URL
+		FROM TB_WEBZINE A
+		WHERE 1 = 1
+			AND A.DEL_YN = 'N'
+			AND A.DISPLAY_YN = 'Y'
+			<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(year)">
+				AND A.YEAR = #{year}
+			</if>
+			<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(topFixYn)">
+				AND A.TOP_FIX_YN = #{topFixYn}
+			</if>
+			<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(lang)">
+				AND A.LANG = #{lang}
+			</if>
+		<if test="!findAll">
+		ORDER BY REG_DT DESC
+		LIMIT 0, #{rowSize}
+		</if>
+	</select>
+</mapper>

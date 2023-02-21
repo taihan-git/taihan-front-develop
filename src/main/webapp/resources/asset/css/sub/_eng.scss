@@ -1,0 +1,339 @@
+@charset "UTF-8";
+@import "../common/variable", "../common/mixin";
+
+//영문 페이지 따로 처리
+[lang='en'] {
+	body {
+		font-family: Inter, sans-serif;
+	}
+
+	.header-wrap,
+	.nav-wrap,
+	.footer-wrap,
+	.sitemap-wrap,
+	.search-wrap,
+	.sub-wrap [class^='title-type'],
+	.product-top .title,
+	.product-desc .title-box .title,
+	.product-type .list-depth1 li>.title,
+	.sub-visual,
+	.product-wrap .title-box strong,
+	.list-banner .title-text,
+	.main-title h2,
+	.main-title .btn-more,
+	.main-title strong {
+		font-family: Montserrat, SpoqaHanSansNeo, sans-serif;
+	}
+
+	.header-wrap {
+		.sub-menu {
+			.menu-box {
+				.list-depth2 {
+					width: 900px;
+
+					&.row2 {
+						justify-content: flex-start;
+						transform: translateX(90px);
+
+						>li {
+							&:nth-child(4), &:last-child {
+								margin-right: 180px;
+							}
+
+							&:nth-child(5) {
+								margin-left: 180px;
+							}
+						}
+					}
+
+					>li {
+						width: 180px;
+					}
+				}
+			}
+		}
+	}
+
+	.sub-nav {
+		.inner-box {
+			.link-select {
+				width: 280px;
+
+				a {
+					padding: {
+						left: 30px;
+						top: 6px;
+						bottom: 6px;
+					}
+
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	.solution-wrap {
+		ul {
+			li {
+				>a {
+					.title-box {
+						padding: 23px 25px;
+
+						.title {
+							height: 57px;
+							font-size: 20px;
+						}
+
+						.desc {
+							height: 43px;
+							font-size: 16px;
+						}
+					}
+				}
+
+				&.contact {
+					>a {
+						.title-box {
+							.title {
+								height: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.company-rnd {
+		.list-detail2>li .icon-box>strong {
+			font-size: 18px;
+			text-align: center;
+		}
+	}
+
+	.list-info {
+		li {
+			dl {
+				dt {
+					min-width: 150px;
+				}
+			}
+		}
+	}
+
+	.tab-type {
+		li {
+			a {
+				text-align: center;
+			}
+		}
+	}
+
+	.list-detail2 {
+		>li {
+			.icon-box {
+				text-align: center;
+			}
+		}
+	}
+
+	.list-detail7 {
+		>li {
+			.title-box {
+				text-align: center;
+			}
+		}
+	}
+
+	.list-detail8 {
+		>li {
+			.title-box {
+				width: 115px;
+			}
+
+			.desc-box {
+				width: calc(100% - 115px);
+			}
+		}
+	}
+
+	.sub-wrap.company-history .history-navi ol li a strong {
+		font-size: 17px;
+	}
+
+	.board-wrap {
+		.board-body {
+			.list-store {
+				>li {
+					.title-box {
+						.title {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.list-detail3 {
+		>li {
+			>strong {
+				min-width: 130px;
+			}
+		}
+	}
+
+	.history-wrap {
+		.list-info {
+			li {
+
+				/* display: inline-flex;
+				align-items: center;
+				justify-content: center; */
+				&:nth-child(n+2)::before {
+					top: 0;
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	.title-wrap {
+		&.v3 {
+			.title-type {
+				.sub {
+					font-size: 32px;
+				}
+			}
+		}
+	}
+
+	@include pc-ver {
+		.quick-wrap {
+			ul {
+				width: 214px;
+			}
+
+			&.active {
+				ul {
+					transform: translateX(-140px);
+				}
+			}
+		}
+	}
+
+	@include mobile {
+		[class^='title-wrap'] {
+			.side-box {
+				position: initial;
+				text-align: left;
+			}
+		}
+
+		.title-wrap {
+			&.v3 {
+				.title-type {
+					.sub {
+						font-size: 22px;
+					}
+				}
+			}
+		}
+
+		.product-wrap {
+			.list-product {
+				li {
+					.img-box {
+						.type-box {
+							.type {
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.solution-wrap {
+			ul {
+				li {
+					>a {
+						.title-box {
+							.title {
+								height: auto;
+								font-size: 16px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.list-info {
+			li {
+				dl {
+					dt {
+						min-width: 100px;
+					}
+				}
+			}
+		}
+
+		.list-detail8 {
+			>li {
+				.title-box {
+					width: 90px;
+				}
+
+				.desc-box {
+					width: calc(100% - 90px);
+				}
+			}
+		}
+
+		.history-wrap {
+			&.v2 {
+				.list-history {
+					&::before {
+						height: 190px;
+					}
+
+					li {
+						min-height: 190px;
+						height: auto;
+					}
+				}
+			}
+		}
+
+		.list-detail3 {
+			>li {
+				>strong {
+					min-width: 90px;
+				}
+			}
+		}
+
+		.company-rnd {
+			.list-detail2>li .icon-box>strong {
+				font-size: 16px;
+			}
+		}
+
+		.company-summary {
+			.list-summary.v3 li dl {
+				display: block;
+
+				dd {
+					.add-text {
+						text-align: left;
+					}
+
+					&>span {
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
+}

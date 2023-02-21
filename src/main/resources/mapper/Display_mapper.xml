@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.taihan.front.dao.DisplayMapper">
+
+
+	<select id="selectMainBannerCnt" parameterType="MainBanner" resultType="int">
+		/* [Display_mapper][selectMainBannerCnt]  메인 배너 리스트 카운트 조회 */
+		SELECT
+			COUNT(*) CNT
+		FROM
+			TB_MAIN_BANNER A
+		WHERE 1=1
+	</select>
+
+	<select id="selectMainBannerList" parameterType="MainBanner" resultType="MainBanner">
+		/* [Display_mapper][selectMainBannerList] 메인 배너 리스트 조회 */
+		SELECT
+			IDX
+			 , TITLE
+			 , LANG
+			 , CONT_TYPE
+			 , ORG_PC_IMG_FILE
+			 , SYS_PC_IMG_FILE
+			 , ORG_MO_IMG_FILE
+			 , SYS_MO_IMG_FILE
+			 , ORG_VIDEO_FILE
+			 , SYS_VIDEO_FILE
+			 , MUNGU1
+			 , MUNGU2
+			 , BTN_DSP_YN
+			 , BTN_TITLE
+			 , BTN_LINK
+			 , DISPLAY_YN
+			 , ORD
+			 , DEL_YN
+			 , REG_IDX
+			 , REG_DT
+			 , UPD_IDX
+			 , UPD_DT
+			 , SUBSTRING(DISP_ST_DT,1,8) AS DISP_ST_DT
+			 , SUBSTRING(DISP_ED_DT,1,8) AS DISP_ED_DT
+		FROM TB_MAIN_BANNER A
+		WHERE 1 = 1
+			AND A.DEL_YN = 'N'
+		  	AND A.DISPLAY_YN = 'Y'
+		  	AND A.LANG = #{lang}
+		  	<if test='"M".equals(channel)'>
+			 	AND NULLIF(SYS_MO_IMG_FILE,'') IS NOT NULL
+			</if>
+			<if test='"P".equals(channel)'>
+			 	AND (NULLIF(SYS_PC_IMG_FILE,'') IS NOT NULL
+			 	OR NULLIF(SYS_VIDEO_FILE,'') IS NOT NULL)
+			</if>
+		  	AND DATE_FORMAT(NOW(), '%Y%m%d%H%i%s') BETWEEN STR_TO_DATE(A.DISP_ST_DT,'%Y%m%d%H%i%s') AND STR_TO_DATE(A.DISP_ED_DT,'%Y%m%d%H%i%s')
+		ORDER BY A.ORD ASC, A.REG_DT DESC
+		LIMIT 0 , 5
+	</select>
+
+	<select id="selectNoticePopupList" parameterType="NoticePopup" resultType="NoticePopup">
+		/* [Display_mapper][selectNoticePopupList] 공지 팝업 리스트 조회 */
+		SELECT
+		IDX
+		, TITLE
+		, LANG
+		, ORG_PC_IMG_FILE
+		, SYS_PC_IMG_FILE
+		, BTN_LINK
+		, BTN_LINK_TARGET
+		, DISPLAY_YN
+		, ORD
+		, DEL_YN
+		, REG_IDX
+		, REG_DT
+		, UPD_IDX
+		, UPD_DT
+		, CHANNEL
+		, IMG_TEXT
+		FROM TB_NOTICE_POP A
+		WHERE 1=1
+		 	AND A.DEL_YN = 'N'
+		 	AND A.DISPLAY_YN = 'Y'
+		 	AND A.LANG = #{lang}
+		 	AND DATE_FORMAT(NOW(), '%Y%m%d%H%i%s') BETWEEN STR_TO_DATE(A.DISP_ST_DT,'%Y%m%d%H%i%s') AND STR_TO_DATE(A.DISP_ED_DT,'%Y%m%d%H%i%s')
+		<if test="@org.apache.commons.lang3.StringUtils@isNotEmpty(channel)">
+		 	AND A.CHANNEL = #{channel}
+		</if>
+		ORDER BY A.ORD ASC, A.REG_DT DESC
+		LIMIT 0 , 5
+	</select>
+
+	<select id="selectDispNewsList" parameterType="DispNews" resultType="DispNews">
+		/* [Display_mapper][selectDispNewsList] 뉴스 리스트 조회 */
+		SELECT
+			IDX
+			, TITLE
+			, CONT_TYPE
+			, LANG
+			, BTN_LINK
+			, BTN_LINK_TARGET
+		    , DISP_REG_DT
+			, CONCAT(SUBSTRING(REPLACE(DISP_REG_DT,'-',''),3,2), '.', SUBSTRING(REPLACE(DISP_REG_DT,'-',''),5,2) ) AS DISP_YEAR_MONTH
+			, SUBSTRING(REPLACE(DISP_REG_DT,'-',''),7,2) AS DISP_YEAR_DAY
+			,  (CASE
+					WHEN CONT_TYPE = 'N' THEN IF(#{lang} = 'ko', '대한뉴스', 'Taihan News')
+					WHEN CONT_TYPE = 'I' THEN IF(#{lang} = 'ko', 'IR 소식' , 'IR')
+					WHEN CONT_TYPE = 'R' THEN IF(#{lang} = 'ko', '보도자료', 'Taihan News')
+			END) AS DISP_CONT_NAME
+			, ORD
+			, ORG_PC_IMG_FILE
+			, SYS_PC_IMG_FILE
+			, DISPLAY_YN
+			, DEL_YN
+			, REG_IDX
+			, REG_DT
+			, UPD_IDX
+			, UPD_DT
+		FROM TB_DISP_NEWS A
+		WHERE 1=1
+			AND A.DEL_YN = 'N'
+		  	AND A.DISPLAY_YN = 'Y'
+			AND A.LANG = #{lang}
+		ORDER BY A.ORD ASC, A.REG_DT DESC
+		LIMIT 0 , 5
+	</select>
+
+	<select id="selectSuccessCaseList" parameterType="SuccessCase" resultType="SuccessCase">
+		/* [Display_mapper][selectSuccessCaseList] 성공사례 리스트 조회 */
+		SELECT
+		IDX
+		, TITLE
+		-- , SECTION AS SECTION
+		-- , COUNTRY
+		, LANG
+		, BTN_LINK
+		, BTN_LINK_TARGET
+		, ORG_PC_IMG_FILE
+		, SYS_PC_IMG_FILE
+		, ORD
+		, DISPLAY_YN
+		, DEL_YN
+		, REG_IDX
+		, REG_DT
+		, UPD_IDX
+		, UPD_DT
+		FROM TB_SUCCESS_CASE A
+		WHERE 1=1
+			AND A.DEL_YN = 'N'
+		    AND A.DISPLAY_YN = 'Y'
+			AND A.LANG = #{lang}
+		ORDER BY A.ORD ASC, A.REG_DT DESC
+		LIMIT 0 , 5
+	</select>
+</mapper>

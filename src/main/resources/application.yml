@@ -1,0 +1,55 @@
+server:
+  port: 8082
+  tomcat:
+    uri-encoding: UTF-8
+  error:
+    whitelabel:
+      enabled: true
+  max-http-header-size: 10000000
+
+spring:
+  mail:
+    host: 10.10.200.99
+    port: 25
+    username: system@taihan.com
+    password: T@ihan2021
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 5000
+          starttls:
+            enable: true
+  thymeleaf:
+    prefix: classpath:/mail-templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    check-template-location: true
+    cache: false
+    view-names: thymeleaf/*
+  main:
+    allow-bean-definition-overriding: true
+  cache:
+    ehcache:
+      config: classpath:ehcache-config.xml
+  application:
+    name: taihan-front
+  profiles:
+    active: loc
+  messages:
+    basename: classpath:prop/message,classpath:prop/error,classpath:prop/constant-${spring.profiles.active},classpath:prop/security
+    cache-seconds: -1
+    encoding: UTF-8
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+    locale: ko_KR
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+logging:
+  config: classpath:logback-spring.xml

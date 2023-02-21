@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Converted at: Mon Mar 23 17:00:32 KST 2015-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.taihan.front.dao.EsgMapper">
+
+  <select id="selectCheckRegistNumDuplicate" parameterType="String" resultType="int">
+    /* [Esg_mapper][selectCheckRegistNumDuplicate][ 접수 번호 중복여부 체크 ] */
+    SELECT COUNT(*) FROM TB_INQUIRY_REPORT WHERE REGIST_NUM = #{registNum}
+  </select>
+
+  <select id="selectInquiryReport" parameterType="Inquiry" resultType="Inquiry">
+    /* [Esg_mapper][selectCheckRegistNumDuplicate][ 접수 조회 ] */
+    SELECT
+      IDX
+      , REGIST_NUM
+      , TYPE
+      , TITLE
+      , REPORT_MEMO
+      , STATUS
+      , NAME
+      , EMAIL
+      , PHONE
+      , REGDATE
+      , RESPON_NAME
+      , RESPON_MEMO
+      , RESPON_DATE
+      , GUBUN
+      , PASSWORD
+    FROM TB_INQUIRY_REPORT
+    WHERE 1 = 1
+        AND REGIST_NUM = #{registNum}
+  </select>
+
+  <select id="selectInquiryFileList" parameterType="Inquiry" resultType="InquiryFile">
+    /* [Esg_mapper][selectInquiryFileList][ 접수 파일 리스트 조회 ] */
+    SELECT
+        IDX
+         , REGIST_NUM
+         , ORG_FILE
+         , SYS_FILE
+    FROM TB_INQUIRY_FILE
+    WHERE 1 = 1
+        AND REGIST_NUM = #{registNum}
+  </select>
+
+  <insert id="insertInquiryReport" parameterType="Inquiry" useGeneratedKeys="true" keyProperty="idx">
+    /* [Esg_mapper][insertInquiryReport][접수 등록] */
+    INSERT INTO TB_INQUIRY_REPORT
+      (
+          REGIST_NUM
+          , TYPE
+          , TITLE
+          , REPORT_MEMO
+          , STATUS
+          , NAME
+          , EMAIL
+          , PHONE
+          , REGDATE
+          , PASSWORD
+          , GUBUN
+          , USER_IP
+      )
+    VALUES
+      (
+        #{registNum}
+        , #{type}
+        , #{title}
+        , #{reportMemo}
+        , 'idle'
+        , #{name}
+        , #{email}
+        , #{phone}
+        , NOW()
+        , #{password}
+        , #{gubun}
+        , #{userIp}
+      )
+  </insert>
+
+  <insert id="insertInquiryReportFile" parameterType="InquiryFile">
+    /* [Esg_mapper][insertInquiryReportFile][접수 파일 등록] */
+    INSERT INTO TB_INQUIRY_FILE
+      (
+        REGIST_NUM
+        , ORG_FILE
+        , SYS_FILE
+      )
+    VALUES
+      (
+        #{registNum}
+        , #{orgFile}
+        , #{sysFile}
+      )
+  </insert>
+</mapper>

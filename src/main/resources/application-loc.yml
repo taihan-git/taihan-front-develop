@@ -1,0 +1,32 @@
+spring:
+  config:
+    activate:
+      on-profile: loc
+
+server:
+  servlet:
+    context-path:
+
+app:
+  datasource:
+    default:
+      jdbc-url: jdbc:log4jdbc:mysql://172.28.19.200:3306/taihan?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC
+      username: taihan1234
+      password: Taihan1234^^##
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      validationQuery: select 1
+      test-on-borrow: true
+  static-url:
+  upload-path: D:/taihan/upload/
+logging:
+  level:
+    kr.co.taihan: debug
+
+const:
+  upload-path:
+  load-url: /upload/
+
+stock:
+  api:
+    key: HsJ4qmrQvY4oVbHbC1AO0I6UJlkf%2Bi67O3e9y3bw7cLUmZZvVnoQLKVGw8flsf7phBJDzMelzRXD22sJ%2FUmCsg%3D%3D
+    url: http://apis.data.go.kr/1160100/service/GetStockSecuritiesInfoService/getStockPriceInfo

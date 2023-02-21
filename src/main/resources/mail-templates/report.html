@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>taihan</title>
+</head>
+
+<body style="margin:0;padding:0;line-height:24px;letter-spacing:-1px;font-family:Arial,'Malgun Gothic', Dotum,'돋움','Apple SD Gothic Neo',Helvetica,sans-serif;color:#333;">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-left:auto; margin-right:auto; background-color:#f7f7f7" background="#f7f7f7">
+    <tr>
+        <td>
+
+            <table cellpadding="0" cellspacing="0" align="center" style="max-width:680px;width:100%;margin:0 auto;background:#fff;font-family:Arial,'Malgun Gothic', Dotum,'돋움',Helvetica,'Apple SD Gothic Neo',sans-serif;">
+                <!--header-->
+                <thead>
+                <tr>
+                    <th:block th:if="${serverType == 'prd'}">
+                        <th><a href="https://taihan.com"><img src="cid:logo-image" style="border:0;display:block;width:100%;" /></a></th>
+                    </th:block>
+                    <th:block th:if="${serverType == 'dev' or serverType == 'loc'}">
+                        <th><a href="https://dev.taihan.com"><img src="cid:logo-image" style="border:0;display:block;width:100%;"  /></a></th>
+                    </th:block>
+                </tr>
+                </thead>
+                <!--//header-->
+
+                <tbody>
+                <tr>
+                    <td>
+                        <table cellpadding="0" cellspacing="0" align="center" style="width:90%;margin:90px auto 100px">
+                            <!--title-->
+                            <tr>
+                                <td style="padding-bottom:30px;font-size:40px;text-align:center;font-weight: 700;letter-spacing: -3px;line-height: 1.5;color:#000;">
+                                    <th:block th:if="${toType == 'user'}">
+                                        <span style="color:#093389;">[[${gubunTxt}]] 제보하기</span>가<br /> 접수되었습니다.
+                                    </th:block>
+                                    <th:block th:if="${toType == 'admin'}">
+                                        <span style="color:#093389;">새로운 제보</span>가<br /> 접수되었습니다.
+                                    </th:block>
+                                </td>
+                            </tr>
+                            <!--//title-->
+
+                            <!--content-->
+
+                            <!--information-->
+                            <tr>
+                                <td style="padding-bottom:50px;font-size:20px;text-align:center;letter-spacing: -1px;line-height: 1.5;color:#000;" th:if="${toType == 'user'}">
+                                    안녕하세요. 대한전선입니다.<br>
+                                    [[${gubunTxt}]] 제보에 대한 제보가 정상적으로 접수되었습니다.<br>
+                                    제보에 감사드리며 최대한 빠른 시일 내에 답변 드리겠습니다.<br>
+                                    감사합니다.<br>
+                                </td>
+                                <td style="padding-bottom:50px;font-size:20px;text-align:center;letter-spacing: -1px;line-height: 1.5;color:#000;" th:if="${toType == 'admin'}">
+                                    안녕하세요.<br>
+                                    사이버신문고 [[${gubunTxt}]]제보가 신규 접수되었습니다.<br>
+                                    제보 내용을 확인하시어 답변 부탁드립니다.<br>
+                                    감사합니다.<br>
+                                </td>
+                            </tr>
+                            <!--//information-->
+
+                            <th:block th:if="${toType == 'user'}">
+                            <tr>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" align="center" style="width:100%;border-top:2px solid #333;text-align:left;font-size:16px;color:#666">
+                                        <colgroup>
+                                            <col style="width:30%">
+                                            <col>
+                                        </colgroup>
+                                        <tr>
+                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
+                                                접수일
+                                            </th>
+                                            <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${inquiryDay}">
+                                                -
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
+                                                접수번호
+                                            </th>
+                                            <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${registNum}">
+                                                -
+                                            </td>
+                                        </tr>
+                                     <!--   <tr>
+                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
+                                                구분
+                                            </th>
+                                            <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${gubunTxt}">
+                                                -
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
+                                                이름
+                                            </th>
+                                            <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${name}">
+                                                -
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
+                                                연락처
+                                            </th>
+                                            <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${phone}">
+                                                -
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
+                                                이메일
+                                            </th>
+                                            <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${email}">
+                                                -
+                                            </td>
+                                        </tr>-->
+                                    </table>
+                                </td>
+                            </tr>
+                            </th:block>
+
+                            <!--button-->
+                            <tr>
+                                <td style="text-align: center;padding-top:80px;">
+
+                                    <th:block th:if="${toType == 'user'}">
+                                        <th:block th:if="${serverType == 'prd'}">
+                                            <a  href="https://taihan.com/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                제보 확인하기
+                                            </a>
+                                        </th:block>
+                                        <th:block th:if="${serverType == 'dev' or serverType == 'loc'}">
+                                            <a  href="https://dev.taihan.com/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                제보 확인하기
+                                            </a>
+                                        </th:block>
+                                    </th:block>
+
+                                    <th:block th:if="${toType == 'admin'}">
+                                        <th:block th:if="${serverType == 'prd'}">
+                                            <a  th:if="${gubun == 'em'}" th:href="@{https://admin.taihan.com/inquiry/emrForm(idx=${urlParam})}" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                제보확인 및 답변하기
+                                            </a>
+                                            <a  th:if="${gubun == 'cp'}" th:href="@{https://admin.taihan.com/inquiry/cprForm(idx=${urlParam})}" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                제보확인 및 답변하기
+                                            </a>
+                                        </th:block>
+                                        <th:block th:if="${serverType == 'dev' or serverType == 'loc'}">
+                                            <a  th:if="${gubun == 'em'}" th:href="@{https://dev-admin.taihan.com/inquiry/emrForm(idx=${urlParam})}" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                제보확인 및 답변하기
+                                            </a>
+                                            <a  th:if="${gubun == 'cp'}" th:href="@{https://dev-admin.taihan.com/inquiry/cprForm(idx=${urlParam})}" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                제보확인 및 답변하기
+                                            </a>
+                                        </th:block>
+                                    </th:block>
+
+                                </td>
+                            </tr>
+                            <!--//button-->
+
+                            <!--//content-->
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+
+
+                <!--footer-->
+                <tfoot>
+                <tr>
+                    <td style="padding:55px 10px 35px;background:#eceef0;font-size:18px;color:#000;line-height:2;text-align:center;color:#000;">
+                        본 이메일은 발신 전용입니다.<br>
+                        <th:block th:if="${toType == 'user'}">
+                            <th:block th:if="${serverType == 'prd'}">
+                            추가 제보는 홈페이지의
+                            <a href="https://taihan.com/esg/cyberReport" style="font-weight: 700;color:#093389;text-decoration: none">
+                                [사이버신문고]
+                            </a>
+                            를 이용해 주시기 바랍니다.
+                            </th:block>
+                            <th:block th:unless="${serverType == 'prd'}">
+                            추가 제보는 홈페이지의
+                            <a href="https://dev.taihan.com/esg/cyberReport" style="font-weight: 700;color:#093389;text-decoration: none">
+                                [사이버신문고]
+                            </a>
+                            를 이용해 주시기 바랍니다.
+                            </th:block>
+                        </th:block>
+                        <th:block th:if="${toType == 'admin'}">
+                            <th:block th:if="${serverType == 'prd'}">
+                            사이버 신문고 제보 관련 내용은
+                            <a href="#" style="font-weight: 700;color:#093389;text-decoration: none">
+                                [홈페이지 관리자 시스템]
+                            </a>
+                            에서 확인하실수 있습니다.
+                            </th:block>
+                            <th:block th:unless="${serverType == 'prd'}">
+                                사이버 신문고 제보 관련 내용은
+                                <a href="https://dev-admin.taihan.com/" style="font-weight: 700;color:#093389;text-decoration: none">
+                                    [홈페이지 관리자 시스템]
+                                </a>
+                                에서 확인하실수 있습니다.
+                            </th:block>
+
+                        </th:block>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:50px;background:#eceef0;font-size:16px;color:#999;line-height:1.5;text-align:center;">
+                        COPYRIGHT © 2022 taihan Cable & Solution Co., Ltd. ALL RIGHT RESERVED
+                    </td>
+                </tr>
+                </tfoot>
+                <!--//footer-->
+                </td>
+                </tr>
+            </table>
+</table>
+</body>
+
+</html>

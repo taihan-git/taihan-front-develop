@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import 'common/variable',
+'common/mixin';
+
+
+.article-brands {
+  .recruit-list {
+    ul {
+      li {
+        .title-wrap {
+          font-family: $fontK;
+        }
+      }
+    }
+  }
+}
+.article-mobility {
+  .media-text.type2 {
+    overflow: hidden;
+  }
+}
+.media-text.type2 {
+  .fig-img {
+    margin-bottom:55px;
+  }
+}
+
+
+@include tablet {
+  .media-text.type2 {
+    .fig-img {
+      margin-bottom:0;
+    }
+  }
+}

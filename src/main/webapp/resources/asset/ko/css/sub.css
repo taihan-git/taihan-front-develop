@@ -1,0 +1,19 @@
+.article-brands .recruit-list ul li .title-wrap {
+  font-family: "NotoSansKR", sans-serif;
+}
+
+.article-mobility .media-text.type2 {
+  overflow: hidden;
+}
+
+.media-text.type2 .fig-img {
+  margin-bottom: 55px;
+}
+
+@media all and (max-width: 960px) {
+  .media-text.type2 .fig-img {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=sub.css.map */
