@@ -23,7 +23,7 @@
 
         <div class="title-wrap">
             <h3 class="title-type"><spring:message code="taihanNews.title" text="대한뉴스"></spring:message></h3>
-            <p><spring:message code="taihanNews.desc" text="대한전선의2 새로운 소식과 관련 정보를 전해 드립니다."></spring:message></p>
+            <p><spring:message code="taihanNews.desc" text="대한전선의22 새로운 소식과 관련 정보를 전해 드립니다."></spring:message></p>
         </div>
 
         <div class="content-box bg">
