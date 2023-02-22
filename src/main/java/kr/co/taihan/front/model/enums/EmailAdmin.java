@@ -72,9 +72,6 @@ public enum EmailAdmin {
      */
     public static String[] getMailAddrsFromCode(String code){
         EmailAdmin reportType = EmailAdmin.of(code);
-        System.out.println("-----------------------------------------------");
-        System.out.println("MAIL ADDRESS RESULT = " + reportType.getMailAddr());
-        System.out.println("-----------------------------------------------");
         if(reportType != null){
             String[] mails = reportType.getMailAddr().split(",");
             return mails;

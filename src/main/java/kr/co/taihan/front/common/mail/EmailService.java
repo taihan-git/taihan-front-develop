@@ -29,6 +29,9 @@ public class EmailService {
 
     public void sendMail(MailDto emailMessage) {
         try {
+
+            logger.info("TEST TO_MAIL   :::: {}", emailMessage.getTo());
+
             MimeMessage mimeMessage = javaMailSender.createMimeMessage();
             MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 
@@ -52,6 +55,7 @@ public class EmailService {
             javaMailSender.send(mimeMessage);
 
             logger.info("TO_MAIL   :::: {}", emailMessage.getTo());
+            logger.info("TEST TO_MAIL   :::: {}", emailMessage.getTo());
             logger.info("SEND_MAIL :::: SUCCESS");
 
         } catch (Exception e) {
