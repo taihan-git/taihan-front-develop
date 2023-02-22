@@ -15,7 +15,7 @@ public enum EmailAdmin {
     PRODUCTS_KO_3("ko_inqu_0103","전력기기","dhhan@taihan.com"),
     PRODUCTS_KO_4("ko_inqu_0104","부스덕트","jjh4869@taihan.com"),
     PRODUCTS_KO_5("ko_inqu_0105","신재생","hoonsmile@taihan.com"),
-    PRODUCTS_KO_6("ko_inqu_0106","통신","dgkim@soroweb.co.kr"),
+    PRODUCTS_KO_6("ko_inqu_0106","통신","skida83@taihan.com"),
     PRODUCTS_KO_7("ko_inqu_0107","소재","KJW0721@taihan.com"),
 
     INVEST_INFO_KO_1("ko_inqu_02","투자정보","jwkim@taihan.com"),
