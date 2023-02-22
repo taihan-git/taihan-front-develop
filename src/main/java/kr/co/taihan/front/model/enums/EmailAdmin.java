@@ -29,14 +29,14 @@ public enum EmailAdmin {
 
 
     //영문 제품(Extra-high cable)은 지역 기준으로 코드 세팅
-    PRODUCTS_RG_1("en_coun_01","Middle East / Africa","cykim@taihan.com"),
+    PRODUCTS_RG_1("en_coun_01","Middle East / Africa","mwyu@taihan.com"),
     PRODUCTS_RG_2("en_coun_02","Asia / Oceania","mwyu@taihan.com"),
     PRODUCTS_RG_3("en_coun_03","Europe","wschung@taihan.com"),
     PRODUCTS_RG_4("en_coun_04","America","bonjoon0704@taihan.com"),
     PRODUCTS_RG_5("en_coun_05","Russia/CIS","alexlee@taihan.com"),
 
     //나머지 제품은 코드값으로 세팅
-    PRODUCTS_EN_1("en_inqu_0102","Middel/Low Voltage Cable(66kV down","mwyu@taihan.com"),
+    PRODUCTS_EN_1("en_inqu_0102","Middel/Low Voltage Cable(66kV down","choiji@taihan.com"),
     PRODUCTS_EN_2("en_inqu_0103","Cable Accessories","jhp@taihan.com"),
     PRODUCTS_EN_3("en_inqu_0104","Bus-Duct","jjh4869@taihan.com"),
     PRODUCTS_EN_4("en_inqu_0105","Renewable Energy","hoonsmile@taihan.com"),
