@@ -30,8 +30,6 @@ public class EmailService {
     public void sendMail(MailDto emailMessage) {
         try {
 
-            logger.info("TEST TO_MAIL   :::: {}", emailMessage.getTo());
-
             MimeMessage mimeMessage = javaMailSender.createMimeMessage();
             MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 
