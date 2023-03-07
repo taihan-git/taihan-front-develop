@@ -182,8 +182,8 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Sales Corporation<strong>1</strong></span>
-									<span class="item">Bransh Office<strong>2</strong></span>
+									<span class="item">Sales Subsidiary<strong>1</strong></span>
+									<span class="item">Branch Office<strong>2</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -195,8 +195,8 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Production corporations<strong>1</strong></span>
-									<span class="item">Bransh Office<strong>3</strong></span>
+									<span class="item">Production Subsidiary<strong>1</strong></span>
+									<span class="item">Branch Office<strong>3</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -208,7 +208,7 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Bransh Office<strong>2</strong></span>
+									<span class="item">Branch Office <strong>2</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -220,8 +220,8 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Production corporations<strong>3</strong></span>
-									<span class="item">Bransh Office<strong>5</strong></span>
+									<span class="item">Production Subsidiary<strong>3</strong></span>
+									<span class="item">Branch Office<strong>5</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -233,8 +233,8 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Sales Corporation<strong>1</strong></span>
-									<span class="item">Bransh Office<strong>4</strong></span>
+									<span class="item">Sales Subsidiary<strong>1</strong></span>
+									<span class="item">Branch Office<strong>4</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -246,7 +246,7 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Production corporations<strong>1</strong></span>
+									<span class="item">Production Subsidiary<strong>1</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>

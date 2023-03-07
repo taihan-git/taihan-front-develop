@@ -42,14 +42,14 @@
             <c:if test="${LANG eq 'en'}">
                 <div class="sub-visual" style="background-image: url(${CON_STATIC_URL}/asset/images/etc/visual_privacy.jpg)">
                     <div class="sub-title">
-                        <h2 class="title-type">Rejection of e-mail collection without</h2>
+                        <h2 class="title-type">How to refuse random email collection</h2>
                     </div>
                 </div>
                 <div class="sub-nav">
                     <div class="inner-box">
                         <a href="${LANG eq 'ko' ? '/' :'/en'}" class="btn-home"><i class="ico-home"><span class="hidden">메인으로</span></i></a>
                         <div class="link-select">
-                            <a href="#" class="current">Rejection of e-mail collection without</a>
+                            <a href="#" class="current">How to refuse random email collection</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <div class="inner-box">
                             <!-- 2022-10-13 -->
                             <div class="title-wrap">
-                                <h3 class="title-type">Rejection of e-mail collection without</h3>
+                                <h3 class="title-type">How to refuse random email collection</h3>
                                 <p> We reject any automatic collection of e-mail addresses on this website.<br>
                                     Please note that anyone violating this can be punished in accordance with the information and communication network laws.</p>
                             </div>
