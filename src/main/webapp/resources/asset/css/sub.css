@@ -2791,12 +2791,13 @@
   background-color: #E30011;
 }
 .sub-wrap.company-ci .list-circle {
-  display: flex;
-  margin-top: -24px;
+  display: flex; 
+  align-items:center;
+  padding-left:20px;
 }
 .sub-wrap.company-ci .list-circle li {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   margin-left: 20px;
   border-radius: 50%;
 }
@@ -3787,6 +3788,7 @@
   .sub-wrap.company-ci .list-circle {
     justify-content: center;
     margin-top: 20px;
+	padding-left:0;
   }
   .sub-wrap.company-ci .list-circle:first-child {
     margin-top: 0;
