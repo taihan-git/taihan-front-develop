@@ -143,10 +143,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto
-												Kav. 56 Jakarata Selatan 12950, Indonesia<a href="https://goo.gl/maps/tDdBUTzUorVUjCqz9"
-													target="_blank" class="btn-map"><i class="ico-outer"><span
-															class="hidden">주소보기</span></i></a></dd>
+											<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto Kav. 56 Jakarta Selatan 12950, Indonesia<a href="https://goo.gl/maps/RFFJUpPSB4727XDB9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 										</dl>
 									</li>
 									<li>
@@ -317,8 +314,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto
-														Kav. 56 Jakarata Selatan 12950, Indonesia<a href="https://goo.gl/maps/tDdBUTzUorVUjCqz9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto Kav. 56 Jakarta Selatan 12950, Indonesia<a href="https://goo.gl/maps/RFFJUpPSB4727XDB9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>

@@ -59,7 +59,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">영업법인</span>
-									<strong class="title">taihan Netherlands</strong>
+									<strong class="title">taihan NETHERLANDS</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -71,7 +71,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>Stroombaan 4 1181 VX Amstelveen The Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8"
+											<dd>Stroombaan 4(1181 VX), Amsterveen, Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8"
 													target="_blank" class="btn-map"><i class="ico-outer"><span
 															class="hidden">주소보기</span></i></a></dd>
 										</dl>
@@ -116,7 +116,8 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:dwafe122@taihan.com">dwafe122@taihan.com</a><br>
-												<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a>
+												<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a><br />
+												<a href="mailto:info@taihan.co.uk">info@taihan.co.uk</a>
 											</dd>
 										</dl>
 									</li>
@@ -136,12 +137,12 @@
 															class="hidden">주소보기</span></i></a></dd>
 										</dl>
 									</li>
-									<li>
+									<!--li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
 											<dd><a href="tel:+442088767078">+44-20-8876-7078</a></dd>
 										</dl>
-									</li>
+									</li-->
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
@@ -242,20 +243,20 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan Netherlands</strong>
+											<strong class="title">taihan NETHERLANDS</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan established Taihan Netherlands B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, Taihan Netherlands B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
+													Taihan established Taihan NETHERLANDS B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, Taihan NETHERLANDS B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>Stroombaan 4 1181 VX Amstelveen The Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>Stroombaan 4(1181 VX), Amsterveen, Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>
@@ -296,7 +297,8 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:dwafe122@taihan.com">dwafe122@taihan.com</a><br>
-														<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a>
+														<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a><br />
+														<a href="mailto:info@taihan.co.uk">info@taihan.co.uk</a>
 													</dd>
 												</dl>
 											</li>
@@ -314,12 +316,12 @@
 													<dd>Herlev Hovedgade 195, DK-2730 Herlve, Denmark<a href="https://goo.gl/maps/Z2jFu1yjhDBd1yVs6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
-											<li>
+											<!--li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
 													<dd><a href="tel:+442088767078">+44-20-8876-7078</a></dd>
 												</dl>
-											</li>
+											</li-->
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>

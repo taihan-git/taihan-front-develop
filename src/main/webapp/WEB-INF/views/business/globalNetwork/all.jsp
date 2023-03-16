@@ -209,7 +209,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>85 Denton Avenue New Hyde Park, NY 11040, USA<a href="https://goo.gl/maps/3sA3DtyBwxYM2tXd9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
+											<dd>99 Tulip Ave, Floral Park, New York 11001, US<a href="https://goo.gl/maps/3sA3DtyBwxYM2tXd9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 										</dl>
 									</li>
 									<li>
@@ -228,9 +228,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:cwlee@taihanusa.com" target="_blank">cwlee@taihanusa.com</a>
-												<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-												<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
+												<a href="mailto:cwlee@taihanusa.com" target="_blank">cwlee@taihanusa.com</a> 
 											</dd>
 										</dl>
 									</li>
@@ -264,8 +262,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
-											<dd>
-												<a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br>
+											<dd> 
 												<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
 												<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
 											</dd>
@@ -295,8 +292,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br>
-												<a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br>
+												<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br> 
 												<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
 											</dd>
 										</dl>
@@ -309,7 +305,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">영업법인</span>
-									<strong class="title">taihan Netherlands</strong>
+									<strong class="title">taihan NETHERLANDS</strong>
 								</div>
 								<ul class="list-info">
 									<!-- 2022-10-25 텍스트 수정 -->
@@ -323,7 +319,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>Stroombaan 4 1181 VX Amstelveen The Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
+											<dd>Stroombaan 4(1181 VX), Amsterveen, Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 										</dl>
 									</li>
 									<li>
@@ -364,7 +360,8 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:dwafe122@taihan.com">dwafe122@taihan.com</a><br>
-												<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a>
+												<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a><br>
+												<a href="mailto:info@taihan.co.uk">info@taihan.co.uk</a>
 											</dd>
 										</dl>
 									</li>
@@ -381,13 +378,7 @@
 											<dt><i class="ico-location"></i>주소</dt>
 											<dd>Herlev Hovedgade 195, DK-2730 Herlve, Denmark<a href="https://goo.gl/maps/Z2jFu1yjhDBd1yVs6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+442088767078">+44-20-8876-7078</a></dd>
-										</dl>
-									</li>
+									</li> 
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
@@ -480,8 +471,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:sikim@taihan.com">sikim@taihan.com</a><br>
-												<a href="mailto:si.kim@sauditaihan.com">si.kim@sauditaihan.com</a>
+												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -493,7 +483,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">Saudi Taihan Cable & Solution</strong>
+									<strong class="title">Saudi Taihan <br />Cable & Solution</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -530,12 +520,12 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">taihan Kuwait</strong>
+									<strong class="title">taihan KUWAIT</strong>
 								</div>
 								<ul class="list-info">
 									<li>
 										<p class="desc">
-											taihan Kuwait는 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
+											taihan KUWAIT는 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
 											선점하기
 											위해, <br>
 											2021년에 쿠웨이트의 건설 및 무역회사인 랭크社와 공동투자를 진행하여 설립하였습니다.</p>
@@ -585,13 +575,13 @@
 									<li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+966114101773">+966-11-410-1773</a></dd>
+											<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>
 										</dl>
 									</li>
 									<li>
 										<dl>
 											<dt><i class="ico-fax"></i>팩스</dt>
-											<dd>+966-11-419-0262</dd>
+											<dd>+966-11-229-7754</dd>
 										</dl>
 									</li>
 									<li>
@@ -622,18 +612,12 @@
 											<dt><i class="ico-tel"></i>연락처</dt>
 											<dd><a href="tel:+96525528642">+965-2552-8642</a></dd>
 										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt><i class="ico-fax"></i>팩스</dt>
-											<dd>+966-2552-8508</dd>
-										</dl>
-									</li>
+									</li> 
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+												<a href="mailto:janghee@taihan.com">janghee@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -668,7 +652,8 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
+												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a><br />
+												<a href="mailto:info@taihan.ae">info@taihan.ae</a>
 											</dd>
 										</dl>
 									</li>
@@ -703,7 +688,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
+												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -738,8 +723,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:ksan@taihan.com">ksan@taihan.com</a><br>
-												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
+												<a href="mailto:colee@taihan.com">colee@taihan.com</a> 
 											</dd>
 										</dl>
 									</li>
@@ -783,9 +767,9 @@
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
-											<dd>
-												<a href="mailto:jameskim@taihan.com.au">jameskim@taihan.com.au</a><br>
-												<a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a>
+											<dd> 
+												<a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a><br>
+												<a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a> 
 											</dd>
 										</dl>
 									</li>
@@ -911,8 +895,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto
-												Kav. 56 Jakarata Selatan 12950, Indonesia<a href="https://goo.gl/maps/tDdBUTzUorVUjCqz9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
+											<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto Kav. 56 Jakarta Selatan 12950, Indonesia<a href="https://goo.gl/maps/tDdBUTzUorVUjCqz9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 										</dl>
 									</li>
 									<li>
@@ -1058,7 +1041,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:041-360-9114">041-360-9114</a></dd>
+													<dd><a href="tel:+82413609114">+82 41-360-9114</a></dd>
 												</dl>
 											</li>
 										</ul>
@@ -1080,7 +1063,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:041-359-9114">041-359-9114</a></dd>
+													<dd><a href="tel:+82413599114">+82 41-359-9114</a></dd>
 												</dl>
 											</li>
 										</ul>
@@ -1102,7 +1085,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:02-316-9114">02-316-9114</a></dd>
+													<dd><a href="tel:+8223169114">+82 2-316-9114</a></dd>
 												</dl>
 											</li>
 										</ul>
@@ -1123,7 +1106,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:02-316-9114">02-316-9114</a></dd>
+													<dd><a href="tel:+8223169114">+82 2-316-9114</a></dd>
 												</dl>
 											</li>
 										</ul>
@@ -1143,13 +1126,13 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:062-528-2055">062-528-2055</a></dd>
+													<dd><a href="tel:+82625282055">+82 62-528-2055</a></dd>
 												</dl>
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-fax"></i>Fax</dt>
-													<dd>062-527-8769</dd>
+													<dd>+82 62-527-8769</dd>
 												</dl>
 											</li>
 										</ul>
@@ -1169,13 +1152,13 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:051-636-5904">051-636-5904~6</a></dd>
+													<dd><a href="tel:+82 51-636-5904">+82 51-636-5904~6</a></dd>
 												</dl>
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-fax"></i>Fax</dt>
-													<dd>051-643-4285</dd>
+													<dd>+82 51-643-4285</dd>
 												</dl>
 											</li>
 										</ul>
@@ -1200,7 +1183,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>85 Denton Avenue New Hyde Park, NY 11040, USA<a href="https://goo.gl/maps/3sA3DtyBwxYM2tXd9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>99 Tulip Ave, Floral Park, New York 11001, US<a href="https://goo.gl/maps/3sA3DtyBwxYM2tXd9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>
@@ -1219,9 +1202,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:cwlee@taihanusa.com" target="_blank">cwlee@taihanusa.com</a>
-														<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-														<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
+														<a href="mailto:cwlee@taihanusa.com" target="_blank">cwlee@taihanusa.com</a> 
 													</dd>
 												</dl>
 											</li>
@@ -1255,8 +1236,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
-													<dd>
-														<a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br>
+													<dd> 
 														<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
 														<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
 													</dd>
@@ -1286,8 +1266,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br>
-														<a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br>
+														<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br> 
 														<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
 													</dd>
 												</dl>
@@ -1300,20 +1279,20 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan Netherlands</strong>
+											<strong class="title">taihan NETHERLANDS</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan established Taihan Netherlands B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, Taihan Netherlands B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
+													Taihan established Taihan NETHERLANDS B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, Taihan NETHERLANDS B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>Stroombaan 4 1181 VX Amstelveen The Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>Stroombaan 4(1181 VX), Amsterveen, Netherlands<a href="https://goo.gl/maps/JTkdjwUVvvjd96FX8" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>
@@ -1354,7 +1333,8 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:dwafe122@taihan.com">dwafe122@taihan.com</a><br>
-														<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a>
+														<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a><br>
+														<a href="mailto:info@taihan.co.uk">info@taihan.co.uk</a>
 													</dd>
 												</dl>
 											</li>
@@ -1371,13 +1351,7 @@
 													<dt><i class="ico-location"></i>Address</dt>
 													<dd>Herlev Hovedgade 195, DK-2730 Herlve, Denmark<a href="https://goo.gl/maps/Z2jFu1yjhDBd1yVs6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+442088767078">+44-20-8876-7078</a></dd>
-												</dl>
-											</li>
+											</li> 
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
@@ -1470,8 +1444,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:sikim@taihan.com">sikim@taihan.com</a><br>
-														<a href="mailto:si.kim@sauditaihan.com">si.kim@sauditaihan.com</a>
+														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1483,7 +1456,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">Saudi Taihan Cable & Solution</strong>
+											<strong class="title">Saudi Taihan <br />Cable & Solution</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -1520,13 +1493,13 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan Kuwait</strong>
+											<strong class="title">taihan KUWAIT</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan Kuwait is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
+													Taihan KUWAIT is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
@@ -1575,13 +1548,13 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+966114101773">+966-11-410-1773</a></dd>
+													<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>
 												</dl>
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-fax"></i>Fax</dt>
-													<dd>+966-11-419-0262</dd>
+													<dd>+966-11-229-7754</dd>
 												</dl>
 											</li>
 											<li>
@@ -1612,18 +1585,12 @@
 													<dt><i class="ico-tel"></i>Tel</dt>
 													<dd><a href="tel:+96525528642">+965-2552-8642</a></dd>
 												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt><i class="ico-fax"></i>Fax</dt>
-													<dd>+966-2552-8508</dd>
-												</dl>
-											</li>
+											</li> 
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+														<a href="mailto:janghee@taihan.com">janghee@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1658,7 +1625,8 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
+														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a><br />
+														<a href="mailto:info@taihan.ae">info@taihan.ae</a>
 													</dd>
 												</dl>
 											</li>
@@ -1693,7 +1661,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
+														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1728,8 +1696,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:ksan@taihan.com">ksan@taihan.com</a><br>
-														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
+														<a href="mailto:colee@taihan.com">colee@taihan.com</a> 
 													</dd>
 												</dl>
 											</li>
@@ -1774,8 +1741,8 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:jameskim@taihan.com.au">jameskim@taihan.com.au</a><br>
-														<a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a>
+														<a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a><br>
+														<a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a> 
 													</dd>
 												</dl>
 											</li>
@@ -1900,8 +1867,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto
-														Kav. 56 Jakarata Selatan 12950, Indonesia<a href="https://goo.gl/maps/tDdBUTzUorVUjCqz9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>Graha Surveyor Indonesia, 19th Floor Suite 1903 Jl.Gatot Subroto Kav. 56 Jakarta Selatan 12950, Indonesia<a href="https://goo.gl/maps/tDdBUTzUorVUjCqz9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>

@@ -315,39 +315,39 @@
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img01.jpg"></div>
-								<p class="desc">Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img02.jpg"></div>
-								<p class="desc">Production line in Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img03.jpg"></div>
-								<p class="desc">Production line in Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img04.jpg"></div>
-								<p class="desc">Production line in Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img05.jpg"></div>
-								<p class="desc">Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img06.jpg"></div>
-								<p class="desc">Production line in Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img07.jpg"></div>
-								<p class="desc">Production line in Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img08.jpg"></div>
-								<p class="desc">Production line in Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery05/img09.jpg"></div>
-								<p class="desc">Saudi Taihan</p>
+								<p class="desc">SAUDI Taihan</p>
 							</div>
 						</div>
 						<div class="swiper-button-next"></div>

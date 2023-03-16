@@ -72,8 +72,8 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>85 Denton Avenue New Hyde Park, NY 11040, USA
-											<a href="https://goo.gl/maps/EoiUrNK42kj5FQNJA" target="_blank" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a>
+											<dd>99 Tulip Ave, Floral Park, New York 11001, US
+											<a href="https://goo.gl/maps/tu5YMkERVV9XQ9ax9" target="_blank" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a>
 											</dd>
 										</dl>
 									</li>
@@ -93,8 +93,8 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-												<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a><br>
+												<!--a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
+												<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a><br-->
 												<a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a>
 											</dd>
 										</dl>
@@ -131,7 +131,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br>
+												<!--a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br-->
 												<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
 												<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
 											</dd>
@@ -164,7 +164,7 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br>
-												<a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br>
+												<!--a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br-->
 												<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
 											</dd>
 										</dl>
@@ -220,7 +220,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>85 Denton Avenue New Hyde Park, NY 11040, USA<a href="https://goo.gl/maps/EoiUrNK42kj5FQNJA" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>99 Tulip Ave, Floral Park, New York 11001, US<a href="https://goo.gl/maps/LJYvJNFAkM6tiETr9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>
@@ -239,8 +239,8 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-														<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a><br>
+														<!--a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
+														<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a><br-->
 														<a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a>
 													</dd>
 												</dl>
@@ -275,7 +275,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br>
+														<!--a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br-->
 														<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
 														<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
 													</dd>
@@ -306,7 +306,7 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br>
-														<a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br>
+														<!--a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br-->
 														<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
 													</dd>
 												</dl>

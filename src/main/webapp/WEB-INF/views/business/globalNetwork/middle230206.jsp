@@ -86,9 +86,9 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
-												<!--br>
-												<a href="mailto:si.kim@sauditaihan.com">si.kim@sauditaihan.com</a-->
+												<a href="mailto:sikim@taihan.com">sikim@taihan.com</a><br>
+												<a
+													href="mailto:si.kim@sauditaihan.com">si.kim@sauditaihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -99,7 +99,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">Saudi Taihan <br />Cable & Solution <br />(설립 추진중)</strong>
+									<strong class="title">Saudi Taihan Cable & Solution</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -135,12 +135,12 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">taihan KUWAIT</strong>
+									<strong class="title">taihan Kuwait</strong>
 								</div>
 								<ul class="list-info">
 									<li>
 										<p class="desc">
-													taihan KUWAIT 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
+													taihan Kuwait는 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
 													선점하기
 													위해, <br>
 													2021년에 쿠웨이트의 건설 및 무역회사인 랭크社와 공동투자를 진행하여 설립하였습니다.</p>
@@ -194,13 +194,13 @@
 									<li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>
+											<dd><a href="tel:+966114101773">+966-11-410-1773</a></dd>
 										</dl>
 									</li>
 									<li>
 										<dl>
 											<dt><i class="ico-fax"></i>팩스</dt>
-											<dd>+966-11-229-7754</dd>
+											<dd>+966-11-419-0262</dd>
 										</dl>
 									</li>
 									<li>
@@ -233,12 +233,18 @@
 											<dt><i class="ico-tel"></i>연락처</dt>
 											<dd><a href="tel:+96525528642">+965-2552-8642</a></dd>
 										</dl>
-									</li> 
+									</li>
+									<li>
+										<dl>
+											<dt><i class="ico-fax"></i>팩스</dt>
+											<dd>+966-2552-8508</dd>
+										</dl>
+									</li>
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:janghee@taihan.com">janghee@taihan.com</a>
+												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -274,8 +280,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a><br />
-												<a href="mailto:info@taihan.ae">info@taihan.ae</a>
+												<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -312,7 +317,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
+												<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -348,8 +353,9 @@
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
-											<dd> 
-												<a href="mailto:colee@taihan.com">colee@taihan.com</a>
+											<dd>
+												<a href="mailto:ksan@taihan.com">ksan@taihan.com</a><br>
+												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -415,8 +421,8 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<!--a href="mailto:sikim@taihan.com">sikim@taihan.com</a><br-->
-														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+														<a href="mailto:sikim@taihan.com">sikim@taihan.com</a><br>
+														<a href="mailto:si.kim@sauditaihan.com">si.kim@sauditaihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -428,7 +434,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">Saudi Taihan Cable & Solution <br />(In the process of establishing)</strong>
+											<strong class="title">Saudi Taihan Cable & Solution</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -465,13 +471,13 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan KUWAIT</strong>
+											<strong class="title">taihan Kuwait</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan KUWAIT is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
+													Taihan Kuwait is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
@@ -520,13 +526,13 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>
+													<dd><a href="tel:+966114101773">+966-11-410-1773</a></dd>
 												</dl>
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-fax"></i>Fax</dt>
-													<dd>+966-11-229-7754</dd>
+													<dd>+966-11-419-0262</dd>
 												</dl>
 											</li>
 											<li>
@@ -557,12 +563,18 @@
 													<dt><i class="ico-tel"></i>Tel</dt>
 													<dd><a href="tel:+96525528642">+965-2552-8642</a></dd>
 												</dl>
-											</li> 
+											</li>
+											<li>
+												<dl>
+													<dt><i class="ico-fax"></i>Fax</dt>
+													<dd>+966-2552-8508</dd>
+												</dl>
+											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:janghee@taihan.com">janghee@taihan.com</a>
+														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -597,8 +609,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a><br />
-														<a href="mailto:info@taihan.ae">info@taihan.ae</a>
+														<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -633,7 +644,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
+														<a href="mailto:hcjung@taihan.com">hcjung@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -667,8 +678,9 @@
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
-													<dd> 
-														<a href="mailto:colee@taihan.com">colee@taihan.com</a>
+													<dd>
+														<a href="mailto:ksan@taihan.com">ksan@taihan.com</a><br>
+														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 													</dd>
 												</dl>
 											</li>

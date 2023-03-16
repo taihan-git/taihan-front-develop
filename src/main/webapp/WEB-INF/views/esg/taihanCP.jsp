@@ -79,7 +79,9 @@
 									<img class="img" src="${CON_STATIC_URL}/asset/images/esg/img_sign.png" alt="">
 								</p>
 							</div>
-							<div class="btn-box"><a href="${CON_UPLOAD_URL}pdf/Taihan_CP_Declaration.pdf" target="_blank" class="btn-type btn-m">2022 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div>
+							<!-- <div class="btn-box"><a href="${CON_UPLOAD_URL}pdf/Taihan_CP_Declaration.pdf" target="_blank" class="btn-type btn-m">2022 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div> -->
+                            <!-- [D] download="ESG_CP_2023 대표이사 자율준수 의지선언.pdf"  원래 파일명-->
+							<div class="btn-box"><a href="${CON_STATIC_URL}/files/Taihan_CP_Declaration_2023.pdf" target="_blank" class="btn-type btn-m">2023 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div>
 						</div>
 						</c:if>
 						<c:if test="${LANG eq 'en' }">
@@ -96,9 +98,13 @@
 									<img class="img" src="${CON_STATIC_URL}/asset/images/esg/img_sign.png" alt="">
 								</p>
 							</div>
-							<div class="btn-box"><a href="/resources/files/Taihan_CP_Declaration_en.pdf" target="_blank" class="btn-type btn-m">View the full text of the CEO's
+							<!-- <div class="btn-box"><a href="/resources/files/Taihan_CP_Declaration_en.pdf" target="_blank" class="btn-type btn-m">View the full text of the CEO's
 									declaration of compliance in 2022<i class="ico-more2"></i></a>
-							</div>
+							</div> -->
+                            <!-- [D] download="ESG_CP_CEO's declaration of compliance in 2023.pdf"  원래 파일명 -->
+                            <div class="btn-box"><a href="${CON_STATIC_URL}/files/Taihan_CP_Declaration_2023_en.pdf" target="_blank" class="btn-type btn-m">View the full text of the CEO's
+                                declaration of compliance in 2023<i class="ico-more2"></i></a>
+                            </div>
 						</c:if>
 						
 					</div>

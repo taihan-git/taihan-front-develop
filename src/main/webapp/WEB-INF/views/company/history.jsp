@@ -183,14 +183,14 @@
 												<ol>
 													<!-- 2022-12-26 -->
 													<li>
-														<strong>12</strong><span>국내최초 500kV 전류형 XLPE HVDC 케이블</span>
+														<strong>12</strong><span>충남 당진 해저케이블 임해공장 착공</span>
 													</li>
 													<li>
-														<strong>11</strong><span>2년 연속 ESG 통합 A등급 획득</span>
+														<strong>12</strong><span>국내 최초 500kV 전류형 XLPE HVDC 케이블 국제 공인 인증 획득(KEMA)</span>
 													</li>
 													<li>
-														<strong>10</strong><span>M-TEC 설비 고도화 추진</span>
-													</li>
+														<strong>11</strong><span>2년 연속 ESG 통합 A등급 획득(KCGS)</span>
+													</li> 
 													<!-- // 2022-12-26 -->
 													<li>
 														<strong>06</strong><span>한국기업평가, 한국신용평가 ‘A-‘ 획득</span>
@@ -206,6 +206,16 @@
 								</div>
 								<div class="img-box">
 									<div class="img-item">
+										<div class="item">
+											<div class="box" data-delighter>
+												<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2022_12_01.jpg)"></div>
+												<p>해저케이블 임해공장 착공식 </p>
+											</div>
+											<div class="box" data-delighter>
+												<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2022_12_02.jpg)"></div>
+												<p>한전 고창전력시험센터에서 국제 공인 인증 진행</p>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -242,7 +252,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="img-box">
+								<div class="img-box"> 
 									<div class="img-item">
 										<div class="item">
 											<div class="box" data-delighter>
@@ -2580,29 +2590,38 @@
 													<ol>
 														<!-- 2022-12-26 -->
 														<li>
+															<strong>12</strong><span>Commenced construction of a submarine Cable Factory in Dangjin</span>
+														</li>
+														<li>
 															<strong>12</strong><span>Acquired Korea’s first KEMA international certification for 500kV LCC XLPE HVDC</span>
 														</li>
 														<li>
-															<strong>11</strong><span>Acquired ESG Integrated Grade A for 2 consecutive years</span>
-														</li>
-														<li>
-															<strong>10</strong><span>Advancement of M-TEC facilities</span>
-														</li>
+															<strong>11</strong><span>Acquired ESG Integrated Grade A for 2 consecutive years(KCGS)</span>
+														</li> 
 														<!-- // 2022-12-26 -->
 														<li>
-															<strong>06</strong><span>Acquired A- in Korea's credit rating <br>by Korea Enterprise Rating.</span>
+															<strong>06</strong><span>Acquired ‘A-’ in Korea's credit rating by Korea Enterprise Rating </span>
 														</li>
 														<li>
 															<strong>05</strong><span>Published Corporate Governance Charter.</span>
 														</li>
-													</ol>
-	
+													</ol> 
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="img-box">
 										<div class="img-item">
+											<div class="item">
+												<div class="box" data-delighter>
+													<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2022_12_01.jpg)"></div>
+													<p>Commenced construction of a submarine Cable Factory </p>
+												</div>
+												<div class="box" data-delighter>
+													<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2022_12_02.jpg)"></div>
+													<p>500kV LCC XLPE HVDC</p>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>

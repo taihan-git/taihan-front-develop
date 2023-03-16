@@ -295,7 +295,7 @@
 					<span>윤리 규정을 확인해보세요.</span>
 				</div>
 				<div class="btn-wrap">
-					<a href="/resources/files/Code_of_Ethics.pdf" class="btn-type btn-m w-type"  target="_blank">윤리규정 바로보기<i class="ico-arr v2"></i></a>
+					<a href="/resources/files/Code_of_Ethics_2023.pdf" class="btn-type btn-m w-type"  target="_blank">윤리규정 바로보기<i class="ico-arr v2"></i></a>
 				</div>
 			</div>
 			</c:if>
@@ -308,7 +308,7 @@
 					</span>
 				</div>
 				<div class="btn-wrap">
-					<a href="/resources/files/Code_of_Ethics.pdf" class="btn-type btn-m w-type">View Ethical Guidelines<i class="ico-arr v2"></i></a>
+					<a href="/resources/files/Code_of_Ethics_2023.pdf" class="btn-type btn-m w-type">View Ethical Guidelines<i class="ico-arr v2"></i></a>
 				</div>
 			</div>
 			</c:if>

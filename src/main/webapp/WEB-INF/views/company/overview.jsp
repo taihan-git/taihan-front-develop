@@ -23,7 +23,7 @@
 								<span>The power lighting up </span>
 								<span>the world </span>
 							<c:if test="${LANG eq 'ko' }">
-								<span class="sub">대한전선은2 세상 모든 곳에 에너지와 정보를 연결합니다.</span>
+								<span class="sub">대한전선은 세상 모든 곳에 에너지와 정보를 연결합니다.</span>
 							</strong>
 							<p>
 								대한민국 최초의 전선회사로 출발한 대한전선은 전력 및 통신 케이블과 소재 분야를 개척하며<br>
