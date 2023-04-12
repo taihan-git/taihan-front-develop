@@ -424,7 +424,7 @@
 								</tr>
 								<tr class="division">
 									<th scope="row" class="bg"><spring:message code="finance.5table4" text="현금 및 현금성자산의 증감(I+II+III)" /></th>
-									<td class="t-r">-64,659</td>
+									<td class="t-r">64,659</td>
 									<td class="t-r">12,381</td>
 									<td class="t-r">-65,719</td>
 
@@ -445,7 +445,7 @@
 								</tr>
 								<tr>
 									<th scope="row" class="bg"><spring:message code="finance.5table7" text="기말의 현금 및 현금성자산" /></th>
-									<td class="t-r">-217,217</td>
+									<td class="t-r">217,217</td>
 									<td class="t-r">147,921</td>
 									<td class="t-r">130,557</td>
 								</tr>
@@ -871,7 +871,7 @@
 								<tr class="division">
 									<th scope="row" class="bg">IV. Increase (Decrease) in Cash (I+II+III)
 									</th>
-									<td class="t-r">-64,659</td>
+									<td class="t-r">64,659</td>
 									<td class="t-r">12,381</td>
 									<td class="t-r">-65,719</td>
 
@@ -895,7 +895,7 @@
 								<tr>
 									<th scope="row" class="bg">VII. Cash & Cash Equivalents, End of the Year
 									</th>
-									<td class="t-r">-217,217</td>
+									<td class="t-r">217,217</td>
 									<td class="t-r">147,921</td>
 									<td class="t-r">130,557</td>
 
