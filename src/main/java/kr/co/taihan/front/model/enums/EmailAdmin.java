@@ -33,7 +33,7 @@ public enum EmailAdmin {
     PRODUCTS_RG_1("en_coun_01","Middle East / Africa","mwyu@taihan.com"),
     PRODUCTS_RG_2("en_coun_02","Asia / Oceania","mwyu@taihan.com"),
     PRODUCTS_RG_3("en_coun_03","Europe","wschung@taihan.com"),
-    PRODUCTS_RG_4("en_coun_04","America","bonjoon0704@taihan.com"),
+    PRODUCTS_RG_4("en_coun_04","America","hansbak@taihan.com"),
     PRODUCTS_RG_5("en_coun_05","Russia/CIS","alexlee@taihan.com"),
 
     //나머지 제품은 코드값으로 세팅

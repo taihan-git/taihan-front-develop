@@ -36,7 +36,7 @@
 							<!-- //2022-10-26 -->
 							</c:if>
 							<c:if test="${LANG eq 'en' }">
-							<span class="sub">Taihan connects energy and information everywhere in the world.</span>
+							<span class="sub">Taihan connects energy and information across the globe.</span>
 							</strong>
 							<p>
 								Taihan, which was established as the first electric wire company in Korea, <br>

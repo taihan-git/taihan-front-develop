@@ -48,10 +48,10 @@
 					</div>
 				</div>
 
-				<!--10-14수정 <div class="full-text">
+				<div class="full-text">
 					<strong data-delighter>Together</strong>
 					<strong data-delighter>for Tomorrow</strong>
-				</div> -->
+				</div>
 
 				<div class="content-box">
 					<div class="inner-box">

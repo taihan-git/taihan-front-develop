@@ -235,8 +235,8 @@
 								</li>
 								<li>
 									<dl>
-										<dt>법인</dt>
-										<dd>152/11B Dien Bien Phu St., W.25, Binh Thanh District, HCM City, Vietnam</dd>
+										<dt>오피스</dt>
+										<dd>1st floor, Somerset Chancellor Court, 21-23 Nguyen Thi Minh Khai Str., Ben Nghe ward, District 1, HCMC</dd>
 									</dl>
 								</li>
 								<li>
@@ -436,7 +436,7 @@
 										<li>
 											<dl>
 												<dt>Office</dt>
-												<dd>152/11B Dien Bien Phu St., W.25, Binh Thanh District, HCM City, Vietnam</dd>
+												<dd>1st floor, Somerset Chancellor Court, 21-23 Nguyen Thi Minh Khai Str., Ben Nghe ward, District 1, HCMC</dd>
 											</dl>
 										</li>
 										<li>

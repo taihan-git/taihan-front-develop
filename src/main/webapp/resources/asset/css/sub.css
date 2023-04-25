@@ -1962,12 +1962,12 @@
   background-size: contain;
 }
 .saying-wrap .saying-box::before {
-  top: 6px;
-  left: 10px;
+  top: -24px;
+  left: -24px;
 }
 .saying-wrap .saying-box::after {
-  right: 10px;
-  bottom: 10px;
+  right: -24px;
+  bottom: -24px;
   transform: rotate(180deg);
 }
 .saying-wrap .name {
