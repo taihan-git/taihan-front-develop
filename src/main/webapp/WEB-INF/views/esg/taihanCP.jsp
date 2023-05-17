@@ -64,8 +64,7 @@
 						<div class="cp-wrap" data-delighter>
 							<div class="text-box">
 								<strong class="title">자율준수 의지선언</strong>
-								<p class="text">안녕하십니까.
-									대한전선 대표이사 나형균입니다.</p>
+								<p class="text">안녕하십니까. 대한전선 대표이사입니다.</p>
 								<p class="text2">대한전선은 투명하고 공정한 거래를 위하여
 									공정거래 자율준수 프로그램을 도입하고,
 									자율준수 문화 정착을 위한
@@ -75,8 +74,8 @@
 									선택이 아닌 의무로 여기며
 									최선의 노력을 다하겠습니다.</p>
 								<p class="sign">
-									대한전선 대표이사 나형균
-									<img class="img" src="${CON_STATIC_URL}/asset/images/esg/img_sign.png" alt="">
+									대한전선 대표이사
+									<!--img class="img" src="${CON_STATIC_URL}/asset/images/esg/img_sign.png" alt=""-->
 								</p>
 							</div>
 							<!-- <div class="btn-box"><a href="${CON_UPLOAD_URL}pdf/Taihan_CP_Declaration.pdf" target="_blank" class="btn-type btn-m">2022 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div> -->
@@ -94,8 +93,8 @@
 									myself, will do our best to abide by the relevant law and regulation in connection
 									to the Fair Trade. </p>
 								<p class="sign">
-									Na Hyung-gyun, CEO of Taihan.
-									<img class="img" src="${CON_STATIC_URL}/asset/images/esg/img_sign.png" alt="">
+									CEO of Taihan.
+									<!--img class="img" src="${CON_STATIC_URL}/asset/images/esg/img_sign.png" alt=""-->
 								</p>
 							</div>
 							<!-- <div class="btn-box"><a href="/resources/files/Taihan_CP_Declaration_en.pdf" target="_blank" class="btn-type btn-m">View the full text of the CEO's

@@ -37,10 +37,10 @@
 							</div>
 						</li>
 						<li>
-							<a href="/resources/files/${LANG eq 'ko' ?  '2022_report.zip' : '2021_report_en.pdf'}" class="img-box"><img src="${CON_STATIC_URL}/asset/images/news/report_cover.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></a>
+							<a href="/resources/files/${LANG eq 'ko' ?  '2022_report.zip' : '2022_report_en.pdf'}" class="img-box"><img src="${CON_STATIC_URL}/asset/images/news/report_cover.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></a>
 							<div class="title-box"><strong><spring:message code="finance.2021report2" text="2022 감사보고서" /></strong></div>
 							<div class="btn-wrap">
-								<a href="/resources/files/${LANG eq 'ko' ?  '2022_report.zip' : '2021_report_en.pdf'}" class="btn-type download-type"><span><spring:message code="finance.download" text="다운로드" /></span><i class="ico-down"></i></a>
+								<a href="/resources/files/${LANG eq 'ko' ?  '2022_report.zip' : '2022_report_en.pdf'}" class="btn-type download-type"><span><spring:message code="finance.download" text="다운로드" /></span><i class="ico-down"></i></a>
 							</div>
 						</li>
 						<c:if test="${LANG eq 'ko'}">

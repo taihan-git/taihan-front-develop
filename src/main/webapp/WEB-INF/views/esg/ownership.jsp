@@ -20,7 +20,7 @@
 				<div class="inner-box">
 					<div class="title-wrap4" data-delighter>
 						<h3 class="title-type">이사회 구성</h3>
-						<p>대한전선의 이사회는 사외이사 4인, 기타비상무이사 1인, 사내이사 3인, 총 8인의 이사로 구성되어 있습니다.</p>
+						<p>대한전선의 이사회는 사외이사 3인, 사내이사 3인, 총 6인의 이사로 구성되어 있습니다.</p>
 					</div>
 
 					<div class="table-wrap" data-delighter>
@@ -44,21 +44,14 @@
 								</thead>
 								<tbody>
 								<tr>
-									<td rowspan="4">사외이사</td>
-									<td>박경서</td>
-									<td class="t-l">現) 유엔한국협회 고문<br>
-										前) 제29대 대한적십자사 총재, 대법원 대법관 추천위 위원장,
-										초대 경찰개혁위원회 위원장, 서울대/동국대 교수</td>
-									<td>2021-05-18</td>
+									<td rowspan="3">사외이사</td>
+									<td>이익중</td>
+									<td class="t-l"> 
+										現) 대한전선㈜ 사외이사 (감사위원) <br>
+										前) 농협은행 상근감사위원, 금융감독원 특수은행검사국 국장</td>
+									<td>2023-05-17</td>
 									<td>2년</td>
-								</tr>
-								<tr>
-									<td>현 석</td>
-									<td class="t-l">現) 현석세무회계 대표세무사<br>
-										前) 역삼 세무서장, 공주서장, 울산 세무서장</td>
-									<td>2023-03-30</td>
-									<td>2년</td>
-								</tr>
+								</tr> 
 								<tr>
 									<td>이동열</td>
 									<td class="t-l">現) 법무법인 로백스 대표변호사 <br>
@@ -73,29 +66,21 @@
 									</td>
 									<td>2023-03-30</td>
 									<td>2년</td>
-								</tr>
-								<tr>
-									<td>기타<br>비상무이사</td>
-									<td>김준석</td>
-									<td class="t-l">現) 호반건설 전략기획실장 <br>
-										前) 호반자산개발 대표이사
-									</td>
-									<td>2023-03-30</td>
-									<td>2년</td>
-								</tr>
+								</tr> 
 								<tr>
 									<td rowspan="3">사내이사</td>
-									<td>나형균</td>
-									<td class="t-l">現) 대한전선㈜ 대표이사<br>
-										前) 대한전선㈜ 대표집행임원, 안셀코리아㈜ 대표이사, ㈜마이다스 대표이사</td>
-									<td>2021-05-18</td>
+									<td>송종민</td>
+									<td class="t-l">現) 대한전선㈜ 대표이사/부회장 <br>
+										前) ㈜호반건설 대표이사/사장, ㈜호반건설주택 대표이사, kbc 광주방송 전무
+									</td>
+									<td>2023-05-17</td>
 									<td>2년</td>
 								</tr>
 								<tr>
-									<td>김윤수</td>
-									<td class="t-l">現) 대한전선㈜ 부사장, 생산기술총괄(COO)<br>
-										前) 대한전선㈜ 집행임원 / 초고압사업부장, 대한전선㈜ Quality Center 센터장</td>
-									<td>2021-05-18</td>
+									<td>김준석</td>
+									<td class="t-l">現) 대한전선㈜ 전무이사<br>
+										前) ㈜호반자산개발 대표이사</td>
+									<td>2023-05-17</td>
 									<td>2년</td>
 								</tr>
 								<tr>
@@ -139,13 +124,12 @@
 								<tbody>
 								<tr>
 									<td>사외이사<br>후보추천위원회</td>
-									<td>박경서<br>노상섭<br>김준석</td>
+									<td>노상섭<br>이익중</td>
 									<td class="t-l">사외이사후보 추천</td>
 								</tr>
 								<tr>
 									<td>감사위원회</td>
-									<td>현 석<br>
-										박경서<br>
+									<td>이익중<br> 
 										이동열<br>
 										노상섭
 									</td>
@@ -154,8 +138,7 @@
 								<tr>
 									<td>ESG위원회</td>
 									<td>이동열<br>
-										박경서<br>
-										현 석<br>
+										이익중<br> 
 										노상섭<br>
 										이기원
 									</td>
@@ -397,8 +380,8 @@
 
 					<div class="title-wrap4" data-delighter>
 						<h3 class="title-type">Board of Directors</h3>
-						<p>The board of directors of Taihan Cable & Solution composed total of 8 directors,<br>
-							including 4 outside directors, 1 other non-executive director, and 3 inside directors.
+						<p>The board of directors of Taihan Cable & Solution composed total of 6 directors, <br>
+						including 3 outside directors, 3 inside directors.
 						</p>
 					</div>
 
@@ -423,22 +406,14 @@
 								</thead>
 								<tbody>
 								<tr>
-									<td rowspan="4">Outside Director
+									<td rowspan="3">Outside Director
 									</td>
-									<td>Park Kyung Seo
+									<td>Lee Ik Jung
 									</td>
-									<td class="t-l">UN Association of the ROK Adviser<br>
-										Former) 29th President of the Korean Red Cross</td>
-									<td>May 18, 2021</td>
+									<td class="t-l">Taihan Cable&Solution Co., Ltd. Outside Director (Audit Committee) </td>
+									<td>May 17, 2023</td>
 									<td>2 years</td>
-								</tr>
-								<tr>
-									<td>Hyun Suk</td>
-									<td class="t-l">Hyunsuk tax firm Representative
-									</td>
-									<td>March 30, 2023</td>
-									<td>2 years</td>
-								</tr>
+								</tr> 
 								<tr>
 									<td>Lee Dong Yeol</td>
 									<td class="t-l">LawVax law firm Representative Lawyer
@@ -452,26 +427,19 @@
 									</td>
 									<td>March 30, 2023</td>
 									<td>2 years</td>
-								</tr>
-								<tr>
-									<td>Other<br>Non-Executive Director</td>
-									<td>Kim Joon Seok</td>
-									<td class="t-l">Hoban Construction Strategic Planning Office Director
-									</td>
-									<td>March 30, 2023</td>
-									<td>2 years</td>
-								</tr>
+								</tr> 
 								<tr>
 									<td rowspan="3">Inside Director</td>
-									<td>Na Hyoung Kyun</td>
-									<td class="t-l">Taihan Cable&Solution Co., Ltd. CEO</td>
-									<td>May 18, 2021</td>
+									<td>Song Jong Min</td>
+									<td class="t-l">Taihan Cable&Solution Co., Ltd. CEO <br>Hoban E&C Co., Ltd. CEO</td>
+									<td>May 17, 2023</td>
 									<td>2 years</td>
 								</tr>
 								<tr>
-									<td>Kim Youn Soo</td>
-									<td class="t-l">Taihan Cable&Solution Co., Ltd. Vice president, COO/CSO</td>
-									<td>May 18, 2021</td>
+									<td>Kim Joon Seok</td>
+									<td class="t-l">Taihan Cable&Solution Co., Ltd. Business Strategy Executive director<br>
+									           Hoban Construction Co.,Ltd. Strategic Planning Office Director</td>
+									<td>May 17, 2023</td>
 									<td>2 years</td>
 								</tr>
 								<tr>
@@ -515,15 +483,14 @@
 								<tbody>
 								<tr>
 									<td>Outside Director<br>Recommendation Committee</td>
-									<td>Park Kyung Seo<br>
-										Noh Sang Seop<br>
-										Kim Joon Seok</td>
+									<td>Noh Sang Seop<br>
+										Lee Ik Jung</td>
 									<td class="t-l">Recommendation of candidates for outside directors</td>
 								</tr>
 								<tr>
 									<td>Audit Committee</td>
-									<td>Hyun Suk<br>
-										Park Kyung Seo<br>
+									<td> 
+										Lee Ik Jung<br>
 										Lee Dong Yeol<br>
 										Noh Sang Seop
 									</td>
@@ -532,8 +499,7 @@
 								<tr>
 									<td>ESG Committee</td>
 									<td>Lee Dong Yeol<br>
-										Park Kyung Seo<br>
-										Hyun Suk<br>
+										Lee Ik Jung<br>
 										Noh Sang Seop<br>
 										Lee Ki Won
 									</td>
