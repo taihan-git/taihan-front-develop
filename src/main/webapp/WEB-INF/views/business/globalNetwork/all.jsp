@@ -305,7 +305,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">영업법인</span>
-									<strong class="title">taihan NETHERLANDS</strong>
+									<strong class="title">taihan Netherlands</strong>
 								</div>
 								<ul class="list-info">
 									<!-- 2022-10-25 텍스트 수정 -->
@@ -446,7 +446,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">SAUDI taihan</strong>
+									<strong class="title">Saudi taihan</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -483,7 +483,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">Saudi Taihan <br />Cable & Solution</strong>
+									<strong class="title">Saudi taihan <br />Cable & Solution</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -520,12 +520,12 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">taihan KUWAIT</strong>
+									<strong class="title">taihan Kuwait</strong>
 								</div>
 								<ul class="list-info">
 									<li>
 										<p class="desc">
-											taihan KUWAIT는 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
+											taihan Kuwait는 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
 											선점하기
 											위해, <br>
 											2021년에 쿠웨이트의 건설 및 무역회사인 랭크社와 공동투자를 진행하여 설립하였습니다.</p>
@@ -819,8 +819,7 @@
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
 											<!-- 2022-10-24 텍스트 수정 -->
-											<dd>사무실 : 617-621 Dien Bien Phu Street, Ward 25, Binh Thanh
-												District, HCMC, Vietnam<br>
+											<dd>오피스: 1st floor, Somerset Chancellor Court, 21-23 Nguyen Thi Minh	Khai Str., Ben Nghe ward, District 1, HCMC<br>
 												공장 : Long Thanh IZ, Dong Nai Province, Vietnam
 												<a href="https://goo.gl/maps/rqS27QK6Ff97jaY66" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a>
 											</dd>
@@ -1279,13 +1278,13 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan NETHERLANDS</strong>
+											<strong class="title">taihan Netherlands</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan established Taihan NETHERLANDS B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, Taihan NETHERLANDS B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
+													Taihan established taihan Netherlands B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, taihan Netherlands B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
@@ -1419,7 +1418,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">SAUDI taihan</strong>
+											<strong class="title">Saudi taihan</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -1456,7 +1455,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">Saudi Taihan <br />Cable & Solution</strong>
+											<strong class="title">Saudi taihan <br />Cable & Solution</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -1493,13 +1492,13 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan KUWAIT</strong>
+											<strong class="title">taihan Kuwait</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan KUWAIT is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
+													taihan Kuwait is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
@@ -1791,8 +1790,7 @@
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
 													<!-- 2022-10-24 텍스트 수정 -->
-													<dd>Office : 617-621 Dien Bien Phu Street, Ward 25, Binh Thanh
-														District, HCMC, Vietnam<br>
+													<dd>Office : 1st floor, Somerset Chancellor Court, 21-23 Nguyen		Thi Minh Khai Str., Ben Nghe ward, District 1, HCMC<br>
 														Factory : Long Thanh IZ, Dong Nai Province, Vietnam
 														<a href="https://goo.gl/maps/rqS27QK6Ff97jaY66" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a>
 													</dd>

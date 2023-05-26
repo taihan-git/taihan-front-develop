@@ -54,11 +54,11 @@
 						<div class="video-box" data-delighter>
 							<div class="img-flex">
 							<c:if test="${LANG eq 'ko' }">
-								<iframe type="text/html" src="https://www.youtube.com/embed/GGeBfsz6NMU?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+								<iframe type="text/html" src="https://www.youtube.com/embed/VykcwlHohz0?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
 							</c:if>
 							<c:if test="${LANG eq 'en' }">
 								<!-- 2022-11-29 -->
-								<iframe type="text/html" src="https://www.youtube.com/embed/8IbiXLxmKQo?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+								<iframe type="text/html" src="https://www.youtube.com/embed/ei_mAu4-_hU?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
 								<!-- //2022-11-29 -->
 							</c:if>
 							</div>

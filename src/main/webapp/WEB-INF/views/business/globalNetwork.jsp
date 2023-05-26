@@ -311,9 +311,9 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/saudi" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace05.jpg" alt="">
-											<strong class="title">SAUDI taihan<i class="ico-arr"></i></strong>
+											<strong class="title">Saudi taihan<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">SAUDI taihan<i class="ico-arr"></i></strong> <span class="sub">중동 전력기기 생산의 메카</span>
+										<strong class="title">Saudi taihan<i class="ico-arr"></i></strong> <span class="sub">중동 전력기기 생산의 메카</span>
 										<p class="desc">GCC 지역 최초이자 유일한 HV(High Voltage)급 케이블 접속기기 제조업체로, 중동 전력기기 시장의 주요 공급자로 자리매김하였습니다.</p>
 									</a>
 								</li>
@@ -375,12 +375,12 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/saudi" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace05.jpg" alt="">
-											<strong class="title">SAUDI taihan<i class="ico-arr"></i></strong>
+											<strong class="title">Saudi taihan<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">SAUDI taihan<i class="ico-arr"></i></strong>
+										<strong class="title">Saudi taihan<i class="ico-arr"></i></strong>
 										<span class="sub">Cable accessory production in the heart of the Middle East</span>
 										<p class="desc">
-											Saudi Taihan is the first and only HV (High Voltage) cable accessory manufacturer in the GCC region. Established through a joint investment with Mohammed Al-Ojaimi Group, an EPC specializing in power transmission and distribution in Saudi Arabia, Saudi Taihan is located in an industrial area near the capital Riyadh.
+											Saudi taihan is the first and only HV (High Voltage) cable accessory manufacturer in the GCC region. Established through a joint investment with Mohammed Al-Ojaimi Group, an EPC specializing in power transmission and distribution in Saudi Arabia, Saudi taihan is located in an industrial area near the capital Riyadh.
 										</p>
 									</a>
 								</li>

@@ -59,7 +59,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">SAUDI taihan</strong>
+									<strong class="title">Saudi taihan</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -99,7 +99,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">Saudi Taihan <br />Cable & Solution <br />(설립 추진중)</strong>
+									<strong class="title">Saudi taihan <br />Cable & Solution <br />(설립 추진중)</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -135,12 +135,12 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">taihan KUWAIT</strong>
+									<strong class="title">taihan Kuwait</strong>
 								</div>
 								<ul class="list-info">
 									<li>
 										<p class="desc">
-													taihan KUWAIT 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
+													taihan Kuwait 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
 													선점하기
 													위해, <br>
 													2021년에 쿠웨이트의 건설 및 무역회사인 랭크社와 공동투자를 진행하여 설립하였습니다.</p>
@@ -390,7 +390,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">SAUDI taihan</strong>
+											<strong class="title">Saudi taihan</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -428,7 +428,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">Saudi Taihan Cable & Solution <br />(In the process of establishing)</strong>
+											<strong class="title">Saudi taihan Cable & Solution <br />(In the process of establishing)</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -465,13 +465,13 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan KUWAIT</strong>
+											<strong class="title">taihan Kuwait</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan KUWAIT is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
+													taihan Kuwait is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>

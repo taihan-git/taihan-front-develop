@@ -59,7 +59,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">영업법인</span>
-									<strong class="title">taihan NETHERLANDS</strong>
+									<strong class="title">taihan Netherlands</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -243,13 +243,13 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan NETHERLANDS</strong>
+											<strong class="title">taihan Netherlands</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan established Taihan NETHERLANDS B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, Taihan NETHERLANDS B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
+													Taihan established taihan Netherlands B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, taihan Netherlands B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>

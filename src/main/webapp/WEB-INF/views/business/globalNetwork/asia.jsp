@@ -65,8 +65,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>사무실: 617-621 Dien Bien Phu Street, Ward 25, Binh Thanh
-												District, HCMC, Vietnam<br>
+											<dd>오피스: 1st floor, Somerset Chancellor Court, 21-23 Nguyen Thi Minh Khai		Str., Ben Nghe ward, District 1, HCMC<br>
 												공장: Long Thanh IZ, Dong Nai Province, Vietnam
 												<a href="https://goo.gl/maps/86h2cvDGUyfznarp9" target="_blank" class="btn-map"><i class="ico-outer"><span
 															class="hidden">주소보기</span></i></a>
@@ -238,8 +237,7 @@
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
 													<!-- 2022-10-24 텍스트 수정 -->
-													<dd>Office : 617-621 Dien Bien Phu Street, Ward 25, Binh Thanh
-														District, HCMC, Vietnam<br>
+													<dd>Office : 1st floor, Somerset Chancellor Court, 21-23 Nguyen Thi		Minh Khai Str., Ben Nghe ward, District 1, HCMC<br>
 														Factory : Long Thanh IZ, Dong Nai Province, Vietnam
 														<a href="https://goo.gl/maps/rqS27QK6Ff97jaY66" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a>
 													</dd>

@@ -70,198 +70,69 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/GGeBfsz6NMU?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/VykcwlHohz0?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
-                               <iframe type="text/html" src="https://www.youtube.com/embed/8IbiXLxmKQo?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                               <iframe type="text/html" src="https://www.youtube.com/embed/ei_mAu4-_hU?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             </div>
                             <div class="narration-box">
                                 <a href="#" class="btn-narration"><spring:message code="rsroom.narration" text="내레이션 보기"/><i class="ico-more2"></i></a>
                                <div class="text-box">
  									<c:if test="${LANG eq 'ko'}">
-											어둠이 걷히고,<br>
-											언제나 빛이 머무는 세상.<br>
-											당신을 그 세상에 연결하고<br>
-											더 나은 내일로 나아가게 하는 길.<br>
-											그 길을 대한전선이 만들어 갑니다.<br>
-											미래를 밝히는 힘.<br>
-											가능성을 현실로 바꾸는 의지.<br>
-											We Connect the Future.<br>
-											대한전선.<br>
-											최초라는 이름을 넘어, 최고의 자리를 향해<br>
-											대한전선은 쉼 없이 나아갑니다.<br>
-											대한민국 최초의 종합 전선회사로 출발한 대한전선은<br>
-											끝없는 도전과 혁신으로,<br>
-											‘국내 최초, 세계 최초’의 타이틀을 수없이 거머쥐며<br>
-											전력 및 통신 케이블과 소재 분야를 개척해왔습니다.<br>
-											60여 년이 넘는 성장의 역사를 일구어 온 대한전선.<br>
-											아시아와 중동, 오세아니아를 넘어<br>
-											유럽과 미주, 아프리카까지,<br>
-											주요 시장에 생산 기지와 지사를 구축하고<br>
-											전 세계가 신뢰하는 기술과 품질을 선보이며<br>
-											글로벌 기업으로서의 위상을 높여가고 있습니다.<br>
-											그리고 이제 대한전선은<br>
-											고객 가치 창출에 기여한다는 사명감,<br>
-											보다 강력해진 기술력과 네트워크,<br>
-											완전히 새로워진 모습으로<br>
-											케이블 & 솔루션 산업의 미래를 열어갑니다.<br>
-											당진공장을 중심으로 전 세계의 생산 거점에서,<br>
-											대한전선은, 완벽한 품질을 실현합니다.<br>
-											대한전선 기술의 중심이자 핵심 동력인 당진공장.<br>
-											단일 전선공장으로 세계 최대 규모를 자랑하는 당진공장은<br>
-											최첨단 생산라인과 친환경 시스템을 갖춘<br>
-											스마트 & 그린 팩토리 입니다.<br>
-											초고압, 산업전선, 통신, 소재 등의 단위 공장과<br>
-											세계 최고 높이의 VCV 타워에서,<br>
-											도체 생산부터 완제품 시험까지 모든 공정을 원-스톱으로 수행하며 완벽한 제품을 생산합니다.<br>
-											또한, 전력기기 공장을 갖추고<br>
-											세계 최고 수준의 케이블 접속재를 만들고 있습니다.<br>
-											이뿐 아니라, 세계 시장의 전략적 요충지에<br>
-											생산 거점을 확보하고 있습니다.<br>
-											신규 투자로 글로벌 경쟁력을 갖춘 베트남의 ‘대한 비나’,<br>
-											사우디 최초의 HV급 전력기기 공장 ‘사우디 대한’<br>
-											아프리카 시장 진출의 교두보인 남아공 ‘엠텍’까지<br>
-											대한전선은 글로벌 생산법인을 통해<br>
-											전 세계의 모든 고객의 요구와 시장의 변화에<br>
-											신속하고 유연하게 대응하고 있습니다.<br>
-											어둠을 밝히는 전등불부터 공장을 움직이는 동력까지,<br>
-											대한전선은 세상 모든 곳에 에너지와 정보를 전합니다.<br>
-											1976년 154kV OF 케이블을 개발하며<br>
-											대한민국 초고압 시대의 문을 연 대한전선은<br>
-											북미 상용화의 첫 기록을 세운 500kV XLPE 케이블,<br>
-											장거리 대용량 송전이 가능한 HVDC와 해저케이블,<br>
-											2km에 달하는 장조장 XLPE 케이블까지<br>
-											초고압케이블 분야의 개척자로서 차별화된 가치를 만듭니다.<br>
-											또한, 대용량 송전이 가능한 가공선과 중저압 케이블,<br>
-											내화 및 난연케이블, 부스덕트와 전차선까지<br>
-											대한전선은 고객의 다양한 요구에 최적화된 제품을 제공합니다.<br>
-											아울러, 전력망의 안정성과 신뢰성을 확보하기 위해,<br>
-											고도의 기술력과 노하우를 바탕으로 케이블 접속재를 생산하고 있습니다.<br>
-											시스템 디자인부터, 생산, 시험, 접속과 시공, 진단과 유지보수에 이르기까지,<br>
-											대한전선은 완벽한 토탈 솔루션으로 어떤 환경에서도 안정적인 전력망을 구축합니다.<br>
-											또한, 국내외 주요 시장의 네트워크 구축에<br>
-											핵심적인 역할을 수행하고 있습니다.<br>
-											5G에 발맞춰 대용량의 데이터를<br>
-											안전하고 빠르게 주고받을 수 있도록<br>
-											동축케이블부터, 데이터케이블, 광케이블까지,<br>
-											모든 네트워크 영역에서 정교한 기술을 제공합니다.<br>
-											전기, 전자 등의 기초 소재로 사용되는 소재.<br>
-											대한전선은 지속적인 기술개발과<br>
-											풍부한 설비 운영 경험을 바탕으로<br>
-											초정밀 구리 소재를 공급하며 관련 산업 전반의<br>
-											경쟁력 향상에 기여하고 있습니다.<br>
-											대한전선은 기술연구소를 중심으로<br>
-											한발 앞선 기술을 선보이며 케이블 산업을 선도해 왔습니다.<br>
-											앞으로도 차세대 제품과 소재를 개발하고<br>
-											창의적인 솔루션을 제공하며 케이블 산업의 로드맵을 제시하겠습니다.<br>
-											아울러, 기술훈련센터를 통해<br>
-											세계 각국의 고객사와 협력사에 전문 교육을 제공하며,<br>
-											엔지니어 양성과 전선 기술 고도화에 기여해 나가겠습니다.<br>
-											더 나은 미래로 나아가기 위한 노력,<br>
-											대한전선 안에서 시작됩니다.<br><br>
-											
-											투명하고 일관된 윤리경영으로 원칙을 지키는 대한전선은<br>
-											사람 중심의 기업문화를 통해 고객 감동을 추구하고 발전된 미래를 실현합니다.<br>
-											고객에게 받은 사랑을 더 큰 사랑으로 키우는 바른 기업으로 성장해 나가겠습니다.<br>
-											최고의 기술과 품질의 실현으로,<br>
-											멈추지 않는 도전과 혁신으로,<br>
-											우리가 맞을 내일,<br>
-											우리가 꿈꾸는 희망,<br>
-											우리가 기대하는 미래를 향해<br>
-											두려움 없이<br>
-											새 길을 열어 가겠습니다.<br>
-											대한전선<br>
+											어둠이 걷히고, 언제나 빛이 머무는 세상. 당신을 그 세상에 연결하고 더 나은 내일로 나아가게 하는 길. 그 길을 대한전선이 만들어 갑니다. 미래를 밝히는 힘. 가능성을 현실로 바꾸는 의지. We Connect the Future. 대한전선. <br />
+											최초라는 이름을 넘어, 최고의 자리를 향해 대한전선은 쉼 없이 나아갑니다.<br />
+											대한민국 최초의 전선회사로 출발한 대한전선은 끝없는 도전과 혁신으로, ‘국내 최초, 세계 최초’의 타이틀을 수없이 거머쥐며 전력 및 통신 케이블과 소재 분야를 개척해왔습니다.<br />
+											70년 성장의 역사를 일구어 온 대한전선. 아시아와 중동, 오세아니아를 넘어 유럽과 미주, 아프리카까지, 주요 시장에 생산 기지와 지사를 구축하고 전 세계가 신뢰하는 기술과 품질을 선보이며 글로벌 기업으로서의 위상을 높여가고 있습니다.<br />
+											그리고 이제 대한전선은 호반그룹에서 새로운 100년을 시작하며, 고객 가치 창출에 기여한다는 사명감, 더욱 강력해진 기술력과 네트워크, 완전히 새로워진 모습으로 케이블 & 솔루션 산업의 미래를 열어갑니다. <br />
+											당진공장을 중심으로 전 세계의 생산 거점에서, 대한전선은 완벽한 품질을 실현합니다.<br />
+											대한전선 기술의 중심이자 핵심 동력인 당진공장. 단일 전선공장으로 세계 최대 규모를 자랑하는 당진공장은 최첨단 생산라인과 친환경 시스템을 갖춘 스마트 & 그린 팩토리 입니다. 초고압, 산업전선, 통신, 소재 등의 단위 공장과 세계 최고 수준의VCV타워에서, 도체 생산부터 완제품 시험까지 모든 공정을 원-스톱으로 수행하며 완벽한 제품을 생산합니다.<br />
+											또한, 고도화된 설비의 전력기기 공장을 갖추고 케이블 접속재를 공급하고 있습니다. <br />
+											세계 시장의 전략적 요충지에 생산 거점을 확보하기 위한 노력도 지속하고 있습니다. <br />
+											해상풍력 사업을 위한 해저케이블 임해공장, 글로벌 경쟁력을 갖춘 대한비나, 사우디 초고압 케이블 공장과 전력기기 공장, 쿠웨이트 최초의 광케이블 생산 법인과 아프리카 진출의 교두보인 남아공 엠텍까지 대한전선은 글로벌 현지화를 통해 전 세계 모든 고객의 요구와 시장의 변화에 신속하고 유연하게 대응합니다.<br />
+											어둠을 밝히는 전등불부터 공장을 움직이는 동력까지, 대한전선은 세상 모든 곳에 에너지와 정보를 전합니다.<br />
+											1976년 154kV OF케이블을 개발하며 대한민국 초고압 시대의 문을 연 대한전선은 북미 상용화의 첫 기록을 세운 500kV XLPE 케이블, 장거리 대용량 송전이 가능한 HVDC와 해저케이블, 2km에 달하는 장조장 XLPE 케이블까지<br />
+											초고압케이블 분야의 개척자로서 차별화된 가치를 만듭니다. 대용량 송전이 가능한 가공선과 중저압 케이블, 내화 및 난연케이블, 부스덕트와 전차선 등 고객의 다양한 요구에 최적화된 제품을 제공합니다.<br />
+											아울러, 전력망의 안정성과 신뢰성 확보를 위해, 고도의 기술력과 노하우를 바탕으로 케이블 접속재를 생산하고 있으며, 시스템 디자인부터, 생산, 시험, 접속과 시공, 진단과 유지보수에 이르기까지, 완벽한 토탈 솔루션으로 어떤 환경에서도 안정적인 전력망을 구축합니다.<br />
+											대한전선은 에너지 전환과 탄소 중립 기조에 발 맞춰 해상풍력, 태양광 등 신재생에너지 발전에 특화된 제품을 개발하고, 생산합니다.<br />
+											또한 국내외 주요 시장의 네트워크 구축에 핵심적인 역할을 수행하고 있습니다. 5G에 발맞춰 대용량의 데이터를 안전하고 빠르게 주고받을 수 있도록 동축케이블부터, 데이터케이블, 광케이블까지, 모든 네트워크 영역에서 정교한 기술을 제공합니다.<br />
+											전기, 전자 등의 기초 소재로 사용되는 소재. 대한전선은 지속적인 기술개발과 풍부한 설비 운영 경험을 바탕으로 초정밀 구리 소재를 공급하며 관련 산업 전반의 경쟁력 향상에 기여하고 있습니다. <br />
+											대한전선은 기술연구소를 중심으로 한발 앞선 기술을 선보이며 케이블 산업을 선도합니다. 차세대 제품과 소재를 개발하고 창의적인 솔루션을 제공하며 케이블 산업의 로드맵을 제시하겠습니다. 아울러, 기술훈련센터를 통해
+											세계 각국의 고객사와 협력사에 전문 교육을 제공하며, 엔지니어 양성과 전선 기술 고도화에 기여하겠습니다. <br />
+											지속 가능한 미래로 나아가는 길, 대한전선 안에서 시작됩니다.<br />
+											미래 세대를 위해 환경을 먼저 생각하고 건강한 나눔으로 소외 없는 세상을 만들며, 투명하고 공정한 기업 문화를 통해 더 나은 내일을 실현합니다. <br />
+											고객에게 받은 사랑을 더 큰 사랑으로 키우는 바른 기업으로 성장해 나가겠습니다.<br />
+											최고의 기술과 품질의 실현으로, 멈추지 않는 도전과 혁신으로, 우리가 맞을 내일, 우리가 꿈꾸는 희망, 우리가 기대하는 미래를 향해 새 길을 열어 가겠습니다. 대한전선.<br /> 
 									</c:if>
  									<c:if test="${LANG eq 'en'}">
-										The world where darkness is gone
-										and light always stays
-
-										The way to connect you to the world
-										and lead you to a better tomorrow.
-										Taihan makes that way.
-
-										The power to light up the future.
-										The willingness to make the possibility real.
-										We Connect the Future.
-										Taihan
-										Beyond the first, towards the top (Pause)
-										Taihan keeps moving forward.
-										Starting as the first comprehensive cable company in Korea,
-										Taihan has pioneered in the fields of power and communication cable and base metal
-										by constantly challenging and innovating,
-										holding the titles of ‘the first in Korea and the first in the world' repeatedly.
-										With the history of growth over 60 years,
-										Taihan has established subsidiaries and branch offices in major Markets
-										across Asia, the Middle East and Oceania, Europe, the Americas, and Africa.
-										Taihan is raising its position as a global leading company
-										by demonstrating world-class technology and quality.
-										And now,
-										Taihan is opening up the future of the cable & solution industry
-										with our focus on commitment for contribution to customer value,
-										stronger technology and network based on the completely new image.
-										Taihan realizes perfect quality at its production bases all over the world
-										including Dangjin Plant.
-										The center of Taihan's technology and the key engine of competitiveness.
-
-										Dangjin Plant is the world’s largest cable manufacturing plant as a single one,
-										And it is a smart and green factory with state-of-the-art production lines and eco-friendly systems.
-										At its unit factories of EHV cable, industrial cable, communication cable, base metal, etc.
-										and at VCV tower with world's highest height,
-										Dangjin Plant performs all the processes from conductor production to finished-product testing at one-stop and produces perfect products.
-										In addition, we are making the world's best cable accessories
-										at Dangjin Accessories Plant.
-										Furthermore, we are securing production bases in strategic areas of the global market.
-
-										Taihan Vina’ with global competitiveness in Vietnam based on its new investments;
-
-										‘Saudi Taihan’, the first HV-class power equipment plant in Saudi Arabia,
-										and South Africa's M-TEC, the bridgehead of African market entry,
-
-										Through our global manufacturing subsidiaries, we have responded quickly and flexibly to the needs of all our customers and market changes around the world.
-										From light bulbs which light up the darkness to power which drives the factory,
-										Taihan delivers energy and information all over the world.
-										Taihan, which developed the 154kV OF cable in 1976
-										and opened the door to the extra-high voltage era of Korea.
-										Taihan has created differentiated value as a pioneer in this field
-										including 500kV XLPE cable, which were first commercialized in North America,
-										HVDC and submarine cable, which are capable of long-distance high-capacity transmission, and long-distance XLPE cable measuring longer than 2km.
-										In addition, such as overhead conductor for high-capacity transmission
-										and medium and low-voltage cable, refractory and flame retardant cable,
-										bus duct and trolley wire,
-										Taihan provides optimized products to meet customers' various needs.
-										Furthermore, in order to secure the stability and reliability of the power grid,
-										we are producing cable accessories based on our advanced technology and know-how.
+										The world where darkness is gone and light always stays. The way to connect you to the world and lead you to a better tomorrow.Taihan makes that way.The power to light up the future. The willingness to make the possibility real.We Connect the Future.Taihan.
+										Beyond the first, towards the top. Taihan keeps moving forward.
+										Starting as the first cable company in Korea,Taihan has pioneered in the fields of power and communicationcable and base metalby constantly challenging and innovating, holding the titles of‘the first in Korea and the first in theworld' repeatedly.
+										A history of growth spanning 70 years.Taihan has established subsidiaries and branch offices in majorMarketsacrossAsia, the Middle East and Oceania, Europe, the Americas, and Africa.Taihan is raising its position as a global leading companyby demonstrating world-class technology and quality.
+										And now Taihan begins a new century in Hoban Group, and strives to pave the way for creating a better future of the cable & solution industry, completely renewing its image by focusing on commitment for contribution to customer value, and developing stronger technology and network.
+										Taihan realizes perfect quality starting from Dangjin plantto production bases all over the world.
+										Dangjin Plant, the center of Taihan's technology and the key engine of our competitiveness, is the world’s singlelargest cable manufacturing plant and a smart and green factory with state-of-the-art production lines and eco-friendly systems.
+										At its unit factories of EHV cable, industrial cable, communication cable, base metal, etc.and at VCV tower with the world's most advanced technology.Dangjin Plant performs all the processes from conductorproduction to finished-product testing at one-stop andproduces perfect products.
+										In addition, we are making the world's best cable accessoriesat Dangjin Cable Accessory Plant with advanced facilities.
+										Furthermore, Taihan continuously strives to secure production bases in strategic areas of the global market.Submarine cable plant for the offshore wind power industry,'Taihan VINA' with a competitive global edge,Extra high voltage cable and Cable accessory plant in Saudi Arabia,First optical cable production company in Kuwait,'M-TEC', a bridgehead for African market entry in South Africa.
+										Through global localization, Taihan quickly and flexibly adapts to market changes and the needs of customers all around the world.
+										From light bulbs which light up the darkness to power which drives the factory, Taihan delivers energy and information all over the world. Taihan, which developed the 154kV OF cable in 1976 
+										and opened the door to the extra-high voltage era of Korea, is a pioneer in the extra-high voltage industry, including 500kV XLPE cable, for which we are holding the record for the first commercialization in North America, HVDC and submarine cable, which are capable of long-distance high-capacity transmission, and optimized long length extruded cable, and create differentiated values.
+										In addition, such as overhead conductor for high-capacity transmission and medium and low-voltage cable, refractory and flame retardant cable, busduct and trolley wire, Taihan provides optimized products to meet customer’s various needs.
+										Furthermore, in order to secure the stability and reliability of the power grid, we are producing cable accessories based on our advanced technology and know-how.
 										From system design, production, test, connection and construction to diagnosis and maintenance, Taihan has the perfect total solution to build a stable power network in any environment.
-										In addition, Taihan plays a key role to build network in major local & global markets.
-										Taihan provides sophisticated technology in all network areas
-										such as coaxial cable, data cable, optical cable, etc.
-										to securely and quickly send and receive large amounts of data
-										keeping steps with 5G.
-										Base metals used as basic materials for electricity, electronics, etc.
-										Based on continuous technology developments and abundant facility operation experiences,
-										Taihan supplies ultra-precision copper rods and contributes to improving the competitiveness of the related industries.
-										Taihan has been leading the cable industry by introducing advanced technology
-										under the leadership of its Technology Research Center.
-										We will continue to develop next-generation products and materials,
+										Taihan specializes in the development and manufacturing of products for renewable energy generation, such as offshore wind and solar power, in line with current energy transition and carbon neutrality strategies.
+										In addition, Taihan plays a key role to build network in major local & global markets. Taihan provides sophisticated technology in all network areas such as coaxial cable, data cable, optical cable, etc. to securely and quickly send and receive large amounts of data keeping steps with 5G.
+										Base metals used as basic materials for electricity, electronics, etc. Based on continuous technology developments and abundant facility operation experiences, Taihan supplies ultra-precision copper rods and contributes to improving the competitiveness of the related industries.
+										Taihan has been leading the cable industry by introducing advanced technology under the leadership of its Technology Research Center. We will continue to develop next-generation products and materials,
 										provide creative solutions, and present a road map for the cable industry.
-										Also, we will provide professional training to our customers and partners around the world
-										through the Technology Training Center.
-										And, we will contribute to the training of engineers and advancement of cable technology.
-										Efforts to advance to a better future are triggered within Taihan.
+										In addition, we will train engineers and contribute to the advancement of cable technology by providing professional education to our customers and partners around the world through the Technology Training Center.
+										The road to a sustainable future starts with Taihan.
+										Taihan puts the environment first for the sake of future generations, fosters cooperation to create a healthier world, and envisions a better tomorrow with a transparent and fair corporate culture. 
+										We will grow into a reputable company that achieves greater success thanks to its customer’s support.
+										With the realization of the best technology and quality, with continuous challenges and innovations,
+										Toward tomorrow that we will meet, hope that we dream, the future that we expect We will open up a new path. Taihan.
 
-										Taihan is guided by transparent and coherent ethical management.
-										We pursue customer satisfaction and realize the advanced future
-										with our people-oriented corporate culture.
-										We will grow into a company that raises the adoration we receive
-										from our customers to a greater level.
-										With the realization of the best technology and quality,
-										with continuous challenges and innovations,
-										Toward tomorrow that we will meet,
-										hope that we dream,
-										the future that we expect
-										We will open up a new path without fear.
-										Taihan
 
 									</c:if>
 								</div>
