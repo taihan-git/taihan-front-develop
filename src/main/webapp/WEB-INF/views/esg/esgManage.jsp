@@ -48,10 +48,10 @@
 					</div>
 				</div>
 
-				<div class="full-text">
-					<strong data-delighter>Together</strong>
-					<strong data-delighter>for Tomorrow</strong>
-				</div>
+<%--				<div class="full-text">--%>
+<%--					<strong data-delighter>Together</strong>--%>
+<%--					<strong data-delighter>for Tomorrow</strong>--%>
+<%--				</div>--%>
 
 				<div class="content-box">
 					<div class="inner-box">
