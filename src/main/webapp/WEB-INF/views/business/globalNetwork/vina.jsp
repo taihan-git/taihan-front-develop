@@ -271,7 +271,7 @@
 
 					<div class="title-wrap">
 						<div class="inner-box">
-							<h3 class="title-type">Taihan VINA, Vietnamese Production Firm</h3>
+							<h3 class="title-type">Taihan VINA, Vietnamese Production Subsidiary</h3>
 							<p>A strategic foothold toward the global market</p>
 						</div>
 					</div>
@@ -280,7 +280,7 @@
 						<div class="bg v3"></div>
 						<div class="inner-box">
 							<p class="desc">
-								Taihan VINA is a cable production firm with a comprehensive array of products. Located in the heart of Vietnamese economy and culture in Ho Chi Minh City, it is strategically placed to target the global market and growing rapidly on the rising wave of Vietnamese economic growth and expanding power infrastructure needs. Continuous facility upgrades and technology investment make Taihan VINA products stand out from the crowd, and the firm is expanding its influence beyond the domestic market to the global.
+								Taihan VINA is a cable production subsidiary with a comprehensive array of products. Located in the heart of Vietnamese economy and culture in Ho Chi Minh City, it is strategically placed to target the global market and growing rapidly on the rising wave of Vietnamese economic growth and expanding power infrastructure needs. Continuous facility upgrades and technology investment make Taihan VINA products stand out from the crowd, and the firm is expanding its influence beyond the domestic market to the global.
 							</p>
 
 							<ul class="list-summary">

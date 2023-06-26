@@ -88,7 +88,7 @@
 		<div class="content-box bg">
 			<div class="inner-box">
 				<div class="detail-wrap2 right" data-delighter>
-					<strong class="title">사우디대한 케이블&솔루션과의 시너지</strong>
+					<strong class="title">신규 생산법인과의 시너지 창출</strong>
 					<div class="img-flex">
 						<img src="${CON_STATIC_URL}/asset/images/business/global_detail/cont05/img02.jpg">
 					</div>
@@ -297,8 +297,7 @@
 			<div class="inner-box">
 				<div class="detail-wrap2 right" data-delighter>
 					<!-- 2022-10-26 텍스트 수정 -->
-					<strong class="title">Unstoppable Synergy with<br>
-						Saudi Taihan Cable & Solution</strong>
+					<strong class="title">Create synergies with new production subsidiary</strong>
 					<!-- //2022-10-26 텍스트 수정 -->
 					<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/cont05/img02.jpg"></div>
 					<p class="text">

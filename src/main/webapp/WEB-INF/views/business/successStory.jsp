@@ -32,7 +32,7 @@
 					<c:if test="${LANG eq 'en' }">
 						<div class="title-wrap v2">
 							<strong class="title-type">
-								Taihan Cable & Solution manufactures<br>
+								Taihan manufactures<br>
 								high-performance, high-quality products<br>
 								with accumulated technology and know-how.
 							</strong>
