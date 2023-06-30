@@ -20,7 +20,7 @@
 				<div class="inner-box">
 					<div class="title-wrap4" data-delighter>
 						<h3 class="title-type">이사회 구성</h3>
-						<p>대한전선의 이사회는 사외이사 3인, 사내이사 3인, 총 6인의 이사로 구성되어 있습니다.</p>
+						<p>대한전선의 이사회는 사외이사 3인, 사내이사 3인, 총 6인의 이사로 구성되어 있으며, 이사회 의장은 송종민 대표이사 입니다.</p>
 					</div>
 
 					<div class="table-wrap" data-delighter>
@@ -382,7 +382,9 @@
 					<div class="title-wrap4" data-delighter>
 						<h3 class="title-type">Board of Directors</h3>
 						<p>The board of directors of Taihan Cable & Solution composed total of 6 directors, <br>
-						including 3 outside directors, 3 inside directors.
+						including 3 outside directors, 3 inside directors. <br>
+						The chairmanship of the board of directors is CEO Song Jong Min.
+
 						</p>
 					</div>
 

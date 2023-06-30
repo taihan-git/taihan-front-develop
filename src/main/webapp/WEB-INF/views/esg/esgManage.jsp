@@ -382,7 +382,7 @@
 					<span>ESG 보고서를 통해 확인해보세요.</span>
 				</div>
 				<div class="btn-wrap">
-					<a href="/resources/files/2021-22 ESG Report.pdf" class="btn-type btn-m w-type"  target="_blank">ESG 보고서 다운로드<i class="ico-down"></i></a>
+					<a href="/resources/files/2022-23_ESG_Report.pdf" class="btn-type btn-m w-type"  target="_blank">ESG 보고서 다운로드<i class="ico-down"></i></a>
 				</div>
 			</div>
 			</c:if>
@@ -392,7 +392,7 @@
 					<span>Find out about Taihan’s achievements in ESG activities through ESG Report. </span>
 				</div>
 				<div class="btn-wrap">
-					<a href="/resources/files/2021-22 ESG Report.pdf" class="btn-type btn-m w-type"  target="_blank">ESG Report<i class="ico-down"></i></a>
+					<a href="/resources/files/2022-23_ESG_Report.pdf" class="btn-type btn-m w-type"  target="_blank">ESG Report<i class="ico-down"></i></a>
 				</div>
 			</div>
 			</c:if>
