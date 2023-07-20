@@ -125,12 +125,12 @@
 								<tbody>
 								<tr>
 									<td>사외이사<br>후보추천위원회</td>
-									<td>노상섭<br>이익중</td>
+									<td>노상섭(위원장)<br>이익중</td>
 									<td class="t-l">사외이사후보 추천</td>
 								</tr>
 								<tr>
 									<td>감사위원회</td>
-									<td>이익중<br> 
+									<td>이익중(위원장)<br>
 										이동열<br>
 										노상섭
 									</td>
@@ -138,7 +138,7 @@
 								</tr>
 								<tr>
 									<td>ESG위원회</td>
-									<td>이동열<br>
+									<td>이동열(위원장)<br>
 										이익중<br> 
 										노상섭<br>
 										이기원
@@ -486,14 +486,14 @@
 								<tbody>
 								<tr>
 									<td>Outside Director<br>Recommendation Committee</td>
-									<td>Noh Sang Seop<br>
+									<td>Noh Sang Seop(Chairperson)<br>
 										Lee Ik Jung</td>
 									<td class="t-l">Recommendation of candidates for outside directors</td>
 								</tr>
 								<tr>
 									<td>Audit Committee</td>
 									<td> 
-										Lee Ik Jung<br>
+										Lee Ik Jung(Chairperson)<br>
 										Lee Dong Yeol<br>
 										Noh Sang Seop
 									</td>
@@ -501,7 +501,7 @@
 								</tr>
 								<tr>
 									<td>ESG Committee</td>
-									<td>Lee Dong Yeol<br>
+									<td>Lee Dong Yeol(Chairperson)<br>
 										Lee Ik Jung<br>
 										Noh Sang Seop<br>
 										Lee Ki Won

@@ -33,7 +33,7 @@ public enum EmailAdmin {
     PRODUCTS_RG_1("en_coun_01","Middle East / Africa","mwyu@taihan.com"),
     PRODUCTS_RG_2("en_coun_02","Asia / Oceania","mwyu@taihan.com"),
     PRODUCTS_RG_3("en_coun_03","Europe","wschung@taihan.com"),
-    PRODUCTS_RG_4("en_coun_04","America","hansbak@taihan.com"),
+    PRODUCTS_RG_4("en_coun_04","America","gutesleben12@taihan.com"),
     PRODUCTS_RG_5("en_coun_05","Russia/CIS","alexlee@taihan.com"),
 
     //나머지 제품은 코드값으로 세팅
@@ -41,7 +41,7 @@ public enum EmailAdmin {
     PRODUCTS_EN_2("en_inqu_0103","Cable Accessories","shjung@taihan.com"),
     PRODUCTS_EN_3("en_inqu_0104","Bus-Duct","jjh4869@taihan.com"),
     PRODUCTS_EN_4("en_inqu_0105","Renewable Energy","hoonsmile@taihan.com"),
-    PRODUCTS_EN_5("en_inqu_0106","Communications Cable","pskarl@taihan.com"),
+    PRODUCTS_EN_5("en_inqu_0106","Communications Cable","jwoh@taihan.com"),
     PRODUCTS_EN_6("en_inqu_0107","Base Metal","KJW0721@taihan.com"),
 
     IR_EN_1("en_inqu_02","IR","jwkim@taihan.com"),
