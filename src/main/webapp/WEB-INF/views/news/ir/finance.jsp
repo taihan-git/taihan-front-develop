@@ -46,7 +46,7 @@
 						<c:if test="${LANG eq 'ko'}">
 							<li>
 								<a href="/resources/files/2022_05_business.pdf"  target="_blank" class="img-box"><img src="${CON_STATIC_URL}/asset/images/news/report_business_cover.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></a>
-								<div class="title-box"><strong><spring:message code="finance.2021report3" text="2022년 사업보고서" /></strong></div>
+								<div class="title-box"><strong><spring:message code="finance.2021report3" text="2023년 1분기 보고서" /></strong></div>
 								<div class="btn-wrap">
 									<a href="/resources/files/2022_05_business.pdf" class="btn-type download-type"  target="_blank"><span><spring:message code="finance.download" text="다운로드" /></span><i class="ico-down"></i></a>
 								</div>
