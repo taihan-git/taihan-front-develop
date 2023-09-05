@@ -283,7 +283,7 @@
 							<!-- <img src="../../images/company/img_cont_summary_pc.png" alt="" class="pc-display"> -->
 							<div class="pc-display"><object class="object-vision " type="image/svg+xml" data="${CON_STATIC_URL}/asset/images/company/img_vision.svg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" style="width:991px;"></object></div>
 							<!-- //수정 -->
-<div class="scroll-box mo-display">
+							<div class="scroll-box mo-display">
 								<div class="inner-box">
 									<img src="${CON_STATIC_URL}/asset/images/company/img_cont_summary_mo.png" alt="" style="width:857px;">
 								</div>

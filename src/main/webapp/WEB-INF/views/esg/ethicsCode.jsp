@@ -59,6 +59,21 @@
 						</c:if>
 						
 						<c:if test="${LANG eq 'ko' }">
+
+						<div class="cp-wrap" data-delighter>
+							<div class="text-box">
+								<strong class="title">컴플라이언스 강화 메시지</strong>
+								<p class="text">안녕하십니까. 대한전선 대표이사입니다.</p>
+								<p class="text2">
+									컴플라이언스는 대한전선의 우선 순위이자 핵심 목표입니다.<br>
+									세계 속에서 더욱 신뢰받고 인정받기 위해 모든 구성원의 역할이 중요하다는 점을<br>
+									기억해주시고 함께 실천해 주시기를 당부드립니다.
+								</p>
+								<p class="sign">대한전선 대표이사</p>
+							</div>
+							<div class="btn-box"><a href="${CON_STATIC_URL}/files/Taihan_compliance.pdf" target="_blank" class="btn-type btn-m">컴플라이언스 강화 메시지 전문보기<i class="ico-more2"></i></a></div>
+						</div>
+
 						<p class="text-type v2" data-delighter>
 							대한전선은 윤리경영을 기업경영의 근간으로 삼고 경제적, 법적 책임의 준수를 넘어 윤리적 책임을 수행하기 위해 최선을 다하고 있습니다.<br>
 							어떠한 상황에서도 부당한 영향력을 행사하지 않으며, 공존공영의 원칙 아래 모든 이해관계자의 신뢰와 사랑을 받는 기업이 되겠습니다.

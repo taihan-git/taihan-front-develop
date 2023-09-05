@@ -152,7 +152,7 @@
 					<div class="title-wrap4" data-delighter>
 						<h3 class="title-type">Social Contribution Value System</h3>
 						<p>
-							Under the vision to “work together to make a happier world,” Taihan is committed to
+							Under the vision to “Connected World, Connected Happiness“ Taihan is committed to
 							creating the value of shared growth by connecting people, space and time, and therefore
 							building an inclusive and sustainable future. Taihan disseminate the culture of sharing
 							and grow together with the society by planning and performing activities with its
