@@ -104,9 +104,9 @@ public class EsgServiceImpl implements EsgService {
                     String[] adminMails = null;
                     //em 윤리경영 : cp 공정거래
                     if("em".equals(param.getGubun())){
-                        adminMails = new String[]{"ethics@taihan.com", "open7954@taihan.com"};
+                        adminMails = new String[]{"ethics@taihan.com", "open7954@taihan.com","ymkang@taihan.com","kcjyhm@taihan.com"};
                     }else if("cp".equals(param.getGubun())){
-                        adminMails = new String[]{"sk0485@taihan.com", "kkh@taihan.com","ggonpark@taihan.com","juhyung.daniel.oh@taihan.com","filmactorkbh@taihan.com"};
+                        adminMails = new String[]{"compliance@taihan.com", "eunsukoh@taihan.com","lkshkshl@taihan.com"};
                     }
                     if(adminMails != null){
                         for (String adminMail : adminMails) {

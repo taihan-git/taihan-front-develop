@@ -191,7 +191,7 @@
 										<li>
 											<dl>
 												<dt><i class="ico-tel"></i>연락처</dt>
-												<dd><a href="tel:02-316-9469">02-316-9469</a></dd>
+												<dd><a href="tel:02-316-9469">02-316-9488</a></dd>
 											</dl>
 										</li>
 										<li>
@@ -208,7 +208,7 @@
 							</li>
 							<li data-delighter>
 								<div class="title-box">
-									<strong class="title">공정거래 자율준수</strong>
+									<strong class="title">컴플라이언스</strong>
 								</div>
 								<div class="desc-box">
 									<ul class="list-info">
@@ -221,13 +221,13 @@
 										<li>
 											<dl>
 												<dt><i class="ico-tel"></i>연락처</dt>
-												<dd><a href="tel:02-316-9196">02-316-9196</a></dd>
+												<dd><a href="tel:02-316-9196">02-316-9469</a></dd>
 											</dl>
 										</li>
 										<li>
 											<dl>
 												<dt><i class="ico-post"></i>우편</dt>
-												<dd>서울특별시 서초구 양재대로2길 18 호반파크 2관 대한전선 공정거래자율준수팀</dd>
+												<dd>서울특별시 서초구 양재대로2길 18 호반파크 2관 대한전선 준법지원팀</dd>
 											</dl>
 										</li>
 
