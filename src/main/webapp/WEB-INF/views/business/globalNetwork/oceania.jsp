@@ -58,8 +58,8 @@
 						<ul class="list-store">
 							<li>
 								<div class="title-box">
-									<span class="label v5">지사</span>
-									<strong class="title">호주</strong>
+									<span class="label v4">영업법인</span>
+									<strong class="title">Taihan Australia</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -101,8 +101,8 @@
 							</li>
 							<li>
 								<div class="title-box">
-									<span class="label v5">지사</span>
-									<strong class="title">뉴질랜드</strong>
+									<span class="label v4">영업법인</span>
+									<strong class="title">Taihan New Zealand</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -163,8 +163,8 @@
 								<ul class="list-store">
 									<li>
 										<div class="title-box">
-											<span class="label v5">Branch Office</span><!-- 2022-11-11 수정 -->
-											<strong class="title">Australia</strong>
+											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
+											<strong class="title">Taihan Australia</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -206,8 +206,8 @@
 									</li>
 									<li>
 										<div class="title-box">
-											<span class="label v5">Branch Office</span><!-- 2022-11-11 수정 -->
-											<strong class="title">New Zealand</strong>
+											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
+											<strong class="title">Taihan New Zealand</strong>
 										</div>
 										<ul class="list-info">
 											<li>

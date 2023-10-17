@@ -41,7 +41,7 @@
 							<dl>
 								<dt><spring:message code="globalNetwork.sumary2" text="해외 법인"></spring:message></dt>
 								<dd>
-									<strong id="counting2">7</strong><spring:message code="globalNetwork.count" text="개"></spring:message>
+									<strong id="counting2">8</strong><spring:message code="globalNetwork.count" text="개"></spring:message>
 								</dd>
 							</dl>
 						</li>
@@ -50,7 +50,7 @@
 							<dl>
 								<dt><spring:message code="globalNetwork.sumary3" text="해외 지사"></spring:message></dt>
 								<dd>
-									<strong id="counting3">16</strong><spring:message code="globalNetwork.count" text="개"></spring:message>
+									<strong id="counting3">15</strong><spring:message code="globalNetwork.count" text="개"></spring:message>
 								</dd>
 							</dl>
 						</li>
@@ -112,7 +112,7 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">지사<strong>2</strong></span>
+									<span class="item">영업법인<strong>2</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -124,8 +124,8 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">생산법인<strong>3</strong></span>
-									<span class="item">지사<strong>5</strong></span>
+									<span class="item">생산법인<strong>2</strong></span>
+									<span class="item">지사<strong>6</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -208,7 +208,7 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Branch Office <strong>2</strong></span>
+									<span class="item">Sales Subsidiary <strong>2</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -220,8 +220,8 @@
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
-									<span class="item">Production Subsidiary<strong>3</strong></span>
-									<span class="item">Branch Office<strong>5</strong></span>
+									<span class="item">Production Subsidiary<strong>2</strong></span>
+									<span class="item">Branch Office<strong>6</strong></span>
 									<i class="ico-arr"></i>
 								</div>
 							</a>
@@ -291,9 +291,9 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/vina" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace03.jpg" alt="">
-											<strong class="title">taihan VINA<i class="ico-arr"></i></strong>
+											<strong class="title">Taihan VINA<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">taihan VINA<i class="ico-arr"></i></strong> <span class="sub">글로벌 시장 공략의 전략적 요충지</span>
+										<strong class="title">Taihan VINA<i class="ico-arr"></i></strong> <span class="sub">글로벌 시장 공략의 전략적 요충지</span>
 										<p class="desc">베트남에 위치한 종합전선회사로 동남아시아를 비롯해 미주, 오세아니아 등까지 진출하며 글로벌 시장으로 영향력을 확장하고 있습니다.</p>
 									</a>
 								</li>
@@ -311,9 +311,9 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/saudi" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace05.jpg" alt="">
-											<strong class="title">Saudi taihan<i class="ico-arr"></i></strong>
+											<strong class="title">Saudi Taihan<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">Saudi taihan<i class="ico-arr"></i></strong> <span class="sub">중동 전력기기 생산의 메카</span>
+										<strong class="title">Saudi Taihan<i class="ico-arr"></i></strong> <span class="sub">중동 전력기기 생산의 메카</span>
 										<p class="desc">GCC 지역 최초이자 유일한 HV(High Voltage)급 케이블 접속기기 제조업체로, 중동 전력기기 시장의 주요 공급자로 자리매김하였습니다.</p>
 									</a>
 								</li>
@@ -349,9 +349,9 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/vina" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace03.jpg" alt="">
-											<strong class="title">taihan VINA<i class="ico-arr"></i></strong>
+											<strong class="title">Taihan VINA<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">taihan VINA<i class="ico-arr"></i></strong>
+										<strong class="title">Taihan VINA<i class="ico-arr"></i></strong>
 										<span class="sub">A strategic foothold toward the global market</span>
 										<p class="desc">
 											Taihan VINA is a general cable company located in Ho Chi Minh City, Vietnam, and has been producing a wide range of power and communication cables.
@@ -375,12 +375,12 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/saudi" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace05.jpg" alt="">
-											<strong class="title">Saudi taihan<i class="ico-arr"></i></strong>
+											<strong class="title">Saudi Taihan<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">Saudi taihan<i class="ico-arr"></i></strong>
+										<strong class="title">Saudi Taihan<i class="ico-arr"></i></strong>
 										<span class="sub">Cable accessory production in the heart of the Middle East</span>
 										<p class="desc">
-											Saudi taihan is the first and only HV (High Voltage) cable accessory manufacturer in the GCC region. Established through a joint investment with Mohammed Al-Ojaimi Group, an EPC specializing in power transmission and distribution in Saudi Arabia, Saudi taihan is located in an industrial area near the capital Riyadh.
+											Saudi Taihan is the first and only HV (High Voltage) cable accessory manufacturer in the GCC region. Established through a joint investment with Mohammed Al-Ojaimi Group, an EPC specializing in power transmission and distribution in Saudi Arabia, Saudi Taihan is located in an industrial area near the capital Riyadh.
 										</p>
 									</a>
 								</li>
@@ -397,8 +397,8 @@
 <script>
 	$(document).ready(function() {
 		$('#counting1').numberCounting({ counting: 7, terms: 7, countingTime: 150 });//2022-10-20 수정
-		$('#counting2').numberCounting({ counting: 7, terms: 7, countingTime: 150 });//2022-10-20 수정
-		$('#counting3').numberCounting({ counting: 16, terms: 16, countingTime: 50 });
+		$('#counting2').numberCounting({ counting: 8, terms: 8, countingTime: 150 });//2022-10-20 수정
+		$('#counting3').numberCounting({ counting: 15, terms: 15, countingTime: 50 });
 
 		console.log('lang = ',lang);
 

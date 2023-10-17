@@ -60,12 +60,12 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">영업법인</span>
-									<strong class="title">taihan USA</strong>
+									<strong class="title">Taihan USA</strong>
 								</div>
 								<ul class="list-info">
 									<li>
 										<p class="desc">
-											taihan USA는 미국 진출을 본격화하기 위해 2000년에 설립되었습니다. 독보적인 품질과 기술력을 바탕으로<br>
+											Taihan USA는 미국 진출을 본격화하기 위해 2000년에 설립되었습니다. 독보적인 품질과 기술력을 바탕으로<br>
 											북미 전역에 초고압과 중저압, 가공선 등 다양한 제품을 제공해오며, 미국 내 주요 공급자로 확고히 자리매김했습니다.
 										</p>
 									</li>
@@ -207,7 +207,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span>
-											<strong class="title">taihan USA</strong>
+											<strong class="title">Taihan USA</strong>
 										</div>
 										<ul class="list-info">
 											<li>

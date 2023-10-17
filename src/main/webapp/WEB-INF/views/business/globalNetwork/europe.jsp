@@ -59,7 +59,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">영업법인</span>
-									<strong class="title">taihan Netherlands</strong>
+									<strong class="title">Taihan Netherlands</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -85,7 +85,10 @@
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
-											<dd><a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a></dd>
+											<dd>
+												<a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a><br/>
+												<a href="mailto:zadeljd@taihan.com">zadeljd@taihan.com</a>
+											</dd>
 										</dl>
 									</li>
 								</ul>
@@ -243,13 +246,13 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan Netherlands</strong>
+											<strong class="title">Taihan Netherlands</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													Taihan established taihan Netherlands B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, taihan Netherlands B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
+													Taihan established Taihan Netherlands B.V. in September 2019 to enhance its competitive position ensuring it wins contracts in the European market considered to be the birthplace of the electric power industry. Furthermore, Taihan Netherlands B.V. is expanding its territory in the Europe as it obtains more orders by devising sales strategies considering the local industries, economies, etc.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
@@ -268,7 +271,10 @@
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
-													<dd><a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a></dd>
+													<dd>
+														<a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a><br/>
+														<a href="mailto:zadeljd@taihan.com">zadeljd@taihan.com</a>
+													</dd>
 												</dl>
 											</li>
 										</ul>

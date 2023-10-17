@@ -70,9 +70,9 @@
 								<dl>
 									<dt><spring:message code="overview.year1" text="설립연도"/></dt>
 									<!-- 2022-10-19 문구수정 -->
-									<dd><strong>1941</strong><spring:message code="overview.year2" text="년"/>
+									<dd><strong>1955</strong><spring:message code="overview.year2" text="년"/>
 									<c:if test="${LANG eq 'ko' }">
-									<span class="add-text">*조선전선</span>
+									<span class="add-text">(조선전선 1941년)</span>
 									</c:if>
 									<c:if test="${LANG eq 'en' }">
 									<span class="add-text">*Chosun Electric Wire</span>
@@ -85,7 +85,7 @@
 								<div class="icon-img"><img src="${CON_STATIC_URL}/asset/images/icon/icon_motion02.gif" alt=""></div>
 								<dl>
 									<dt><spring:message code="overview.nation1" text="진출 국가"/></dt>
-									<dd><strong><spring:message code="overview.nation3" text="100+"/></strong><spring:message code="overview.nation2" text="개국"/></dd>
+									<dd><strong><spring:message code="overview.nation3" text="100+"/></strong><spring:message code="overview.nation2" text="개 국"/></dd>
 								</dl>
 							</li>
 							<li>
@@ -93,12 +93,12 @@
 								<dl>
 								<c:if test="${LANG eq 'ko' }">
 									<dt><span>글로벌</span> <span>영업망</span></dt>
-									<dd><span><strong>7</strong>개 법인</span> <span><strong>16</strong>개 지사</span></dd>
+									<dd><span><strong>8</strong>개 법인</span> <span><strong>15</strong>개 지사</span></dd>
 								</c:if>
 								<c:if test="${LANG eq 'en' }">
 									<dt><span>Global</span> <span>Network</span></dt>
 									<!-- 2022-11-15 수정 -->
-									<dd><span><strong>7</strong>Subsidiaries</span> <span><strong>16</strong>Bransh Offices</span></dd>
+									<dd><span><strong>8</strong>Subsidiaries</span> <span><strong>15</strong>Branch Offices</span></dd>
 									<!-- //2022-11-15 수정 -->
 								</c:if>
 								</dl>

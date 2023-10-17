@@ -59,7 +59,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">Saudi taihan</strong>
+									<strong class="title">Saudi Taihan</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -86,7 +86,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+												<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
 												<!--br>
 												<a href="mailto:si.kim@sauditaihan.com">si.kim@sauditaihan.com</a-->
 											</dd>
@@ -96,51 +96,51 @@
 								<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/saudi" class="btn-detail">자세히보기<i class="ico-arr"></i></a>
 							</li>
 							<!-- 2022-10-19 추가 -->
-							<li>
-								<div class="title-box">
-									<span class="label v4">생산법인</span>
-									<strong class="title">Saudi taihan <br />Cable & Solution <br />(설립 추진중)</strong>
-								</div>
-								<ul class="list-info">
-									<li>
-										<dl>
-											<dt><i class="ico-location"></i>주소</dt>
-											<dd>Office No. 18, 3rd Floor, Complex(7) Commercial Center, King Abdul Aziz Road (Near Kingdom Hospital & Kingdom School)
-											P.O.Box 300201, Riyadh 11372, KSA<a href="https://goo.gl/maps/Mzt3UecSrksrrmGx5" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
-										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>
-										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt><i class="ico-fax"></i>팩스</dt>
-											<dd>+966-11-229-7754</dd>
-										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt><i class="ico-mail"></i>메일</dt>
-											<dd>
-												<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
-											</dd>
-										</dl>
-									</li>
-								</ul>
-							</li>
+<%--							<li>--%>
+<%--								<div class="title-box">--%>
+<%--									<span class="label v4">생산법인</span>--%>
+<%--									<strong class="title">Saudi Taihan <br />Cable & Solution <br />(설립 추진중)</strong>--%>
+<%--								</div>--%>
+<%--								<ul class="list-info">--%>
+<%--									<li>--%>
+<%--										<dl>--%>
+<%--											<dt><i class="ico-location"></i>주소</dt>--%>
+<%--											<dd>Office No. 18, 3rd Floor, Complex(7) Commercial Center, King Abdul Aziz Road (Near Kingdom Hospital & Kingdom School)--%>
+<%--											P.O.Box 300201, Riyadh 11372, KSA<a href="https://goo.gl/maps/Mzt3UecSrksrrmGx5" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>--%>
+<%--										</dl>--%>
+<%--									</li>--%>
+<%--									<li>--%>
+<%--										<dl>--%>
+<%--											<dt><i class="ico-tel"></i>연락처</dt>--%>
+<%--											<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>--%>
+<%--										</dl>--%>
+<%--									</li>--%>
+<%--									<li>--%>
+<%--										<dl>--%>
+<%--											<dt><i class="ico-fax"></i>팩스</dt>--%>
+<%--											<dd>+966-11-229-7754</dd>--%>
+<%--										</dl>--%>
+<%--									</li>--%>
+<%--									<li>--%>
+<%--										<dl>--%>
+<%--											<dt><i class="ico-mail"></i>메일</dt>--%>
+<%--											<dd>--%>
+<%--												<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>--%>
+<%--											</dd>--%>
+<%--										</dl>--%>
+<%--									</li>--%>
+<%--								</ul>--%>
+<%--							</li>--%>
 							<!-- //2022-10-19 추가 -->
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">taihan Kuwait</strong>
+									<strong class="title">Taihan Kuwait</strong>
 								</div>
 								<ul class="list-info">
 									<li>
 										<p class="desc">
-													taihan Kuwait 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
+													Taihan Kuwait 쿠웨이트 최초의 광케이블을 생산하는 기업입니다. 수입에 의존하는 쿠웨이트의 광케이블 시장을
 													선점하기
 													위해, <br>
 													2021년에 쿠웨이트의 건설 및 무역회사인 랭크社와 공동투자를 진행하여 설립하였습니다.</p>
@@ -253,7 +253,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>Office No.908, Al Shafar Tower 1, TECOM, P.O.Box 117561, Dubai,
+											<dd>Office No.908, Al Shafar Tower 1, Barsha Heights, P.O.Box 117561, Dubai,
 												UAE<a href="https://goo.gl/maps/AWtVvRpKWX1nH7HF6" target="_blank" class="btn-map"><i class="ico-outer"><span
 															class="hidden">주소보기</span></i></a></dd>
 										</dl>
@@ -328,7 +328,7 @@
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
 											<dd>Office No. 12, Building No. 340, Zone 24, Street No. 230 Al
-												Muntaza Doha-Qatar<a href="https://goo.gl/maps/KwfWJhBPB5wxdrU86" target="_blank" class="btn-map"><i
+												Muntazah Doha-Qatar<a href="https://www.google.com/maps/search/Office+No.12,+Building+No.340,+zone+24,+street+no.230,+Al+Muntazah,+Doha,+Qatar/@25.2701307,51.5150229,16z?entry=ttu" target="_blank" class="btn-map"><i
 														class="ico-outer"><span
 															class="hidden">주소보기</span></i></a></dd>
 										</dl>
@@ -353,6 +353,41 @@
 											</dd>
 										</dl>
 									</li>
+
+								</ul>
+							</li>
+							<li>
+								<div class="title-box">
+									<span class="label v5">지사</span>
+									<strong class="title">바레인</strong>
+								</div>
+								<ul class="list-info">
+									<li>
+										<dl>
+											<dt><i class="ico-location"></i>주소</dt>
+											<dd></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><i class="ico-tel"></i>연락처</dt>
+											<dd></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><i class="ico-fax"></i>팩스</dt>
+											<dd></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><i class="ico-mail"></i>메일</dt>
+											<dd>
+											</dd>
+										</dl>
+									</li>
+
 								</ul>
 							</li>
 						</ul>
@@ -390,7 +425,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">Saudi taihan</strong>
+											<strong class="title">Saudi Taihan</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -416,7 +451,7 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<!--a href="mailto:sikim@taihan.com">sikim@taihan.com</a><br-->
-														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+														<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -425,53 +460,53 @@
 									</li>
 
 									<!-- 2022-10-19 추가 -->
-									<li>
-										<div class="title-box">
-											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">Saudi taihan Cable & Solution <br />(In the process of establishing)</strong>
-										</div>
-										<ul class="list-info">
-											<li>
-												<dl>
-													<dt><i class="ico-location"></i>Address</dt>
-													<dd>Office No. 18, 3rd Floor, Complex(7) Commercial Center, King Abdul Aziz Road (Near Kingdom Hospital & Kingdom School)
-														P.O.Box 300201, Riyadh 11372, KSA<a href="#" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">Address보기</span></i></a></dd>
-												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>
-												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt><i class="ico-fax"></i>Fax</dt>
-													<dd>+966-11-229-7754</dd>
-												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt><i class="ico-mail"></i>E-Mail</dt>
-													<dd>
-														<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
-													</dd>
-												</dl>
-											</li>
-										</ul>
-									</li>
+<%--									<li>--%>
+<%--										<div class="title-box">--%>
+<%--											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->--%>
+<%--											<strong class="title">Saudi Taihan Cable & Solution <br />(In the process of establishing)</strong>--%>
+<%--										</div>--%>
+<%--										<ul class="list-info">--%>
+<%--											<li>--%>
+<%--												<dl>--%>
+<%--													<dt><i class="ico-location"></i>Address</dt>--%>
+<%--													<dd>Office No. 18, 3rd Floor, Complex(7) Commercial Center, King Abdul Aziz Road (Near Kingdom Hospital & Kingdom School)--%>
+<%--														P.O.Box 300201, Riyadh 11372, KSA<a href="#" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">Address보기</span></i></a></dd>--%>
+<%--												</dl>--%>
+<%--											</li>--%>
+<%--											<li>--%>
+<%--												<dl>--%>
+<%--													<dt><i class="ico-tel"></i>Tel</dt>--%>
+<%--													<dd><a href="tel:+966112301554">+966-11-230-1554</a></dd>--%>
+<%--												</dl>--%>
+<%--											</li>--%>
+<%--											<li>--%>
+<%--												<dl>--%>
+<%--													<dt><i class="ico-fax"></i>Fax</dt>--%>
+<%--													<dd>+966-11-229-7754</dd>--%>
+<%--												</dl>--%>
+<%--											</li>--%>
+<%--											<li>--%>
+<%--												<dl>--%>
+<%--													<dt><i class="ico-mail"></i>E-Mail</dt>--%>
+<%--													<dd>--%>
+<%--														<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>--%>
+<%--													</dd>--%>
+<%--												</dl>--%>
+<%--											</li>--%>
+<%--										</ul>--%>
+<%--									</li>--%>
 									<!-- //2022-10-19 추가 -->
 
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
-											<strong class="title">taihan Kuwait</strong>
+											<strong class="title">Taihan Kuwait</strong>
 										</div>
 										<ul class="list-info">
 											<li>
 												<!-- 2022-10-26 텍스트 수정 -->
 												<p class="desc">
-													taihan Kuwait is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
+													Taihan Kuwait is the first optical cable production corporation in Kuwait established in 2021 through a joint investment with Rank, a Kuwait construction and trading company with a plan to dominate the import-dependent optic cable market in Kuwait in advance.
 												</p>
 												<!-- //2022-10-26 텍스트 수정 -->
 											</li>
@@ -577,7 +612,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>Office No.908, Al Shafar Tower 1, TECOM, P.O.Box 117561, Dubai,
+													<dd>Office No.908, Al Shafar Tower 1, Barsha Heights, P.O.Box 117561, Dubai,
 														UAE<a href="https://goo.gl/maps/AWtVvRpKWX1nH7HF6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">Address보기</span></i></a></dd>
 												</dl>
 											</li>
@@ -649,7 +684,7 @@
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
 													<dd>Office No. 12, Building No. 340, Zone 24, Street No. 230 Al
-														Muntaza Doha-Qatar<a href="https://goo.gl/maps/KwfWJhBPB5wxdrU86" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">Address보기</span></i></a></dd>
+														Muntazah Doha-Qatar<a href="https://www.google.com/maps/search/Office+No.12,+Building+No.340,+zone+24,+street+no.230,+Al+Muntazah,+Doha,+Qatar/@25.2701307,51.5150229,16z?entry=ttu" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">Address보기</span></i></a></dd>
 												</dl>
 											</li>
 											<li>
@@ -672,6 +707,40 @@
 													</dd>
 												</dl>
 											</li>
+										</ul>
+									</li>
+									<li>
+										<div class="title-box">
+											<span class="label v5">Branch Office</span>
+											<strong class="title">Bahrain</strong>
+										</div>
+										<ul class="list-info">
+											<li>
+												<dl>
+													<dt><i class="ico-location"></i>Address</dt>
+													<dd></dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
+													<dt><i class="ico-tel"></i>Tel</dt>
+													<dd></dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
+													<dt><i class="ico-fax"></i>Fax</dt>
+													<dd></dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
+													<dt><i class="ico-mail"></i>E-Mail</dt>
+													<dd>
+													</dd>
+												</dl>
+											</li>
+
 										</ul>
 									</li>
 								</ul>

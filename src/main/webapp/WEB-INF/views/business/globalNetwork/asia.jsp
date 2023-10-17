@@ -59,7 +59,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v4">생산법인</span>
-									<strong class="title">taihan VINA</strong>
+									<strong class="title">Taihan VINA</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -230,7 +230,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v4">Production Subsidiary</span>
-											<strong class="title">taihan VINA</strong>
+											<strong class="title">Taihan VINA</strong>
 										</div>
 										<ul class="list-info">
 											<li>

@@ -36,12 +36,16 @@
 								for building a sustainable future.
 							</strong>
 							<p>
-								Taihan clearly understands that a company’s pursuit of social value is essential for
-								sustainable growth of not only the company itself, but also the society as a whole.
-								In addition, Taihan will contribute to creating a healthy society and future by
-								establishing and operating ESG policies and strategies, administering strict management
-								that goes beyond the social requirement, and transparently disclosing the related
-								information.
+								Taihan clearly recognizes that a company’s pursuit of social value
+								is essential for sustainable growth of not only the company itself,
+								but also the society as a whole. Therefore, Taihan devises policies
+								and strategies that reflect a direction and goal for the
+								environment (E), society (S) and governance (G), respectively, and
+								employs them across its management. In addition, we are
+								committed to contributing to building a healthier society through
+								meticulous management and transparent disclosure of
+								information in a more rigorous manner than the level demanded
+								by society.
 							</p>
 							</c:if>
 						</div>
