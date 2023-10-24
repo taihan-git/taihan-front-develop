@@ -206,7 +206,7 @@
 								<ul class="list-store">
 									<li>
 										<div class="title-box">
-											<span class="label v4">Production Subsidiary</span>
+											<span class="label v4">Sales Subsidiary</span>
 											<strong class="title">Taihan USA</strong>
 										</div>
 										<ul class="list-info">

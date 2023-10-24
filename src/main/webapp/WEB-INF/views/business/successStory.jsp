@@ -32,14 +32,16 @@
 					<c:if test="${LANG eq 'en' }">
 						<div class="title-wrap v2">
 							<strong class="title-type">
-								Taihan manufactures<br>
-								high-performance, high-quality products<br>
-								with accumulated technology and know-how.
+								Leaving the traces of success across the world<br>
+								as a leader in the cable & solution industry
 							</strong>
-							<p>Taihan endeavors to do its best to manufacture and supply good quality products for continuously keeping promise<br>
-								and building trust with customers and maximizing customer satisfaction.<br>
-								We provide a customized total solution covering the entire power supply value chain, from the design of the power system<br>
-								to the supply, connection, construction and maintenance of cables and cable connector materials.</p>
+							<p>The key to a successful project is to accurately identify the needs of customers and to offer products and services where<br>
+								they are needed the most in a timely manner.<br>
+								Taihan Cable & Solution provides a total solution encompassing everything from product development to maintenance,<br>
+								leveraging its experiences in major markets around the world.<br>
+								We will meet and communicate with global customers to deliver the best outcomes most efficiently.<br>
+								Visit us to check out Taihan’s various success stories and insights.
+                            </p>
 						</div>
 					</c:if>
 						<!-- //2022-10-21 텍스트 수정 -->

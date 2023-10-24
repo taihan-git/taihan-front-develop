@@ -1204,7 +1204,7 @@
 									<!-- 아메라카 -->
 									<li>
 										<div class="title-box">
-											<span class="label v4">Production Subsidiary</span><!-- 2022-11-11 수정 -->
+											<span class="label v4">Sales Subsidiary</span><!-- 2022-11-11 수정 -->
 											<strong class="title">Taihan USA</strong>
 										</div>
 										<!-- 2022-10-28 수정 -->

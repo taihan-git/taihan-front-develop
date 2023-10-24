@@ -75,7 +75,7 @@
 									<span class="add-text">(조선전선 1941년)</span>
 									</c:if>
 									<c:if test="${LANG eq 'en' }">
-									<span class="add-text">*Chosun Electric Wire</span>
+									<span class="add-text">(Chosun Electric Wire 1941)</span>
 									</c:if>
 									</dd>
 									<!-- //2022-10-19 문구수정 -->
