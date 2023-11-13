@@ -28,7 +28,7 @@
 				<div class="bg"></div>
 				<!-- 수정 -->
 				<div class="inner-box">
-					<p class="desc">충청남도 당진시 고대면에 위치한 당진공장은 대한전선 케이블 기술의 산실이자 핵심 생산 기지로, 세계 최대 규모와 효율을 자랑합니다. 초고압, 산업전선, 통신, 소재, 부스덕트 등의 생산설비와 기술연구소, PQ 시험장 등을 갖추고, 제품 개발부터 생산, 완제품 시험에 이르기까지 케이블 생산의 모든 공정을
+					<p class="desc">충청남도 당진시 고대면에 위치한 당진공장은 대한전선 케이블 기술의 산실이자 핵심 생산 기지로, 세계 최대 규모와 효율을 자랑합니다. 초고압, 산업전선, 통신, 소재, 부스덕트 등 5개의 단위 공장과 PQ 시험장 등을 갖추고, 제품 개발부터 생산, 완제품 시험에 이르기까지 케이블 생산의 모든 공정을
 						수행하고 있습니다. 세계 최고 수준의 VCV (Vertical Continuous Vulcanization) 타워 등 최첨단 생산라인과 친환경 시스템을 기반으로 전 세계 100여 개 국가의 고객을 위한 고품질의 제품을 생산합니다.</p>
 
 					<ul class="list-summary">
@@ -318,7 +318,7 @@
 						<div class="bg"></div>
 						<div class="inner-box">
 							<p class="desc">
-								Located at the center of international transport networks at Dangjin, Chungnam, the Dangjin Plant is the core production base for Taihan’s cable technology. Its scale and efficiency are second to none the world over. Boasting five unit factories for EHV, industrial cable, communication cables, base metal, and bus ducts, a center for technological research, and PQ test site, it operates at every stage of cable production from product development and production to the finished product testing. The Dangjin Plant is responsible for high-quality products destined for customers in 100 countries around the world, thanks to a state-of-the-art production line and environmentally friendly systems including a world-class VCV (Vertical Continuous Vulcanization) tower.
+								Located at the center of international transport networks at Dangjin, Chungnam, the Dangjin Plant is the core production base for Taihan’s cable technology. Its scale and efficiency are second to none the world over. Boasting five unit factories for EHV, industrial cable, communication cables, base metal, and bus ducts, and PQ test site, it operates at every stage of cable production from product development and production to the finished product testing. The Dangjin Plant is responsible for high-quality products destined for customers in 100 countries around the world, thanks to a state-of-the-art production line and environmentally friendly systems including a world-class VCV (Vertical Continuous Vulcanization) tower.
 							</p>
 
 							<ul class="list-summary">

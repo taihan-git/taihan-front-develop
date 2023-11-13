@@ -938,12 +938,11 @@
   align-items: center;
 }
 .brochure-wrap .img-box {
-  min-width: 238px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
 }
 .brochure-wrap .img-box img {
   width: auto;
-  height: 330px;
+  height: 267px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -957,8 +956,8 @@
 }
 .brochure-wrap.full .inner-box {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
   padding: 120px 0;
 }
@@ -1045,12 +1044,20 @@
   .brochure-wrap {
     flex-direction: column;
   }
-  .brochure-wrap.full {
-    padding-left: 100px;
-    padding-right: 40px;
+  .brochure-wrap.full {}
+  .brochure-wrap.full .inner-box {
+    flex-direction: column;
+  }
+  .brochure-wrap.full .inner-box .img-box {
+    margin-bottom: 20px;
   }
   .brochure-wrap.full .text-box {
-    margin-left: 50px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .brochure-wrap .img-box img {
+    width: 100%;
+    height: auto;
   }
   .brochure-wrap > .btn-type {
     margin-left: 0;
@@ -1095,7 +1102,8 @@
     min-width: 149px;
   }
   .brochure-wrap .img-box img {
-    height: 200px;
+    width: 100%;
+    height: auto;
   }
   .brochure-wrap > .btn-type {
     margin-left: 0;
@@ -1106,10 +1114,11 @@
   }
   .brochure-wrap.full .inner-box {
     padding: 70px 35px 50px;
+    flex-direction: column;
   }
   .brochure-wrap.full .text-box {
     order: -1px;
-    padding-right: 40%;
+    width: 100%;
     margin-left: 0;
     font-size: 16px;
   }
@@ -1122,14 +1131,7 @@
     margin-left: 0;
   }
   .brochure-wrap.full .img-box {
-    position: absolute;
-    top: 50%;
-    right: 40px;
-    transform: translateY(-50%);
-    min-width: 102px;
-  }
-  .brochure-wrap.full .img-box img {
-    height: 137px;
+    margin-bottom: 20px;
   }
   .promotion-wrap {
     flex-direction: column;
@@ -4564,13 +4566,11 @@
 .eval-wrap .list-eval {
   display: flex;
   justify-content: center;
+  gap: 80px;
 }
 .eval-wrap .list-eval li {
-  margin-left: 80px;
+  width: 160px;
   text-align: center;
-}
-.eval-wrap .list-eval li:first-child {
-  margin-left: 0;
 }
 .eval-wrap .list-eval li .title {
   display: block;
@@ -4846,11 +4846,11 @@
   }
   .eval-wrap .list-eval {
     flex-wrap: wrap;
+    gap: 0;
   }
   .eval-wrap .list-eval li {
     width: 50%;
     margin-bottom: 30px;
-    margin-left: 0;
   }
   .eval-wrap .list-eval li .title {
     margin-top: 10px;

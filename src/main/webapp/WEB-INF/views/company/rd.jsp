@@ -200,37 +200,45 @@
 						<c:if test="${LANG eq 'ko' }">
 							<li>
 								<span class="date">1983년 11월</span>
-								<strong class="desc">시흥 기술연구소 설립</strong>
+								<strong class="desc">설립 : 경기도 시흥시</strong>
 							</li>
 							<li>
 								<span class="date">2007년 10월</span>
-								<strong class="desc">안양 기술연구소 설립</strong>
+								<strong class="desc">설립 : 경기도 안양시</strong>
 							</li>
 							<li>
 								<span class="date">2011년 12월</span>
-								<strong class="desc">기술연구소 이전 (경기도 안산시)</strong>
+								<strong class="desc">이전 : 경기도 안산시</strong>
 							</li>
 							<li>
 								<span class="date">2015년 08월</span>
-								<strong class="desc">기술연구소 이전 (충청남도 당진시)</strong>
+								<strong class="desc">이전 : 충청남도 당진시</strong>
+							</li>
+							<li>
+								<span class="date">2023년 11월</span>
+								<strong class="desc">이전 : 서울시 서초구</strong>
 							</li>
 						</c:if>
 						<c:if test="${LANG eq 'en' }">
 							<li>
 								<span class="date">Novemeber 1983</span>
-								<strong class="desc">Established the Technology Research Center in the Siheung</strong>
+								<strong class="desc">Establishment : Siheung-si, Gyeonggi-do, Korea</strong>
 							</li>
 							<li>
 								<span class="date">October 2007</span>
-								<strong class="desc">Established the Technology Research Center in the Anyang</strong>
+								<strong class="desc">Establishment : Anyang-si, Gyeonggi-do, Korea</strong>
 							</li>
 							<li>
 								<span class="date">December 2011</span>
-								<strong class="desc">Re-established the Technology Research Center in the Ansan</strong>
+								<strong class="desc">Relocation : Ansan-si, Gyeonggi-do, Korea</strong>
 							</li>
 							<li>
 								<span class="date">August 2015</span>
-								<strong class="desc">Re-established the Technology Research Center in the Dangjin</strong>
+								<strong class="desc">Relocation : Dangjin-si, Chungcheongnam-do, Korea</strong>
+							</li>
+							<li>
+								<span class="date">November 2023</span>
+								<strong class="desc">Relocation : , Seocho-gu, Seoul, Korea</strong>
 							</li>
 						</c:if>
 					</ul>
@@ -240,11 +248,11 @@
 							<dl>
 								<dt><i class="ico-location"></i><spring:message code="rd.addr" text="주소"/></dt>
 								<c:if test="${LANG eq 'ko' }">
-									<dd>충청남도 당진시 고대면 대호만로 870<a href="https://naver.me/GnGi4AFo" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
+									<dd>서울특별시 서초구 양재대로2길 18 호반파크 2관<a href="https://naver.me/5Ontg7yP" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 								</c:if>
 								<c:if test="${LANG eq 'en' }">
 									<!-- 2022-10-26 텍스트 수정 -->
-									<dd>870 Daehoman-ro, Godae-myeon, Dangjin-si,Chungcheognam-do, Korea<a href="https://naver.me/GnGi4AFo" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
+									<dd>18, Yangjae-daero 2-gil, Seocho-gu, Seoul, Korea<a href="https://naver.me/5Ontg7yP" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 									<!-- //2022-10-26 텍스트 수정 -->
 								</c:if>
 							</dl>
@@ -253,12 +261,12 @@
 							<dl>
 								<dt><i class="ico-tel"></i><spring:message code="rd.tel" text="연락처"/></dt>
 								<c:if test="${LANG eq 'ko' }">
-									<dd><a href="tel:041-360-9442">041-360-9442</a></dd>
+									<dd><a href="tel:02-316-9084">02-316-9084</a></dd>
 								</c:if>
 								<c:if test="${LANG eq 'en' }">
 									<!-- 2022-11-09 수정 -->
 									<!-- 2022-11-18 수정 -->
-									<dd><a href="tel:82413609442">+82-41-360-9442</a></dd>
+									<dd><a href="tel:8223169084">+82-2-316-9084</a></dd>
 									<!-- //2022-11-18 수정 -->
 									<!-- //2022-11-09 수정 -->
 								</c:if>

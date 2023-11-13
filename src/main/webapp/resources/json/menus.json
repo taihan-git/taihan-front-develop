@@ -583,9 +583,9 @@
 			{
 				"lvl": "2",
 				"nm": "사이버 신문고",
-				"enNm": "",
+				"enNm": "cyber newspaper",
 				"kurl": "/esg/cyberReport",
-				"eurl": "",
+				"eurl": "/en/esg/cyberReport",
 				"kactiveUrls": "/esg/cyberReport",
 				"eactiveUrls": "/en/esg/cyberReport",
 				"menuCd" : "0307",

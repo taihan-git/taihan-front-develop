@@ -209,7 +209,8 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>99 Tulip Ave, Floral Park, New York 11001, US<a href="https://goo.gl/maps/3sA3DtyBwxYM2tXd9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
+											<dd>12070 Telegraph Rd., Suite 324, Santa Fe Springs, CA 90670, USA
+												<a href="https://maps.app.goo.gl/L4gis1ZoJ3LLWnvo6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 										</dl>
 									</li>
 									<li>
@@ -325,7 +326,10 @@
 									<li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
+											<dd>
+												<a href="tel:+31203583541">+31-20-358-3541</a><br>
+												<a href="tel:+31682367152">+31-6-8236-7152</a>
+											</dd>
 										</dl>
 									</li>
 									<li>
@@ -384,6 +388,12 @@
 									</li> 
 									<li>
 										<dl>
+											<dt><i class="ico-tel"></i>연락처</dt>
+											<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a>
@@ -402,6 +412,12 @@
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
 											<dd>Drottninggatan 86 111 36 STOCKHOLM<a href="https://goo.gl/maps/YHDfsLYNzLoNay1K9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><i class="ico-tel"></i>연락처</dt>
+											<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
 										</dl>
 									</li>
 									<li>
@@ -591,7 +607,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -726,7 +742,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:colee@taihan.com">colee@taihan.com</a> 
+												<a href="mailto:ksan@taihan.com">ksan@taihan.com</a> 
 											</dd>
 										</dl>
 									</li>
@@ -741,25 +757,15 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd></dd>
-										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd></dd>
-										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt><i class="ico-fax"></i>팩스</dt>
-											<dd></dd>
+											<dd>Office 202, Floor 15th, Platinum Tower, Building 190, Road 2803, Block 428, Al Seef, Kingdom of Bahrain
+												<a href="https://maps.app.goo.gl/J3iGXu5JA2fcXHdy9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 										</dl>
 									</li>
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
+												<a href="mailto:yda23@taihan.com">yda23@taihan.com</a> 
 											</dd>
 										</dl>
 									</li>
@@ -805,7 +811,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd> 
-												<a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a><br>
+												<a href="mailto:jameskim@taihan.com">jameskim@taihan.com.au</a><br>
 												<a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a> 
 											</dd>
 										</dl>
@@ -1219,7 +1225,8 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>99 Tulip Ave, Floral Park, New York 11001, US<a href="https://goo.gl/maps/3sA3DtyBwxYM2tXd9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>12070 Telegraph Rd., Suite 324, Santa Fe Springs, CA 90670, USA
+														<a href="https://maps.app.goo.gl/L4gis1ZoJ3LLWnvo6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>
@@ -1334,7 +1341,10 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
+													<dd>
+														<a href="tel:+31203583541">+31-20-358-3541</a><br>
+														<a href="tel:+31682367152">+31-6-8236-7152</a>
+													</dd>
 												</dl>
 											</li>
 											<li>
@@ -1393,6 +1403,12 @@
 											</li> 
 											<li>
 												<dl>
+													<dt><i class="ico-tel"></i>Tel</dt>
+													<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a>
@@ -1411,6 +1427,12 @@
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
 													<dd>Drottninggatan 86 111 36 STOCKHOLM<a href="https://goo.gl/maps/YHDfsLYNzLoNay1K9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
+													<dt><i class="ico-tel"></i>Tel</dt>
+													<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
 												</dl>
 											</li>
 											<li>
@@ -1600,7 +1622,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1735,7 +1757,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:colee@taihan.com">colee@taihan.com</a> 
+														<a href="mailto:ksan@taihan.com">ksan@taihan.com</a> 
 													</dd>
 												</dl>
 											</li>
@@ -1750,25 +1772,15 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd></dd>
-												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd></dd>
-												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt><i class="ico-fax"></i>Fax</dt>
-													<dd></dd>
+													<dd>Office 202, Floor 15th, Platinum Tower, Building 190, Road 2803, Block 428, Al Seef, Kingdom of Bahrain
+														<a href="https://maps.app.goo.gl/J3iGXu5JA2fcXHdy9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a></dd>
 												</dl>
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
+														<a href="mailto:yda23@taihan.com">yda23@taihan.com</a> 
 													</dd>
 												</dl>
 											</li>
@@ -1814,7 +1826,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a><br>
+														<a href="mailto:jameskim@taihan.com">jameskim@taihan.com.au</a><br>
 														<a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a> 
 													</dd>
 												</dl>

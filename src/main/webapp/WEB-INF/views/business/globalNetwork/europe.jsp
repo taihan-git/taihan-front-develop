@@ -79,7 +79,10 @@
 									<li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
+											<dd>
+												<a href="tel:+31203583541">+31-20-358-3541</a><br>
+												<a href="tel:+31682367152">+31-6-8236-7152</a>
+											</dd>
 										</dl>
 									</li>
 									<li>
@@ -135,17 +138,19 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>Herlev Hovedgade 195, DK-2730 Herlve, Denmark<a href="https://goo.gl/maps/Z2jFu1yjhDBd1yVs6"
-													target="_blank" class="btn-map"><i class="ico-outer"><span
-															class="hidden">주소보기</span></i></a></dd>
+											<dd>Herlev Hovedgade 195, DK-2730 Herlve, Denmark
+												<a href="https://goo.gl/maps/Z2jFu1yjhDBd1yVs6" target="_blank" class="btn-map">
+													<i class="ico-outer"><span class="hidden">주소보기</span></i>
+												</a>
+											</dd>
 										</dl>
 									</li>
-									<!--li>
+									<li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+442088767078">+44-20-8876-7078</a></dd>
+											<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
 										</dl>
-									</li-->
+									</li>
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
@@ -172,10 +177,16 @@
 									</li>
 									<li>
 										<dl>
+											<dt><i class="ico-tel"></i>연락처</dt>
+											<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-                                                      <a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a>
-                                                  </dd>
+												<a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a>
+											</dd>
 										</dl>
 									</li>
 								</ul>
@@ -265,7 +276,10 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
+													<dd>
+														<a href="tel:+31203583541">+31-20-358-3541</a><br>
+														<a href="tel:+31682367152">+31+6+8236+7152</a>
+													</dd>
 												</dl>
 											</li>
 											<li>
@@ -322,12 +336,12 @@
 													<dd>Herlev Hovedgade 195, DK-2730 Herlve, Denmark<a href="https://goo.gl/maps/Z2jFu1yjhDBd1yVs6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
-											<!--li>
+											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+442088767078">+44-20-8876-7078</a></dd>
+													<dd><a href="tel:+31203583541">+.31-20-358-3541</a></dd>
 												</dl>
-											</li-->
+											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
@@ -348,6 +362,12 @@
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
 													<dd>Drottninggatan 86 111 36 STOCKHOLM<a href="https://goo.gl/maps/YHDfsLYNzLoNay1K9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
+													<dt><i class="ico-tel"></i>Tel</dt>
+													<dd><a href="tel:+31203583541">+31-20-358-3541</a></dd>
 												</dl>
 											</li>
 											<li>

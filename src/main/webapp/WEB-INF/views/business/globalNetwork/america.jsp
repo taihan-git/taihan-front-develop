@@ -72,8 +72,8 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd>99 Tulip Ave, Floral Park, New York 11001, US
-											<a href="https://goo.gl/maps/tu5YMkERVV9XQ9ax9" target="_blank" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a>
+											<dd>12070 Telegraph Rd., Suite 324, Santa Fe Springs, CA 90670, USA
+											<a href="https://maps.app.goo.gl/L4gis1ZoJ3LLWnvo6" target="_blank" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a>
 											</dd>
 										</dl>
 									</li>
@@ -111,7 +111,7 @@
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
 											<dd>12070 Telegraph Rd. Ste 324, Santa Fe Springs CA90670, USA
-											<a href="https://goo.gl/maps/Nkik2uBRpYudbCac8" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a>
+											<a href="https://maps.app.goo.gl/L4gis1ZoJ3LLWnvo6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">주소보기</span></i></a>
 											</dd>
 										</dl>
 									</li>
@@ -220,7 +220,8 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd>99 Tulip Ave, Floral Park, New York 11001, US<a href="https://goo.gl/maps/LJYvJNFAkM6tiETr9" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+													<dd>12070 Telegraph Rd., Suite 324, Santa Fe Springs, CA 90670, USA
+														<a href="https://maps.app.goo.gl/L4gis1ZoJ3LLWnvo6" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
 												</dl>
 											</li>
 											<li>

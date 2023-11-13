@@ -207,7 +207,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+												<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -349,7 +349,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd> 
-												<a href="mailto:colee@taihan.com">colee@taihan.com</a>
+												<a href="mailto:ksan@taihan.com">ksan@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -365,10 +365,15 @@
 									<li>
 										<dl>
 											<dt><i class="ico-location"></i>주소</dt>
-											<dd></dd>
+											<dd>
+												Office 202, Floor 15th, Platinum Tower, Building 190, Road 2803, Block 428, Al Seef, Kingdom of Bahrain
+												<a href="https://maps.app.goo.gl/J3iGXu5JA2fcXHdy9" target="_blank" class="btn-map">
+													<i class="ico-outer"><span class="hidden">주소보기</span></i>
+												</a>
+											</dd>
 										</dl>
 									</li>
-									<li>
+									<!-- <li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
 											<dd></dd>
@@ -379,11 +384,12 @@
 											<dt><i class="ico-fax"></i>팩스</dt>
 											<dd></dd>
 										</dl>
-									</li>
+									</li> -->
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
+												<a href="mailto:yda23@taihan.com">yda23@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -568,7 +574,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a>
+														<a href="mailto:seanlee@taihan.com">seanlee@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -703,7 +709,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd> 
-														<a href="mailto:colee@taihan.com">colee@taihan.com</a>
+														<a href="mailto:ksan@taihan.com">ksan@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -718,10 +724,15 @@
 											<li>
 												<dl>
 													<dt><i class="ico-location"></i>Address</dt>
-													<dd></dd>
+													<dd>
+														Office 202, Floor 15th, Platinum Tower, Building 190, Road 2803, Block 428, Al Seef, Kingdom of Bahrain
+														<a href="https://maps.app.goo.gl/J3iGXu5JA2fcXHdy9" target="_blank" class="btn-map">
+															<i class="ico-outer"><span class="hidden">Address보기</span></i>
+														</a>
+													</dd>
 												</dl>
 											</li>
-											<li>
+											<!-- <li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
 													<dd></dd>
@@ -732,11 +743,12 @@
 													<dt><i class="ico-fax"></i>Fax</dt>
 													<dd></dd>
 												</dl>
-											</li>
+											</li> -->
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
+														<a href="mailto:yda23@taihan.com">yda23@taihan.com</a>
 													</dd>
 												</dl>
 											</li>

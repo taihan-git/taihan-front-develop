@@ -262,14 +262,11 @@
 	.list-eval {
 		display: flex;
 		justify-content: center;
+		gap: 80px;
 
 		li {
-			margin-left: 80px;
+			width: 160px;
 			text-align: center;
-
-			&:first-child {
-				margin-left: 0;
-			}
 
 			.title {
 				display: block;
@@ -644,11 +641,11 @@
 
 		.list-eval {
 			flex-wrap: wrap;
+			gap: 0;
 
 			li {
 				width: 50%;
 				margin-bottom: 30px;
-				margin-left: 0;
 
 				.title {
 					margin-top: 10px;

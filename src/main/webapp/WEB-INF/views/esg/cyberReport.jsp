@@ -20,9 +20,16 @@
 			<div class="inner-box">
 				<!-- 2022-10-21 텍스트 수정 -->
 					<div class="title-wrap v2" data-delighter>
+
 						<strong class="title-type">
 							모든 이해관계자가 <br class="mo-br">신뢰할 수 있는 <br class="mo-br">제보 시스템을 제공합니다.
 						</strong>
+
+
+						<strong class="title-type">
+							all <br class="mo-br">신뢰할 수 있는 <br class="mo-br">제보 시스템을 제공합니다.
+						</strong>
+
 						<p>제보 내용은 책임 부서의 관리 하에 독립적으로 처리되며,<br>
 							제보자 신분 등은 철저히 비밀로 보장됩니다.</p>
 					<div class="side-box btn-box mo-display"><a href="/esg/inquireCheck" class="btn-type btn-s v3">제보확인<i class="ico-arr v2"></i></a></div>

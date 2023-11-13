@@ -287,8 +287,8 @@
 							<p>
 								<c:if test="${LANG eq 'ko' }">
 								<!-- 2022-12-06 -->
-								국내 전선업계 최초 2021년 ESG 평가에서 통합 A등급을 획득하고,<br>
-								2022년 ESG 평가에서 또한 ‘2년 연속 통합A 등급’을 부여 받으며 ESG 경영의 우수성을 인정받았습니다.
+								2021년 국내 전선업계에서 유일하게 ESG 평가에서 통합 A등급을 획득하였습니다.<br>
+								2023년에 실시된 ESG 평가에서 통합 A 등급을 받으며, 3년 연속 A 등급을 달성했습니다.
 								<!-- //2022-12-06 -->
 								</c:if>
 								<c:if test="${LANG eq 'en' }">
@@ -305,19 +305,19 @@
 							<ul class="list-eval">
 							<!-- 2022-12-06 -->
 								<li>
-									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation01_2022.png" alt=""></div>
+									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation01_2023.png" alt=""></div>
 									<strong class="title"><spring:message code="manage.evaluation1" text="ESG 통합"/></strong>
 								</li>
 								<li>
-									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation02_2022.png" alt=""></div>
+									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation02_2023.png" alt=""></div>
 									<strong class="title"><spring:message code="manage.evaluation2" text="환경 부문"/></strong>
 								</li>
 								<li>
-									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation03_2022.png" alt=""></div>
+									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation03_2023.png" alt=""></div>
 									<strong class="title"><spring:message code="manage.evaluation3" text="사회 부문"/></strong>
 								</li>
 								<li>
-									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation04_2022.png" alt=""></div>
+									<div class="img-box"><img src="${CON_STATIC_URL}/asset/images/esg/evaluation04_2023.png" alt=""></div>
 									<strong class="title"><spring:message code="manage.evaluation4" text="지배구조 부문"/></strong>
 								</li>
 							</ul>
@@ -325,7 +325,7 @@
 							<div class="label-box">
 								<dl>
 									<dt><spring:message code="manage.institution1" text="평가기관"/></dt>
-									<dd><spring:message code="manage.institution2" text="KCGS 한국ESG기준원"/></dd>
+									<dd><spring:message code="manage.institution2" text="한국ESG기준원(KCGS)"/></dd>
 								</dl>
 							</div>
 						</div>

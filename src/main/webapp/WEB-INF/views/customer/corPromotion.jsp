@@ -25,7 +25,12 @@
                 <div class="board-wrap tab">
                     <div class="side-tab">
                         <ul>
-                            <li class="active"><a href="#list1"><spring:message code="rsroom.side1" text="기업 브로슈어"/></a></li>
+                            <c:if test="${LANG eq 'ko'}">
+															<li class="active"><a href="#list1"><spring:message code="rsroom.side1" text="기업 홍보 자료"/></a></li>
+														</c:if>
+                            <c:if test="${LANG eq 'en'}">
+															<li class="active"><a href="#list1">Corporate Profile</a></li>
+														</c:if>
                             <li><a href="#list2"><spring:message code="rsroom.side2" text="기업 홍보 영상"/></a></li>
                             <li><a href="#list3"><spring:message code="rsroom.side5" text="제품 홍보 영상"/></a>
 								<ul>
@@ -38,9 +43,14 @@
 
                     <div class="link-wrap fixed">
                         <div class="link-select">
-                            <a href="#" class="current"><spring:message code="rsroom.side1" text="기업 브로슈어"/></a>
+                            <a href="#" class="current"><spring:message code="rsroom.side1" text="기업 홍보 자료"/></a>
                             <ul class="list-select">
-                                <li class="active"><a href="#list1"><spring:message code="rsroom.side1" text="기업 브로슈어"/></a></li>
+																<c:if test="${LANG eq 'ko'}">
+																	<li class="active"><a href="#list1"><spring:message code="rsroom.side1" text="기업 홍보 자료"/></a></li>
+																</c:if>
+																<c:if test="${LANG eq 'en'}">
+																	<li class="active"><a href="#list1">Corporate Profile</a></li>
+																</c:if>
                                 <li><a href="#list2"><spring:message code="rsroom.side2" text="기업 홍보 영상"/></a></li>
                                 <li><a href="#list3"><spring:message code="rsroom.side3" text="해저케이블"/></a></li>
                                 <li><a href="#list4"><spring:message code="rsroom.side4" text="ACCC"/></a></li>
@@ -50,16 +60,24 @@
 
                     <div id="list1" class="board-body">
                         <div class="title-wrap2">
-                            <h3 class="title-type"><spring:message code="rsroom.side1" text="기업 브로슈어"/></h3>
+                            <h3 class="title-type"><spring:message code="rsroom.side1" text="기업 홍보 자료"/></h3>
                         </div>
                         <div class="brochure-wrap">
                             <div class="img-box">
-                                <img src="${CON_STATIC_URL}/asset/images/customer/brochure.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt="">
+                                <img src="${CON_STATIC_URL}/asset/images/customer/Corporate_profile.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt="">
                             </div>
-                            <a href="/resources/files/2020_Taihan_Brochure(eng).pdf" target="_blank" class="btn-type btn-m">
-                                <span><spring:message code="rsroom.btnDownload" text="브로슈어 다운로드"/></span>
-                                <i class="ico-down"></i>
-                            </a>
+														<c:if test="${LANG eq 'ko'}">
+														<a href="/resources/files/2023_taihan_Corporate profile_KOR.pdf" target="_blank" class="btn-type btn-m">
+															<span><spring:message code="rsroom.btnDownload" text="회사 소개 자료 다운로드"/></span>
+															<i class="ico-down"></i>
+														</a>
+														</c:if>
+														<c:if test="${LANG eq 'en'}">
+														<a href="/resources/files/2023_taihan_Corporate profile_ENG.pdf" target="_blank" class="btn-type btn-m">
+															<span>Corporate Profile Download</span>
+															<i class="ico-down"></i>
+														</a>
+														</c:if>
                         </div>
                     </div>
 

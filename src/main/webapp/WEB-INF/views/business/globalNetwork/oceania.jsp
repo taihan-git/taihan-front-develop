@@ -92,7 +92,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-											  <a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a><br>
+											  <a href="mailto:jameskim@taihan.com">jameskim@taihan.com.au</a><br>
 											  <a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a>
 										  </dd>
 										</dl>
@@ -197,7 +197,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														 <a href="mailto:jameskim@taihan.com">jameskim@taihan.com</a><br>
+														 <a href="mailto:jameskim@taihan.com">jameskim@taihan.com.au</a><br>
 														 <a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a>
 													</dd>
 												</dl>
