@@ -238,7 +238,7 @@
 							</li>
 							<li>
 								<span class="date">November 2023</span>
-								<strong class="desc">Relocation : , Seocho-gu, Seoul, Korea</strong>
+								<strong class="desc">Relocation : Seocho-gu, Seoul, Korea</strong>
 							</li>
 						</c:if>
 					</ul>
