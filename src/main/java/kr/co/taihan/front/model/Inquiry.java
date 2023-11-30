@@ -34,6 +34,7 @@ public class Inquiry extends Search {
     private String gubun; //em 윤리경영 : cp 공정거래
     private String userIp;
     private String adminMail;
+    private String lang;
 
 
 

@@ -37,7 +37,12 @@
                             <tr>
                                 <td style="padding-bottom:30px;font-size:40px;text-align:center;font-weight: 700;letter-spacing: -3px;line-height: 1.5;color:#000;">
                                     <th:block th:if="${toType == 'user'}">
-                                        <span style="color:#093389;">[[${gubunTxt}]] 제보하기</span>가<br /> 접수되었습니다.
+                                        <th:block th:if="${lang == 'ko'}">
+                                            <span style="color:#093389;">[[${gubunTxt}]] 제보하기</span>가<br /> 접수되었습니다.
+                                        </th:block>
+                                        <th:block th:if="${lang == 'en'}">Your report about
+                                            Your <span style="color:#093389;">report about [[${gubunTxtEn}]]</span> has been<br/> submitted.
+                                        </th:block>
                                     </th:block>
                                     <th:block th:if="${toType == 'admin'}">
                                         <span style="color:#093389;">새로운 제보</span>가<br /> 접수되었습니다.
@@ -51,10 +56,17 @@
                             <!--information-->
                             <tr>
                                 <td style="padding-bottom:50px;font-size:20px;text-align:center;letter-spacing: -1px;line-height: 1.5;color:#000;" th:if="${toType == 'user'}">
-                                    안녕하세요. 대한전선입니다.<br>
-                                    [[${gubunTxt}]] 제보에 대한 제보가 정상적으로 접수되었습니다.<br>
-                                    제보에 감사드리며 최대한 빠른 시일 내에 답변 드리겠습니다.<br>
-                                    감사합니다.<br>
+                                    <th:block th:if="${lang == 'ko'}">
+                                        안녕하세요. 대한전선입니다.<br>
+                                        [[${gubunTxt}]] 제보에 대한 제보가 정상적으로 접수되었습니다.<br>
+                                        제보에 감사드리며 최대한 빠른 시일 내에 답변 드리겠습니다.<br>
+                                        감사합니다.<br>
+                                    </th:block>
+                                    <th:block th:if="${lang == 'en'}">
+                                        Hello. This is Taihan Cable & Solution.<br>
+                                        Your report about [[${gubunTxtEn}]] has been submitted successfully.<br>
+                                        We appreciate your report and will try to get back to you as soon as possible. Thank you.
+                                    </th:block>
                                 </td>
                                 <td style="padding-bottom:50px;font-size:20px;text-align:center;letter-spacing: -1px;line-height: 1.5;color:#000;" th:if="${toType == 'admin'}">
                                     안녕하세요.<br>
@@ -74,17 +86,25 @@
                                             <col>
                                         </colgroup>
                                         <tr>
-                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
-                                                접수일
-                                            </th>
+                                            <th:block th:if="${lang == 'ko'}">
+                                                <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">접수일</th>
+                                            </th:block>
+                                            <th:block th:if="${lang == 'en'}">
+                                                <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">Report submitted on</th>
+                                            </th:block>
+
                                             <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${inquiryDay}">
                                                 -
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">
-                                                접수번호
-                                            </th>
+                                            <th:block th:if="${lang == 'ko'}">
+                                                <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">접수번호</th>
+                                            </th:block>
+                                            <th:block th:if="${lang == 'en'}">
+                                                <th scope="row" style="padding:24px 30px;background:#f4f5f7;border-bottom:1px solid #d7d7d7;vertical-align:middle;text-align: center;font-size:18px;color:#000;line-height:1.5;">Report Number</th>
+                                            </th:block>
+
                                             <td style="padding:26px;border-bottom:1px solid #d7d7d7;font-size:18px;color:#000;line-height:1.5" th:text="${registNum}">
                                                 -
                                             </td>
@@ -131,16 +151,32 @@
                                 <td style="text-align: center;padding-top:80px;">
 
                                     <th:block th:if="${toType == 'user'}">
-                                        <th:block th:if="${serverType == 'prd'}">
-                                            <a  href="https://taihan.com/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
-                                                제보 확인하기
-                                            </a>
+                                        <th:block th:if="${lang == 'ko'}">
+                                            <th:block th:if="${serverType == 'prd'}">
+                                                <a  href="https://taihan.com/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                    제보 확인하기
+                                                </a>
+                                            </th:block>
+                                            <th:block th:if="${serverType == 'dev' or serverType == 'loc'}">
+                                                <a  href="https://dev.taihan.com/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                    제보 확인하기
+                                                </a>
+                                            </th:block>
                                         </th:block>
-                                        <th:block th:if="${serverType == 'dev' or serverType == 'loc'}">
-                                            <a  href="https://dev.taihan.com/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
-                                                제보 확인하기
-                                            </a>
+
+                                        <th:block th:if="${lang == 'en'}">
+                                            <th:block th:if="${serverType == 'prd'}">
+                                                <a  href="https://taihan.com/en/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                    Check status of your report
+                                                </a>
+                                            </th:block>
+                                            <th:block th:if="${serverType == 'dev' or serverType == 'loc'}">
+                                                <a  href="https://dev.taihan.com/en/esg/inquireCheck" style="display:inline-block;width:300px;height:80px;background:#093389;border:0;line-height:80px;font-size:22px;font-weight:700;color:#fff;text-align: center;text-decoration: none">
+                                                    Check status of your report
+                                                </a>
+                                            </th:block>
                                         </th:block>
+
                                     </th:block>
 
                                     <th:block th:if="${toType == 'admin'}">
@@ -175,7 +211,8 @@
 
                 <!--footer-->
                 <tfoot>
-                <tr>
+                <th:block th:if="${lang == 'ko'}">
+                    <tr>
                     <td style="padding:55px 10px 35px;background:#eceef0;font-size:18px;color:#000;line-height:2;text-align:center;color:#000;">
                         본 이메일은 발신 전용입니다.<br>
                         <th:block th:if="${toType == 'user'}">
@@ -213,6 +250,48 @@
                         </th:block>
                     </td>
                 </tr>
+                </th:block>
+                <th:block th:if="${lang == 'en'}">
+                    <tr>
+                        <td style="padding:55px 10px 35px;background:#eceef0;font-size:18px;color:#000;line-height:2;text-align:center;color:#000;">
+                            This is a no-reply email address.<br>
+                            <th:block th:if="${toType == 'user'}">
+                                <th:block th:if="${serverType == 'prd'}">
+                                    Please visit
+                                    <a href="https://taihan.com/en/esg/cyberReport" style="font-weight: 700;color:#093389;text-decoration: none">
+                                        “Cyber Reporting Channel”
+                                    </a>
+                                    on our website for additional reports.
+                                </th:block>
+                                <th:block th:unless="${serverType == 'prd'}">
+                                    Please visit
+                                    <a href="https://dev.taihan.com/en/esg/cyberReport" style="font-weight: 700;color:#093389;text-decoration: none">
+                                        “Cyber Reporting Channel”
+                                    </a>
+                                    on our website for additional reports.
+                                </th:block>
+                            </th:block>
+                            <th:block th:if="${toType == 'admin'}">
+                                <th:block th:if="${serverType == 'prd'}">
+                                    사이버 신문고 제보 관련 내용은
+                                    <a href="#" style="font-weight: 700;color:#093389;text-decoration: none">
+                                        [홈페이지 관리자 시스템]
+                                    </a>
+                                    에서 확인하실수 있습니다.
+                                </th:block>
+                                <th:block th:unless="${serverType == 'prd'}">
+                                    사이버 신문고 제보 관련 내용은
+                                    <a href="https://dev-admin.taihan.com/" style="font-weight: 700;color:#093389;text-decoration: none">
+                                        [홈페이지 관리자 시스템]
+                                    </a>
+                                    에서 확인하실수 있습니다.
+                                </th:block>
+
+                            </th:block>
+                        </td>
+                    </tr>
+                </th:block>
+
                 <tr>
                     <td style="padding-bottom:50px;background:#eceef0;font-size:16px;color:#999;line-height:1.5;text-align:center;">
                         COPYRIGHT © 2022 taihan Cable & Solution Co., Ltd. ALL RIGHT RESERVED

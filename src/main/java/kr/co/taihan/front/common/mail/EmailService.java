@@ -71,6 +71,7 @@ public class EmailService {
         ctx.setVariable("registNum",emailMessage.getRegistNum());
         ctx.setVariable("gubun", emailMessage.getGubun());
         ctx.setVariable("gubunTxt", "em".equals(emailMessage.getGubun()) ? "윤리경영" : "공정거래");
+        ctx.setVariable("gubunTxtEn", "em".equals(emailMessage.getGubun()) ? "ethical management" : "fair trade");
         ctx.setVariable("name",emailMessage.getName());
         ctx.setVariable("phone",emailMessage.getPhone());
         ctx.setVariable("email",emailMessage.getEmail());
@@ -78,6 +79,7 @@ public class EmailService {
         ctx.setVariable("urlParam",emailMessage.getUrlParam());
         ctx.setVariable("serverType",emailMessage.getServerType());
         ctx.setVariable("inquiryDay",emailMessage.getInquiryDay());
+        ctx.setVariable("lang",emailMessage.getLang());
         String html = templateEngine.process("report", ctx);
         return html;
     }

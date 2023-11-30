@@ -59,6 +59,7 @@
           , PASSWORD
           , GUBUN
           , USER_IP
+          , LANG
       )
     VALUES
       (
@@ -74,6 +75,7 @@
         , #{password}
         , #{gubun}
         , #{userIp}
+        , #{lang}
       )
   </insert>
 

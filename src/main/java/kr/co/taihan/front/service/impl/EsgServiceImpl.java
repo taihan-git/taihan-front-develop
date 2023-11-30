@@ -91,6 +91,7 @@ public class EsgServiceImpl implements EsgService {
             }
         }
 
+        //todo soro 주석 풀기
         //이벤트 발행
         if(!"loc".equals(serverType)){
             //실명으로 제보시 메일 발행
@@ -136,24 +137,43 @@ public class EsgServiceImpl implements EsgService {
         dto.setPhone(param.getPhone());
         dto.setEmail(param.getEmail());
         dto.setServerType(serverType);
+        dto.setLang(param.getLang());
 
         String inqquiryDay = "ko".equals(CommonUtils.getLang()) ? LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd일 HH시 mm분 ss초")) :
                 LocalDateTime.now().format(DateTimeFormatter.ofPattern("MMM / dd / yyyy , HH : mm : ss").withLocale(Locale.ENGLISH));
         dto.setInquiryDay(inqquiryDay);
 
-        switch (div){
-            case "1":
-                dto.setSubject("em".equals(param.getGubun()) ? "윤리경영 제보하기가 접수되었습니다." : "공정거래 제보하기가 접수되었습니다.");
-                dto.setToType("user");
-                dto.setTo(param.getEmail());
-                break;
-            case "2":
-                dto.setSubject("새로운 제보가 접수되었습니다.");
-                dto.setToType("admin");
-                dto.setTo(param.getAdminMail()); //TODO 관리자에게
-                dto.setUrlParam(param.getIdx()+"");
-                break;
+        if("ko".equals(param.getLang())){
+            switch (div){
+                case "1":
+                    dto.setSubject("em".equals(param.getGubun()) ? "윤리경영 제보하기가 접수되었습니다." : "공정거래 제보하기가 접수되었습니다.");
+                    dto.setToType("user");
+                    dto.setTo(param.getEmail());
+                    break;
+                case "2":
+                    dto.setSubject("새로운 제보가 접수되었습니다.");
+                    dto.setToType("admin");
+                    dto.setTo(param.getAdminMail()); //TODO 관리자에게
+                    dto.setUrlParam(param.getIdx()+"");
+                    break;
+            }
         }
+        if("en".equals(param.getLang())){
+            switch (div){
+                case "1":
+                    dto.setSubject("em".equals(param.getGubun()) ? "Your report about ethical management has been submitted." : "Your report about fair trade has been submitted.");
+                    dto.setToType("user");
+                    dto.setTo(param.getEmail());
+                    break;
+                case "2":
+                    dto.setSubject("새로운 제보가 접수되었습니다.");
+                    dto.setToType("admin");
+                    dto.setTo(param.getAdminMail()); //TODO 관리자에게
+                    dto.setUrlParam(param.getIdx()+"");
+                    break;
+            }
+        }
+
         return dto;
     }
 
