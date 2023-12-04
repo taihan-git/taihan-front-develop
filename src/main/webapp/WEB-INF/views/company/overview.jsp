@@ -365,12 +365,12 @@
 								</c:if>
 							</p>
 							<c:if test="${LANG eq 'ko' }">
-								<a href="/resources/files/2023_taihan_Corporate profile_KOR.pdf" class="btn-type btn-m"  target="_blank">
+								<a href="/resources/files/2023_taihan_Corporate_Profile_KOR.pdf" class="btn-type btn-m"  target="_blank">
 									<span><spring:message code="overview.btnDownload" text="회사 소개 자료 다운로드"/></span><i class="ico-down"></i>
 								</a>
 							</c:if>
 							<c:if test="${LANG eq 'en' }">
-								<a href="/resources/files/2023_taihan_Corporate profile_ENG.pdf" class="btn-type btn-m"  target="_blank">
+								<a href="/resources/files/2023_taihan_Corporate_Profile_ENG.pdf" class="btn-type btn-m"  target="_blank">
 									<span>Corporate Profile Download</span><i class="ico-down"></i>
 								</a>
 							</c:if>

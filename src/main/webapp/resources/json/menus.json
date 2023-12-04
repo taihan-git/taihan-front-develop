@@ -583,7 +583,7 @@
 			{
 				"lvl": "2",
 				"nm": "사이버 신문고",
-				"enNm": "Cyber Reporting Channel",
+				"enNm": "Compliance Reporting Channel",
 				"kurl": "/esg/cyberReport",
 				"eurl": "/en/esg/cyberReport",
 				"kactiveUrls": "/esg/cyberReport",

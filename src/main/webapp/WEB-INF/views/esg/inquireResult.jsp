@@ -16,7 +16,7 @@
     <c:if test="${LANG eq 'en'}">
         <div class="sub-visual" style="background-image: url(${CON_STATIC_URL}/asset/images/esg/visual_esg_07.jpg?v4)">
             <div class="sub-title">
-                <h2 class="title-type">Cyber Reporting Channel</h2>
+                <h2 class="title-type">Compliance Reporting Channel</h2>
             </div>
         </div>
     </c:if>

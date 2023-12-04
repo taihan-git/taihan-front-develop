@@ -19,7 +19,7 @@
 	<c:if test="${LANG eq 'en'}">
 		<div class="sub-visual" style="background-image: url(${CON_STATIC_URL}/asset/images/esg/visual_esg_07.jpg?v4)">
 			<div class="sub-title">
-				<h2 class="title-type">Cyber Reporting Channel</h2>
+				<h2 class="title-type">Compliance Reporting Channel</h2>
 			</div>
 			<div class="btn-box pc-display">
 					<a href="/en/esg/inquireCheck" class="btn-type btn-s">Check status of your report<i class="ico-arr v2"></i></a>
@@ -39,10 +39,6 @@
 						<div class="title-wrap v2" data-delighter>
 							<strong class="title-type">
 								모든 이해관계자가 <br class="mo-br">신뢰할 수 있는 <br class="mo-br">제보 시스템을 제공합니다.
-							</strong>
-
-							<strong class="title-type">
-								all <br class="mo-br">신뢰할 수 있는 <br class="mo-br">제보 시스템을 제공합니다.
 							</strong>
 
 							<p>제보 내용은 책임 부서의 관리 하에 독립적으로 처리되며,<br>
@@ -295,7 +291,7 @@
 								<a href="/en/esg/inquireRegForm?gubun=em">
 									<strong class="title">Ethical Management</strong>
 									<ul class="list-type v2">
-										<li>Accepting gifts, favors, or other illegal benefit</li>
+										<li>Receiving any type of reward such as money, entertainment or convenience</li>
 										<li>Illegal financial transactions with stakeholders</li>
 										<li>Inappropriate use of company assets</li>
 										<li>Unfair handling of work by employees</li>
@@ -407,7 +403,7 @@
 								</div>
 								<div class="desc-box">
 									<ul class="list-type v4">
-										<li>The report is investigated.</li>
+										<li>We initiate the investigation based on the content of the report.</li>
 										<li>We process reports in the order they are received. The investigation may take at least seven to ten days or longer depending on the subject and scope of investigation.</li>
 									</ul>
 								</div>
@@ -418,7 +414,7 @@
 								</div>
 								<div class="desc-box">
 									<ul class="list-type v4">
-										<li>The investigation is completed after it is verified that the reported information is true.</li>
+										<li>The investigation is completed after it is verified that the reported information is true or not.</li>
 										<li>You can view the outcome on our website using the report number assigned at the time of report. We’ll send you the outcome by e-mail if the report was submitted in your real name. </li>
 									</ul>
 								</div>

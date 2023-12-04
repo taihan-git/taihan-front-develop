@@ -173,7 +173,6 @@ public class EsgServiceImpl implements EsgService {
                     break;
             }
         }
-
         return dto;
     }
 
