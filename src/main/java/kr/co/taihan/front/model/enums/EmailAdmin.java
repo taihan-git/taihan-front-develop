@@ -19,7 +19,7 @@ public enum EmailAdmin {
     PRODUCTS_KO_7("ko_inqu_0107","소재","KJW0721@taihan.com"),
 
     INVEST_INFO_KO_1("ko_inqu_02","투자정보","jwkim@taihan.com"),
-    ENVIRMENT_KO_1("ko_inqu_03","채용","leejb@taihan.com"),
+    ENVIRMENT_KO_1("ko_inqu_03","채용","uskim@taihan.com"),
 
     ETC_KO_1("ko_inqu_0401","기술개발 제안","hskwon@taihan.com,gocharge89@taihan.com"),
     ETC_KO_2("ko_inqu_0402","전문인력 파견 교육 신청","hskwon@taihan.com,gocharge89@taihan.com"),
@@ -45,7 +45,7 @@ public enum EmailAdmin {
     PRODUCTS_EN_6("en_inqu_0107","Base Metal","KJW0721@taihan.com"),
 
     IR_EN_1("en_inqu_02","IR","jwkim@taihan.com"),
-    HR_EN_1("en_inqu_03","HR","leejb@taihan.com"),
+    HR_EN_1("en_inqu_03","HR","uskim@taihan.com"),
     OTHERS_EN_1("en_inqu_04","Others","ygkim@taihan.com"),
     ;
 
