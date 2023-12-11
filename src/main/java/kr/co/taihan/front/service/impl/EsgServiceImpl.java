@@ -91,7 +91,7 @@ public class EsgServiceImpl implements EsgService {
             }
         }
 
-        //todo soro 주석 풀기
+
         //이벤트 발행
         if(!"loc".equals(serverType)){
             //실명으로 제보시 메일 발행
@@ -118,7 +118,8 @@ public class EsgServiceImpl implements EsgService {
                     }
                 }else{
                     //개발서버 메일 확인 테스터
-                    String[] testers = new String[]{"haley.kim@d2.co.kr","natalie.kim@d2.co.kr","levi.lee@d2.co.kr"};
+//                    String[] testers = new String[]{"haley.kim@d2.co.kr","natalie.kim@d2.co.kr","levi.lee@d2.co.kr"};
+                    String[] testers = new String[]{"soro.java@gmail.com","dgkim@soroweb.co.kr"};
                     for (String tester : testers) {
                         param.setAdminMail(tester);
                         applicationEventPublisher.publishEvent(getMailDto(param,"2"));

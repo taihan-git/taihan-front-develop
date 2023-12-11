@@ -59,6 +59,7 @@ public class EmailService {
         } catch (Exception e) {
             logger.info("TO_MAIL   :::: {}", emailMessage.getTo());
             logger.info("SEND_MAIL ::::  FAIL");
+            logger.info("FAIL_MESSAGE :::: {}", e.getMessage());
         }
     }
 
