@@ -7,21 +7,19 @@ server:
       enabled: true
   max-http-header-size: 10000000
 
-
-#    username: system@taihan.com
-#    password: T@ihan2021
-
 spring:
   mail:
-    host: 218.55.115.186
+    host: 10.10.200.99
     port: 25
+    username: system@taihan.com
+    password: T@ihan2021
     properties:
       mail:
         smtp:
-          auth: false
+          auth: true
           timeout: 5000
           starttls:
-            enable: false
+            enable: true
   thymeleaf:
     prefix: classpath:/mail-templates/
     suffix: .html
