@@ -9,10 +9,10 @@ server:
 
 spring:
   mail:
-    host: 10.10.200.99
+    host: 218.55.115.186
     port: 25
-    username: system@taihan.com
-    password: T@ihan2021
+#    username: system@taihan.com
+#    password: T@ihan2021
     properties:
       mail:
         smtp:
