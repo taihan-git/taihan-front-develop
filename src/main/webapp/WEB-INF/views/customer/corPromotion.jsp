@@ -88,16 +88,16 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-															<iframe type="text/html" src="https://www.youtube.com/embed/nXOrZkHU-DQ?si=TemIFBUb6zAwCGxx?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/nXOrZkHU-DQ?si=TemIFBUb6zAwCGxx?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
-															<iframe type="text/html" src="https://www.youtube.com/embed/PI6HtQAWSvY?si=GeLrag04fYhi1REP&autoplay&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/PI6HtQAWSvY?si=GeLrag04fYhi1REP&autoplay&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             </div>
                             <div class="narration-box">
                                 <a href="#" class="btn-narration"><spring:message code="rsroom.narration" text="내레이션 보기"/><i class="ico-more2"></i></a>
-                               <div class="text-box">
- 									<c:if test="${LANG eq 'ko'}">
+                                <div class="text-box">
+ 								    <c:if test="${LANG eq 'ko'}">
 										어둠이 걷히고, 언제나 빛이 머무는 세상. 당신을 그 세상에 연결하고 더 나은 내일로 나아가게 하는 길. 그 길을 대한전선이 만들어 갑니다. 미래를 밝히는 힘. 가능성을 현실로 바꾸는 의지. We Connect the Future. 대한전선. <br />
 										최초라는 이름을 넘어, 최고의 자리를 향해 대한전선은 쉼 없이 나아갑니다. 대한민국 최초의 전선회사로 출발한 대한전선은 끝없는 도전과 혁신으로, ‘국내 최초, 세계 최초’의 타이틀을 수없이 거머쥐며 전력 및 통신 케이블과 소재 분야를 개척해왔습니다.<br />
 										70년 성장의 역사를 일구어 온 대한전선. 아시아와 중동, 오세아니아를 넘어 유럽과 미주, 아프리카까지, 주요 시장에 생산 기지와 지사를 구축하고 전 세계가 신뢰하는 기술과 품질을 선보이며 글로벌 기업으로서의 위상을 높여가고 있습니다.<br />
@@ -135,20 +135,20 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/tm9h92Z-a70?si=xlKDSUWVqTeStHoo?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/oai1tWYh3cw?si=597ZdPc-uW_vpNRo?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/RKy4DQ17Izo?si=oLw8CWrBI77MLjeg?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/PmN4x6rQuX0?si=mXCibHXgELWAFLIw?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             </div>
                             <div class="narration-box">
                                 <a href="#" class="btn-narration"><spring:message code="rsroom.narration" text="내레이션 보기"/><i class="ico-more2"></i></a>
                                 <div class="text-box">
                                     <c:if test="${LANG eq 'ko'}">
-										어둠이 걷히고 언제나 빛이 머무는 세상 당신을 그 세상에 연결하고 더 나은 내일로 나아가게 하는 길 그 길을 대한전선이 만들어 갑니다. 탄탄한 기술력과 지속적인 연구개발을 바탕으로 친환경, 고효율 케이블 개발을 추진하고 있는 대한전선은 다양한 신재생 에너지 산업 정착에 기여하고 있습니다. 국내 여수 장군도를 시작으로 전남 장죽수도, 부산 영도대교, 울산 신항 및 군산항과 아프리카 세이셀 공화국 등에서의 해저케이블 납품 실적을 바탕으로 국내 최대 규모의 서남해 2.5GW 해상풍력개발사업의 실증단지 연구개발 사업을 수주하여 납품 및 설치한 데 이어 내부망 구축 프로젝트를 연이어 수주하였습니다. 친환경, 스마트 팩토리 당진공장은 세계 최고 높이인 160.5m의 VCV 타워와 최고 품질의 해저케이블 생산을 위한 전용라인을 보유하여 최대직경 175mm, 최대길이 10km의 해저케이블을 생산할 수 있습니다. 대한전선은 자체 시험설비를 통해 모든 시험이 가능하며 2016년, 22.9kV 해저케이블 전 규격에 대한 인증과 한전 납품자격을 취득하였고, 국내 최초로 J-tube Pull-in-Test 시연을 통해 제품의 신뢰성을 검증받았습니다. 케이블 선적은 당진공장과 인접한 최대 5만톤급 선박의 접안능력을 갖춘 평택항을 활용하고 있습니다. 최상의 해저케이블의 운송과 선적을 위해 대한전선의 엔지니어들은 오랜 노하우를 바탕으로 안전하고 신속한 육상운송 루트를 확보하고 있으며, 조수간만의 차가 심한 서해의 환경조건에서도 이상 없이 케이블 선적작업을 완료한 노하우를 가지고 있습니다. 대한전선은 국내외 해저케이블 포설 전문회사들과 함께 다양한 환경의 해저케이블 포설 및 설치작업을 성공적으로 완수하고 있습니다. 해상풍력단지의 납품 및 시공경험을 통해 대한전선은 지속적인 Track Record를 쌓으며 세계시장을 목표로 해저케이블 사업에 박차를 가하고 있습니다. 더 나은 미래를 향해 전진하는 대한전선은 세계 최고 품질의 해저케이블을 공급하는 글로벌 전선 산업의 리더로서 발걸음을 멈추지 않겠습니다.
+										대륙을 너머 바다로, 바다를 너머 더 나은 세상으로. 대한전선이 새롭고, 원대한 여정을 시작합니다. 대한전선이 충남 당진에 건설하는 해저케이블 공장은, 세계 최대 규모를 자랑하는 당진공장, 접속재를 생산하는 전력기기 공장과 인접해 있어 ‘케이블 생산의 클러스터’를 조성합니다. 특히, 부두와 맞닿아 있어 해저케이블을 선적하기에 최적화된 루트를 확보하고 있습니다. 또한, 서해안을 중심으로 형성되는 대규모 해상풍력 발전단지와 인접해 있으며, 전 세계의 주요 시장에 빠르고 안전하게 해저케이블을 공급할 수 있는 최적의 입지에 위치하고 있습니다. 대한전선은 현재 건설 중인 해저 1공장의 1단계 투자를 통해 해상풍력 발전단지에 사용하는 66kV 내부망 생산 설비를 구축합니다. 이은 2단계 투자로, 154kV 외부망 설비를 구축하고, 2025년부터 생산할 계획입니다. 이후 해저 2공장에 VCV 타워를 건설해 345kV 외부망과 525kV HVDC 케이블을 생산할 수 있도록 역량을 확대할 예정입니다. 대한전선은 글로벌 해저케이블 수요 확대에 맞춰 공격적인 투자와 기술개발을 통해 적극 대응합니다. 케이블 설계부터, 생산, 시험, 운송, 시공, 준공검사와 유지보수까지 대한전선은 해저케이블 분야의 토탈 솔루션 기업으로서 사업을 확대하고 무한한 역량을 펼쳐 나가겠습니다. 빠르고, 유연하며, 지속가능한 해저케이블이 만들어갈 새로운 세상.그 길에 대한전선이 있습니다.
 									</c:if>
                                     <c:if test="${LANG eq 'en'}">
-										The world where darkness is gone and light always stays The way to connect you to the world and lead you to a better tomorrow Taihan makes that way. We are pushing forward with the eco-friendly and high-efficiency cable product development based on robust-based technology and continuous research-oriented policy and contributing to the various renewable energy industries soft-landing. Based on successfully installed submarine cables for local projects, i.e. Yeosu-Janggoon Island, JeollaNam-do Jang-Juk Waterways, Busan Yeongdo Bascule Bridge, Ulsan Newport and Gunsan Port, further, Seychelles Archipelago in Africa, We secured an order for the largest-scaled offshore wind farm development project in Korea, which is the West-South Offshore 2.5gigawatt Wind Farm Project Test Bed R&D work and supplied & installed. Besides, we made splendid achievement of securing Inter-array Main Project. Designed and established as an eco-friendly smart factory style, Dangjin Plant holds the world's tallest VCV tower whose height is 160.5 meters and state-of-the-art exclusive production line for high-quality submarine cables. we can produce and provide maximum diameter 175mm, length 10km submarine cables. We have our own test equipment enabling all kinds of test performances. In 2016, we achieved the certification and KEPCO for 22.9kilovolt submarine cables. We demonstrated J-tube pull-in test for offshore wind towers and product reliability was verified based on specific installation conditions, accordingly. Cable shipment is normally made at Pyeongtaek Seaport of which berth capability is around 50,000 metric ton and quite adjacent to Dangjin Plant. For the best transportation and shipment of submarine cables, our professional engineers have already secured the safest and fastest land transportation route from Dangjin Plant to Pyeongtaek Seaport based on sufficient experiences. We have deep empirical knowledge to have been accomplished cable shipping work without any problems despite the harsh environmental conditions of large tidal range of the West Sea. For the sake of the safest installation of the submarine cables in the various enviroment, Taihan close technical collaboration together with the prominent domestic and foreign submarine cable installation companies. Sincerely based on the precious past experiences in product delivery and construction work of offshore wind farms, Taihan has been erected as much successful track records and is further stepping into the world markets. Taihan will never stop stepping forward as a socially matured and responsible leader in the global cable industry by manufacturing the world's best quality submarine cables.
+										Beyond the continent, into the sea, Towards a better world beyond the ocean. Taihan embarks on a new and grand journey. Taihan's submarine cable plant is located near the world's largest cable plant and cable accessory plant in Dangjin area. These are in the cluster to create great synergy by working closely together. Being next to the quayside, we have secured an optimized transportation route for submarine cable loading. Furthermore, it is adjacent to offshore wind farms centered on the West Sea coast, serving as a global logistics hub, enabling rapid transportation worldwide. Taihan is establishing production facilities for 66kV inter array cables and 154kV export cables for offshore wind farms. Through phased investments, Taihan will build production facilities for 345kV export cables and 525kV HVDC cables. Taihan responds to the expanding global demand for submarine cables by making timely investments in order to meet market needs. From cable design to production, transportation, installation, testing, and maintenance, Taihan provides total solutions in the submarine cable field, and will expand to demonstrate limitless capabilities. Flexible, Reliable, Sustainable Creating a new world shaped by submarine cables. On that path, there is Taihan.
 									</c:if>
 								</div>
                             </div>
