@@ -52,11 +52,14 @@ public class EmailService {
             //메일 전송
             javaMailSender.send(mimeMessage);
 
+            logger.info("MAIL_TEST   :::::::::::::::::::::::::::: ");
             logger.info("TO_MAIL   :::: {}", emailMessage.getTo());
             logger.info("TEST TO_MAIL   :::: {}", emailMessage.getTo());
             logger.info("SEND_MAIL :::: SUCCESS");
 
         } catch (Exception e) {
+
+            logger.info("MAIL_TEST   :::::::::::::::::::::::::::: ");
             logger.info("TO_MAIL   :::: {}", emailMessage.getTo());
             logger.info("SEND_MAIL ::::  FAIL");
             logger.info("FAIL_MESSAGE :::: {}", e.getMessage());
