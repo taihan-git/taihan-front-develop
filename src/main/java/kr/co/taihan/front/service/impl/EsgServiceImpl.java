@@ -107,7 +107,7 @@ public class EsgServiceImpl implements EsgService {
                     if("em".equals(param.getGubun())){
                         adminMails = new String[]{"ethics@taihan.com", "open7954@taihan.com","ymkang@taihan.com","kcjyhm@taihan.com"};
                     }else if("cp".equals(param.getGubun())){
-                        adminMails = new String[]{"compliance@taihan.com", "eunsukoh@taihan.com","lkshkshl@taihan.com"};
+                        adminMails = new String[]{"compliance@taihan.com", "eunsukoh@taihan.com","lkshkshl@taihan.com","jhji@taihan.com"};
                     }
                     if(adminMails != null){
                         for (String adminMail : adminMails) {
@@ -119,7 +119,7 @@ public class EsgServiceImpl implements EsgService {
                 }else{
                     //개발서버 메일 확인 테스터
 //                    String[] testers = new String[]{"haley.kim@d2.co.kr","natalie.kim@d2.co.kr","levi.lee@d2.co.kr"};
-                    String[] testers = new String[]{"soro.java@gmail.com","dgkim@soroweb.co.kr"};
+                    String[] testers = new String[]{"dgkim@soroweb.co.kr"};
                     for (String tester : testers) {
                         param.setAdminMail(tester);
                         applicationEventPublisher.publishEvent(getMailDto(param,"2"));
