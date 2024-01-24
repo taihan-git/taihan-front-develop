@@ -175,6 +175,61 @@
 						<div class="cont">
 							<div class="inner-box">
 								<div class="text-box">
+									<div class="text-item" data-hisyear="2023">
+										<div>
+											<span class="cover"></span>
+											<div class="box">
+												<h4 class="year">2023</h4>
+												<ol>
+													<li>
+														<strong>12</strong><span>해저케이블 전용 포설선(CLV) 인수</span>
+													</li>
+													<li>
+														<strong>12</strong><span>납품대금연동제 우수기업 선정</span>
+													</li>
+													<li>
+														<strong>12</strong><span>2023년 공정거래 자율준수 프로그램 등급평가 우수기업 선정</span>
+													</li>
+													<li>
+														<strong>11</strong><span>기술연구소 서울 본사로 이전</span>
+													</li>
+													<li>
+														<strong>11</strong><span>3년 연속 ESG 통합 A등급 획득(KCGS)</span>
+													</li>
+													<li>
+														<strong>08</strong><span>
+															국내 최초 525kV 전압형 XLPE HVDC 케이블 국제 인증 획득
+															(도체 단면적 3,000SQ, 도체 허용 온도 90℃ 이상 기준)
+														</span>
+													</li>
+													<li>
+														<strong>01</strong><span>쿠웨이트 광케이블 공장 착공</span>
+													</li>
+												</ol>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="img-box">
+									<div class="img-item">
+										<div class="item">
+											<div class="box" data-delighter>
+												<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2023_12_01.jpg)"></div>
+												<p>기술연구소 서울 본사 이전</p>
+											</div>
+											<div class="box" data-delighter>
+												<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2023_12_02.jpg)"></div>
+												<p>해저케이블 전용 포설선(CLV)</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cont">
+							<div class="inner-box">
+								<div class="text-box">
 									<div class="text-item" data-hisyear="2022">
 										<div>
 											<span class="cover"></span>
@@ -2582,6 +2637,57 @@
 							<div class="cont">
 								<div class="inner-box">
 									<div class="text-box">
+										<div class="text-item" data-hisyear="2023">
+											<div>
+												<span class="cover"></span>
+												<div class="box">
+													<h4 class="year">2023</h4>
+													<ol>
+														<li>
+															<strong>12</strong><span>Acquired dedicated CLV(Cable Laying Vessel) for submarine cables</span>
+														</li>
+														<li>
+															<strong>12</strong><span>Recognized as leading company in supply chain-linked payment system</span>
+														</li>
+														<li>
+															<strong>12</strong><span>Selected as outstanding company in 2023 Fair Trade Compliance Program assessment</span>
+														</li>
+														<li>
+															<strong>11</strong><span>Relocated technical research center to Seoul headquarters</span>
+														</li>
+														<li>
+															<strong>11</strong><span>Secured ESG integrated A grade for three consecutive years (KCGS).</span>
+														</li>
+														<li>
+															<strong>08</strong><span>Acquired Korea’s first KEMA international certification for 525kV VSC XLPE HVDC cable(with conductor cross-sectional area of 3,000SQ and conductor allowable temperature above 90°C)</span>
+														</li>
+														<li>
+															<strong>01</strong><span>Groundbreaking for optical cable plant in Kuwait</span>
+														</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="img-box">
+										<div class="img-item">
+											<div class="item">
+												<div class="box" data-delighter>
+													<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2023_12_01.jpg)"></div>
+													<p>Relocated technical research center to Seoul headquarters</p>
+												</div>
+												<div class="box" data-delighter>
+													<div class="img" style="background-image:url(${CON_STATIC_URL}/asset/images/company/history/2023_12_02.jpg)"></div>
+													<p>CLV(Cable Laying Vessel ) for submarine cables</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cont">
+								<div class="inner-box">
+									<div class="text-box">
 										<div class="text-item" data-hisyear="2022">
 											<div>
 												<span class="cover"></span>
@@ -2593,10 +2699,10 @@
 															<strong>12</strong><span>Commenced construction of a submarine Cable Factory in Dangjin</span>
 														</li>
 														<li>
-															<strong>12</strong><span>Acquired Korea’s first KEMA international certification for 500kV LCC XLPE HVDC</span>
+															<strong>12</strong><span>Acquired Korea’s first KEMA international certification for 500kV LCC XLPE HVDC cable</span>
 														</li>
 														<li>
-															<strong>11</strong><span>Acquired ESG Integrated Grade A for 2 consecutive years(KCGS)</span>
+															<strong>11</strong><span>Acquired ESG Integrated Grade A for two consecutive years(KCGS)</span>
 														</li>
 														<!-- // 2022-12-26 -->
 														<li>
