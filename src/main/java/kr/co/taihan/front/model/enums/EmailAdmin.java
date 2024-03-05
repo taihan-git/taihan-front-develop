@@ -30,8 +30,8 @@ public enum EmailAdmin {
 
 
     //영문 제품(Extra-high cable)은 지역 기준으로 코드 세팅
-    PRODUCTS_RG_1("en_coun_01","Middle East / Africa","hoyjung@taihan.com"),
-    PRODUCTS_RG_2("en_coun_02","Asia / Oceania","hoyjung@taihan.com"),
+    PRODUCTS_RG_1("en_coun_01","Middle East / Africa","hyewon.yoo@taihan.com"),
+    PRODUCTS_RG_2("en_coun_02","Asia / Oceania","hyewon.yoo@taihan.com"),
     PRODUCTS_RG_3("en_coun_03","Europe","wschung@taihan.com"),
     PRODUCTS_RG_4("en_coun_04","America","gutesleben12@taihan.com"),
     PRODUCTS_RG_5("en_coun_05","Russia/CIS","alexlee@taihan.com"),
