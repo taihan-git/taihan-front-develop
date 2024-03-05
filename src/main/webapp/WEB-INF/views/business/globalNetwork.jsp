@@ -120,7 +120,7 @@
 						<li>
 							<a href="javascript:goLoc('middle')" class="area-box middle">
 								<div class="title-box">
-									<strong>Middle East Asia</strong>
+									<strong>Middle East</strong>
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">
@@ -216,7 +216,7 @@
 						<li>
 							<a href="javascript:goLoc('middle')" class="area-box middle">
 								<div class="title-box">
-									<strong>Middle East Asia</strong>
+									<strong>Middle East</strong>
 									<i class="ico-pin"></i>
 								</div>
 								<div class="list-box">

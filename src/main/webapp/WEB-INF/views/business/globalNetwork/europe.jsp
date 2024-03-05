@@ -242,7 +242,7 @@
 								<li ><a href="/en/business/globalNetwork/korea#map-box"><span>KOREA<em class="count">(6)</em></span></a></li>
 								<li ><a href="/en/business/globalNetwork/america#map-box"><span>America<em class="count">(3)</em></span></a></li>
 								<li class="active"><a href="/en/business/globalNetwork/europe#map-box"><span>Europe<em class="count">(5)</em></span></a></li>
-								<li><a href="/en/business/globalNetwork/middle#map-box"><span>Middle East Asia<em class="count">(8)</em></span></a></li>
+								<li><a href="/en/business/globalNetwork/middle#map-box"><span>Middle East<em class="count">(8)</em></span></a></li>
 								<li><a href="/en/business/globalNetwork/oceania#map-box"><span>Oceania<em class="count">(2)</em></span></a></li>
 								<li><a href="/en/business/globalNetwork/asia#map-box"><span>Asia<em class="count">(4)</em></span></a></li>
 								<li><a href="/en/business/globalNetwork/africa#map-box"><span>Africa<em class="count">(1)</em></span></a></li>
