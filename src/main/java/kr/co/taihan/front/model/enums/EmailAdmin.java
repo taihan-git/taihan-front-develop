@@ -42,7 +42,7 @@ public enum EmailAdmin {
     PRODUCTS_EN_3("en_inqu_0104","Bus-Duct","jjh4869@taihan.com"),
     PRODUCTS_EN_4("en_inqu_0105","Renewable Energy","hoonsmile@taihan.com"),
     PRODUCTS_EN_5("en_inqu_0106","Communications Cable","jwoh@taihan.com"),
-    PRODUCTS_EN_6("en_inqu_0107","Base Metal","KJW0721@taihan.com"),
+    PRODUCTS_EN_6("en_inqu_0107","Base Metal","kkj@taihan.com,dg.yoo@taihan.com"),
 
     IR_EN_1("en_inqu_02","IR","jwkim@taihan.com"),
     HR_EN_1("en_inqu_03","HR","uskim@taihan.com"),
