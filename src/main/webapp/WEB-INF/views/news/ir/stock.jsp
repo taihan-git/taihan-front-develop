@@ -44,19 +44,19 @@
                         <li>
                             <dl>
                                 <dt><spring:message code="stock.text3" text="감소한 주식의 총수" /></dt>
-                                <dd>340,591,171</dd>
+                                <dd>1,460,616,880</dd>
                             </dl>
                         </li>
                         <li>
                             <dl>
                                 <dt><spring:message code="stock.text4" text="자기 주식의 수" /></dt>
-                                <dd>6,840,777</dd>
+                                <dd>772,087</dd>
                             </dl>
                         </li>
                         <li>
                             <dl>
                                 <dt><spring:message code="stock.text5" text="유통 주식수" /></dt>
-                                <dd>1,237,632,232</dd>
+                                <dd>123,675,213</dd>
                             </dl>
                         </li>
                     </ul>
@@ -92,27 +92,27 @@
                         <tbody>
                         <tr>
                             <th scope="row" class="t-l"><i class="ico-circle"></i><spring:message code="stock.1table1" text="(주)호반산업" /></th>
-                            <td class="t-r">499,044,607</td>
+                            <td class="t-r">49,904,460</td>
                             <td class="t-r">40</td>
                         </tr>
                         <tr>
                             <th scope="row" class="t-l"><i class="ico-circle v2"></i><spring:message code="stock.1table2" text="금융기관" /></th>
-                            <td class="t-r">55,007,785</td>
-                            <td class="t-r">4</td>
+                            <td class="t-r">2,415,107</td>
+                            <td class="t-r">2</td>
                         </tr>
                         <tr>
                             <th scope="row" class="t-l"><i class="ico-circle v3"></i><spring:message code="stock.1table3" text="자기주식" /></th>
-                            <td class="t-r">6,840,777</td>
+                            <td class="t-r">772,087</td>
                             <td class="t-r">1</td>
                         </tr>
                         <tr>
                             <th scope="row" class="t-l"><i class="ico-circle v4"></i><spring:message code="stock.1table4" text="기타(1%미만)" /></th>
-                            <td class="t-r">683,579,840</td>
-                            <td class="t-r">55</td>
+                            <td class="t-r">71,355,646</td>
+                            <td class="t-r">57</td>
                         </tr>
                         <tr class="division">
                             <th scope="row" class="bg"><spring:message code="stock.1table5" text="계" /></th>
-                            <td class="bg t-r">1,244,473,009</td>
+                            <td class="bg t-r">124,447,300</td>
                             <td class="bg t-r">100</td>
                         </tr>
                         </tbody>
@@ -140,19 +140,19 @@
                         <tbody>
                         <tr>
                             <th scope="row"><spring:message code="stock.2table1" text="발행주식총수" /></th>
-                            <td class="t-r">1,244,473,009</td>
+                            <td class="t-r">124,447,300</td>
                             <td></td>
                         </tr>
                         <tr>
                             <th scope="row"><spring:message code="stock.2table2" text="의결권 없는 주식수" /></th>
                             <!-- 2022-10-24 텍스트 수정 -->
-                            <td class="t-r">6,840,777</td>
+                            <td class="t-r">772,087</td>
                             <!-- //2022-10-24 텍스트 수정 -->
                             <td><spring:message code="stock.2table4" text="자기주식" /></td>
                         </tr>
                         <tr>
                             <th scope="row"><spring:message code="stock.2table3" text="의결권 있는 주식수" /></th>
-                            <td class="t-r">1,237,632,232</td>
+                            <td class="t-r">123,675,213</td>
                             <td></td>
                         </tr>
 
