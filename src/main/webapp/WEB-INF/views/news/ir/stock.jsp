@@ -24,7 +24,7 @@
 
                 <div class="title-wrap2">
                     <h4 class="title-type"><spring:message code="stock.subTitle1" text="발행 주식수" /></h4>
-                    <div class="side-box"><spring:message code="stock.date" text="*2022.12.31 기준" /></div>
+                    <div class="side-box"><spring:message code="stock.date" text="*2023.12.31 기준" /></div>
                 </div>
 
                 <div class="box-wrap">
@@ -66,7 +66,7 @@
                 <div class="table-wrap">
                     <div class="title-wrap2">
                         <h4 class="title-type"><spring:message code="stock.subTitle2" text="주주구성" /></h4>
-                        <div class="side-box"><spring:message code="stock.date" text="*2022.12.31 기준" /></div>
+                        <div class="side-box"><spring:message code="stock.date" text="*2023.12.31 기준" /></div>
                     </div>
                     <div class="chart-box">
                         <c:if test="${LANG eq 'ko' }">
@@ -122,7 +122,7 @@
                 <div class="table-wrap">
                     <div class="title-wrap2">
                         <h4 class="title-type"><spring:message code="stock.subTitle3" text="의결권 현황" /></h4>
-                        <div class="side-box"><spring:message code="stock.date" text="*2022.12.31 기준" /></div>
+                        <div class="side-box"><spring:message code="stock.date" text="*2023.12.31 기준" /></div>
                     </div>
                     <table class="table-type">
                         <colgroup>
