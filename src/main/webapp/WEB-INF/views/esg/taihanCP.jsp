@@ -80,7 +80,7 @@
 							</div>
 							<!-- <div class="btn-box"><a href="${CON_UPLOAD_URL}pdf/Taihan_CP_Declaration.pdf" target="_blank" class="btn-type btn-m">2022 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div> -->
                             <!-- [D] download="ESG_CP_2023 대표이사 자율준수 의지선언.pdf"  원래 파일명-->
-							<div class="btn-box"><a href="${CON_STATIC_URL}/files/Taihan_CP_Declaration_2023.pdf" target="_blank" class="btn-type btn-m">2023 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div>
+							<div class="btn-box"><a href="${CON_STATIC_URL}/files/Taihan_CP_Declaration_2024.docx" target="_blank" class="btn-type btn-m">2024 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div>
 						</div>
 						</c:if>
 						<c:if test="${LANG eq 'en' }">
@@ -388,7 +388,7 @@
 				<c:if test="${LANG eq 'en' }">
 					<div class="inner-box">
 						<div class="title-wrap4">
-							<h3 class="title-type">CP Body and Roles</h3>
+							<h3 class="title-type">CP Organization and Roles</h3>
 						</div>
 
 						<div class="content-img" data-delighter>
@@ -465,7 +465,7 @@
 			<div class="info-wrap" style="background-image: url(${CON_STATIC_URL}/asset/images/esg/info_esg_06.jpg)">
 				<div class="info-title">
 					<span>투명하고 공정한 기업 문화 정착을 위한<br></span>
-					<span>대한전선 공정거래 자율준수의 편람 및 윤영규정을 소개합니다.</span>
+					<span>대한전선 공정거래 자율준수의 편람 및 운영규정을 소개합니다.</span>
 				</div>
 				<div class="btn-wrap">
 					<a href="/resources/files/CP_Manual.pdf" class="btn-type btn-m w-type"  target="_blank">공정거래 자율준수 편람<i class="ico-arr v2"></i></a>

@@ -481,7 +481,7 @@
 										<li>
 											<dl>
 												<dt><i class="ico-post"></i>Address</dt>
-												<dd>Taihan Cable & Solution Compliance Support Team  18, Yangjae-daero 2-gil, Seocho-gu, Seoul, South Korea</dd>
+												<dd>Taihan Cable & Solution Compliance Management Team 18, Yangjae-daero 2-gil, Seocho-gu, Seoul, South Korea</dd>
 											</dl>
 										</li>
 									</ul>

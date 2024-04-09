@@ -108,7 +108,7 @@
 							</ul>
 						</li>
 						<li>
-							<strong class="title"><spring:message code="product.busduct1" text="부스덕트"/></strong>
+							<strong class="title"><spring:message code="product.busduct1" text="버스덕트"/></strong>
 							<ul class="list-depth2">
 								<c:forEach var="item" items="${list}" varStatus="status">
 								<c:if test="${item.type eq '부스덕트'}">

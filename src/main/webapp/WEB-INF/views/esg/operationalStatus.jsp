@@ -434,7 +434,8 @@
 									<tr>
 										<th scope="col" class="bg">구분</th>
 										 <!-- 2022-12-26 -->
-                                        <th scope="col" class="bg">2022</th>
+                                        <th scope="col" class="bg">2023</th>
+																				<th scope="col" class="bg">2022</th>
                                         <th scope="col" class="bg">2021 하반기(CP도입)</th>
                                         <!-- // 2022-12-26 -->
 									</tr>
@@ -442,6 +443,7 @@
 								<tbody>
 									<tr>
 										<td>공정거래 관련 법령 위반</td>
+										<td>없음</td>
 										<td>없음</td>
 										<td>없음</td>
 									</tr>
@@ -495,29 +497,43 @@
 							 <!-- 2022-12-26 -->
                                     <table class="table-type v2">
                                         <colgroup>
-                                            <col />
-                                            <col style="width: 28%" />
-                                            <col style="width: 28%" />
-                                            <col style="width: 28%" />
+                                            <col style="width: 25%" />
+                                            <col style="width: 25%" />
+                                            <col style="width: 25%" />
+                                            <col style="width: 25%" />
                                         </colgroup>
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="bg">구분</th>
+                                                <th scope="col" class="bg" colspan="2">2023</th>
                                                 <th scope="col" class="bg" colspan="2">2022</th>
-                                                <th scope="col" class="bg">2021년 하반기</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>교육</td>
                                                 <td>정기교육</td>
                                                 <td>외부강사 초빙교육</td>
                                                 <td>정기교육</td>
+																								<td>외부강사 초빙교육</td>
                                             </tr>
                                             <tr>
-                                                <!-- 2022-12-27 -->
-                                                <td rowspan="2">주요 내용</td>
-                                                <!-- // 2022-12-27 -->
+																								<td class="t-l">
+																									<ul class="list-type v2">
+																											<li>하도급법 위반사례 해설</li>
+																											<li>당사 CP 운영규정 소개</li>
+																											<li>하도급법의 기본개념과 거래종류</li>
+																									</ul>
+																								</td>
+																								<td class="t-l">
+																										<ul class="list-type v2">
+																												<li>주요 부패방지법령 소개 및 유의사항</li>
+																												<li>공정거래 정책동향 소개</li>
+																												<li>
+																													23년 신규제도 소개<br>
+																													- 정보교환 규제와 대응방안정보교환법<br>
+																													- 납품단가 연동제, 하도급대금 결제조건 공시제도
+																												</li>
+																										</ul>
+																								</td>
                                                 <td class="t-l">
                                                     <ul class="list-type v2">
                                                         <li>하도급법 및 대리점법의 이해</li>
@@ -532,14 +548,6 @@
                                                         <li>하도급거래시 유의 사항</li>
                                                     </ul>
                                                 </td>
-                                                <td class="t-l">
-                                                    <ul class="list-type v2">
-                                                        <li>부당공동행위(담합)의 이해 및 유형</li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="3">신규 입사자 교육은 회사 CP제도 및 적용 법령 등의 안내로 구성</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -560,13 +568,15 @@
 							<table class="table-type v2">
 								<colgroup>
 									<col>
-									<col style="width:33%;">
-									<col style="width:33%;">
+									<col style="width:25%;">
+									<col style="width:25%;">
+									<col style="width:25%;">
 								</colgroup>
 								<thead>
 									<tr>
 										<th scope="col" class="bg">Type</th>
 										<!-- 2022-12-26 -->
+                                        <th scope="col" class="bg">2023</th>
                                         <th scope="col" class="bg">2022</th>
                                         <!-- // 2022-12-26 -->
                                         <th scope="col" class="bg">H2 of 2021</th>
@@ -575,6 +585,7 @@
 								<tbody>
 									<tr>
 										<td>Violation of relevant fair trade laws and regulations</td>
+										<td>None</td>
 										<td>None</td>
 										<td>None</td>
 									</tr>
@@ -632,26 +643,48 @@
                                     <table class="table-type v2">
                                         <colgroup>
                                             <col />
-                                            <col style="width: 28%" />
-                                            <col style="width: 28%" />
-                                            <col style="width: 28%" />
+                                            <col />
+                                            <col />
+                                            <col />
                                         </colgroup>
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="bg">Type</th>
+                                                <th scope="col" class="bg" colspan="2">2023</th>
                                                 <th scope="col" class="bg" colspan="2">2022</th>
-                                                <th scope="col" class="bg">Second half of 2021</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Session</td>
                                                 <td>Regular Training</td>
                                                 <td>External instructors invited for training by department and position.</td>
                                                 <td>Regular Training</td>
+																								<td>External instructors invited for training by department and position.</td>
                                             </tr>
                                             <tr>
-                                                <td rowspan="2">Subject</td>
+                                                <td class="t-l">
+                                                    <ul class="list-type v2">
+                                                        <li>
+																													Explanation of  Subcontracting Act Violations
+                                                        </li>
+                                                        <li>
+																													Introduction of company CP operating regulations
+                                                        </li>
+                                                        <li>
+																													Basic concepts of the Subcontracting Act and types of transactions
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td class="t-l">
+                                                    <ul class="list-type v2">
+                                                        <li>Introduction of major anti-corruption laws and notes</li>
+                                                        <li>Introduction of Fair trade policy trends</li>
+                                                        <li>
+																													Introduction of the new system in 2023<br>
+																													- Information exchange regulations and countermeasures Information Exchange Act<br>
+																													- Delivery unit price linkage system and subcontract payment terms Disclosure system
+																												</li>
+                                                    </ul>
+                                                </td>
                                                 <td class="t-l">
                                                     <ul class="list-type v2">
                                                         <li>
@@ -679,17 +712,6 @@
                                                         <li>Remarks on Subcontract Transactions</li>
                                                     </ul>
                                                 </td>
-                                                <td class="t-l">
-                                                    <ul class="list-type v2">
-                                                        <li>
-                                                            Understanding Unfair Common Actions<br />
-                                                            (Cartel) and exemplary behaviors
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="3">Instruction for new entrant(s) is comprised of introduction of Compliance Program and its Applicable Regulations.</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -756,7 +778,8 @@
     })
 </script>
 
-
-
-
-
+<style>
+	.list-type.v2 {
+		font-size: 16px;
+	}
+</style>

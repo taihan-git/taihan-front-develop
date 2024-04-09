@@ -326,7 +326,8 @@
 					<span>윤리 규정을 확인해보세요.</span>
 				</div>
 				<div class="btn-wrap">
-					<a href="/resources/files/Code_of_Ethics_2023.pdf" target="_blank" class="btn-type btn-m w-type">윤리규정 바로보기<i class="ico-arr v2"></i></a>
+					<a href="/resources/files/Code_of_Ethics_ko_2024.docx" target="_blank" class="btn-type btn-m w-type">윤리규정 바로보기<i class="ico-arr v2"></i></a>
+					<a href="/resources/files/Ethics Pledge_ko_2024.docx" target="_blank" class="btn-type btn-m w-type">윤리서약서 바로보기<i class="ico-arr v2"></i></a>
 				</div>
 			</div>
 			</c:if>
@@ -341,7 +342,8 @@
 					<!-- //2022-11-02 수정 -->
 				</div>
 				<div class="btn-wrap">
-					<a href="/resources/files/Code_of_Ethics_2023.pdf" target="_blank" class="btn-type btn-m w-type" >View Ethical Guidelines<i class="ico-arr v2"></i></a>
+					<a href="/resources/files/Code_of_Ethics_en_2024.docx" target="_blank" class="btn-type btn-m w-type" >View Code of Ethics<i class="ico-arr v2"></i></a>
+					<a href="/resources/files/Ethics Pledge_en_2024.docx" target="_blank" class="btn-type btn-m w-type" >View Ethics Pledge<i class="ico-arr v2"></i></a>
 				</div>
 			</div>
 			</c:if>
