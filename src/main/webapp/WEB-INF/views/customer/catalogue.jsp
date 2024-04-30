@@ -32,7 +32,7 @@
                                     <li class="active"><a href="#list1"><spring:message code="catalog.cate11" text="송전용"/></a></li>
                                     <li><a href="#list1_2"><spring:message code="catalog.cate12" text="배전용"/></a></li>
                                     <li><a href="#list1_3"><spring:message code="catalog.cate13" text="산업용"/></a></li>
-                                    <li><a href="#list1_4"><spring:message code="catalog.cate14" text="부스덕트"/></a></li>
+                                    <li><a href="#list1_4"><spring:message code="catalog.cate14" text="버스덕트"/></a></li>
                                 </ul>
                             </li>
                             <li>
@@ -158,7 +158,7 @@
 
                     <div id="list1_4" class="board-body">
                         <div class="title-wrap2 active">
-                            <h3 class="title-type"><spring:message code="catalog.cate14" text="부스덕트"/></h3>
+                            <h3 class="title-type"><spring:message code="catalog.cate14" text="버스덕트"/></h3>
                         </div>
                         <c:if test="${not empty busdList}">
                             <ul class="list-certify v2">
