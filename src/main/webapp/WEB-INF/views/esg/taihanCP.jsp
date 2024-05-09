@@ -80,7 +80,7 @@
 							</div>
 							<!-- <div class="btn-box"><a href="${CON_UPLOAD_URL}pdf/Taihan_CP_Declaration.pdf" target="_blank" class="btn-type btn-m">2022 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div> -->
                             <!-- [D] download="ESG_CP_2023 대표이사 자율준수 의지선언.pdf"  원래 파일명-->
-							<div class="btn-box"><a href="${CON_STATIC_URL}/files/Taihan_CP_Declaration_2024.docx" target="_blank" class="btn-type btn-m">2024 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div>
+							<div class="btn-box"><a href="${CON_STATIC_URL}/files/Taihan_CP_Declaration_2024.pdf" target="_blank" class="btn-type btn-m">2024 대표이사 자율준수 의지선언 전문보기<i class="ico-more2"></i></a></div>
 						</div>
 						</c:if>
 						<c:if test="${LANG eq 'en' }">
@@ -90,7 +90,7 @@
 								<p class="text">Taihan has introduced the Fair Trade Compliance Program and has been
 									putting efforts to build the culture of compliance. We consider Fair Trade is our
 									duty to comply but not an option. All executives and employees of Taihan, including
-									myself, will do our best to abide by the relevant law and regulation in connection
+									myself, will do our best to abide by the relevant law and regulation in connectiond
 									to the Fair Trade. </p>
 								<p class="sign">
 									CEO of Taihan.
