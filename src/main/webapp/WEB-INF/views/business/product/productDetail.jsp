@@ -232,7 +232,9 @@
 										<li class="swiper-slide">
 											<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}${item2.url}" class="list-item">
 												<div class="img-flex">
-													<img src="${CON_UPLOAD_URL}${item2.img}" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt="">
+													<img src="${CON_UPLOAD_URL}${item2.img}"
+														 onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""
+													>
 												</div>
 												<span class="btn-type2">${item2.mappingTarget}<i class="ico-arr v2"></i></span> <strong class="title">${item2.title}</strong>
 											</a>

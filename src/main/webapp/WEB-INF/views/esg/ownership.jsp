@@ -20,7 +20,7 @@
 				<div class="inner-box">
 					<div class="title-wrap4" data-delighter>
 						<h3 class="title-type">이사회 구성</h3>
-						<p>대한전선의 이사회는 사외이사 3인, 사내이사 3인, 총 6인의 이사로 구성되어 있으며, 이사회 의장은 송종민 대표이사 입니다.</p>
+						<p>대한전선의 이사회는 사외이사 3인, 사내이사 2인, 기타비상무이사 1인, 총 6인의 이사로 구성되어 있으며, 이사회 의장은 송종민 대표이사입니다.</p>
 					</div>
 
 					<div class="table-wrap" data-delighter>
@@ -68,7 +68,7 @@
 									<td>2년</td>
 								</tr> 
 								<tr>
-									<td rowspan="3">사내이사</td>
+									<td rowspan="2">사내이사</td>
 									<td>송종민</td>
 									<td class="t-l">
 										現) 대한전선㈜ 대표이사, ㈜호반산업 대표이사 부회장 <br>
@@ -85,10 +85,13 @@
 									<td>2년</td>
 								</tr>
 								<tr>
-									<td>이기원</td>
-									<td class="t-l">現) 대한전선㈜ 전무이사, 재무기획총괄(CFO)<br>
-										前) 대한전선㈜ 집행임원 / 재무기획실장, ㈜효성 중공업PG 전략본부 상무이사</td>
-									<td>2023-03-30</td>
+									<td>기타비상무이사</td>
+									<td>김대헌</td>
+									<td class="t-l">
+										現) ㈜호반그룹 기획총괄 사장<br>
+										前) ㈜호반건설 기획담당 사장
+									</td>
+									<td>2024-03-29</td>
 									<td>2년</td>
 								</tr>
 								</tbody>
@@ -141,7 +144,7 @@
 									<td>이동열(위원장)<br>
 										이익중<br> 
 										노상섭<br>
-										이기원
+										김준석
 									</td>
 									<td class="t-l">내부거래 투명성 심의,<br>
 										ESG 전략 방향성 및 실행과제 도출/점검</td>
@@ -183,28 +186,33 @@
 							<tr>
 								<td>(주)호반산업</td>
 								<td>40%</td>
-								<td class="t-r">499,044,607</td>
+								<td class="t-r">49,904,460</td>
 							</tr>
 							<tr>
 								<td>금융기관</td>
-								<td>4%</td>
-								<td class="t-r">55,007,785</td>
+								<td>2%</td>
+								<td class="t-r">2,415,107</td>
+							</tr>
+							<tr>
+								<td>자기주식</td>
+								<td>1%</td>
+								<td class="t-r">772,087</td>
 							</tr>
 							<tr>
 								<td>기타(1%미만)</td>
-								<td>56%</td>
-								<td class="t-r">690,420,617</td>
+								<td>57%</td>
+								<td class="t-r">71,355,646</td>
 							</tr>
 							<tr>
 								<td>계</td>
 								<td>100%</td>
-								<td class="t-r">1,244,473,009</td>
+								<td class="t-r">124,447,300</td>
 							</tr>
 
 							</tbody>
 						</table>
 						<ul class="list-type v3">
-							<li>2022년 사업보고서 기준</li>
+							<li>2023.12.31 기준</li>
 						</ul>
 					</div>
 
@@ -224,7 +232,7 @@
 
 					<div class="table-wrap" data-delighter>
 						<div class="title-wrap3">
-							<h4 class="title-type">제 68기 정기 주주총회</h4>
+							<h4 class="title-type">제 69기 정기 주주총회</h4>
 						</div>
 						<table class="table-type v2">
 							<colgroup>
@@ -234,7 +242,7 @@
 							<tbody>
 							<tr>
 								<th scope="row" class="bg">개최일시</th>
-								<td class="t-l">2023년 3월 30일</td>
+								<td class="t-l">2024년 3월 29일</td>
 							</tr>
 							<tr>
 								<th scope="row" class="bg">장소</th>
@@ -243,8 +251,8 @@
 							</tbody>
 						</table>
 						<ul class="list-type v3">
-							<li>총 참석 주식수 : 569,673,282 주<br>
-								최대주주 및 특수관계인을 제외한 참석률 9.56%(70,628,675/738,466,599주)</li>
+							<li>총 참석 주식수 : 53,910,302 주<br>
+								최대주주 및 특수관계인을 제외한 참석률 7.43%(4,005,842/53,910,302주)</li>
 						</ul>
 					</div>
 
@@ -260,7 +268,12 @@
 							<tbody>
 							<tr>
 								<th scope="row" class="bg">안건</th>
-								<td class="t-l">1) 영업보고<br>2)감사보고<br>3) 내부회계관리제도의 운영실태보고</td>
+								<td class="t-l">
+									1) 영업보고<br>
+									2) 감사보고<br>
+									3) 외부감사인 선임보고<br>
+									4) 내부회계관리제도 운영보고
+								</td>
 							</tr>
 							</tbody>
 						</table>
@@ -289,80 +302,32 @@
 								<tbody>
 								<tr>
 									<td>1호 의안</td>
-									<td>제68기(2022.01.01~2022.12.31)재무제표 승인의 건</td>
-									<td>99.26%</td>
+									<td>제69기(2023.01.01 ~ 2023.12.31) 재무제표 승인의 건</td>
+									<td>99.23%</td>
 									<td>가결</td>
 								</tr>
 								<tr>
-									<td>2-1호 의안</td>
-									<td>수권자본 및 주식의 액면가 변경의 건</td>
-									<td>98.52%</td>
+									<td>2호 의안</td>
+									<td>정관 일부 변경의 건(사업목적의 추가)</td>
+									<td>99.99%</td>
 									<td>가결</td>
 								</tr>
 								<tr>
-									<td>2-2호 의안</td>
-									<td>이사의 회사에 대한 책임감면 변경의 건</td>
-									<td>98.48%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>2-3호 의안</td>
-									<td>이사회의 구성과 소집 변경의 건</td>
-									<td>98.48%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>2-4호 의안</td>
-									<td>재무제표, 영업보고서의 작성 및 비치 변경의 건</td>
-									<td>98.48%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>3-1호 의안</td>
-									<td>기타비상무이사 김준석 선임의 건</td>
-									<td>99.52%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>3-2호 의안</td>
-									<td>사내이사 이기원 선임의 건</td>
-									<td>99.75%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>3-3호 의안</td>
-									<td>사외이사 이동열 선임의 건</td>
-									<td>99.93%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>3-4호 의안</td>
-									<td>사외이사 노상섭 선임의 건</td>
-									<td>99.93%</td>
+									<td>3호 의안</td>
+									<td>이사 선임의 건(기타비상무이사 김대헌 선임의 건)</td>
+									<td>99.77%</td>
 									<td>가결</td>
 								</tr>
 								<tr>
 									<td>4호 의안</td>
-									<td>감사위원회 위원이 되는 사외이사 현 석 선임의 건</td>
-									<td>99.62%</td>
+									<td>임원 퇴직금 지급 규정 개정의 건</td>
+									<td>99.97%</td>
 									<td>가결</td>
 								</tr>
 								<tr>
-									<td>5-1호 의안</td>
-									<td>감사위원회 위원 이동열 선임의 건</td>
-									<td>99.64%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>5-2호 의안</td>
-									<td>감사위원회 위원 노상섭 선임의 건</td>
-									<td>99.64%</td>
-									<td>가결</td>
-								</tr>
-								<tr>
-									<td>6호 의안</td>
-									<td>이사 보수한도액 승인의 건</td>
-									<td>99.92%</td>
+									<td>5호 의안</td>
+									<td>이사 보수한도 승인의 건</td>
+									<td>99.97%</td>
 									<td>가결</td>
 								</tr>
 								</tbody>
@@ -381,10 +346,10 @@
 
 					<div class="title-wrap4" data-delighter>
 						<h3 class="title-type">Board of Directors</h3>
-						<p>The board of directors of Taihan Cable & Solution composed total of 6 directors, <br>
-						including 3 outside directors, 3 inside directors. <br>
-						The chairmanship of the board of directors is CEO Song Jong Min.
-
+						<p>
+							The board of directors of Taihan composed total of 6 directors,<br>
+							including 3 independent directors, 2 inside directors and 1 other non-executive director.<br>
+							The chairman of the board of directors is CEO Song Jong Min.
 						</p>
 					</div>
 
@@ -409,7 +374,7 @@
 								</thead>
 								<tbody>
 								<tr>
-									<td rowspan="3">Outside Director
+									<td rowspan="3">Independent Director
 									</td>
 									<td>Lee Ik Jung
 									</td>
@@ -432,7 +397,7 @@
 									<td>2 years</td>
 								</tr> 
 								<tr>
-									<td rowspan="3">Inside Director</td>
+									<td rowspan="2">Inside Director</td>
 									<td>Song Jong Min</td>
 									<td class="t-l">Taihan Cable&Solution Co., Ltd. CEO <br>Hoban E&C Co., Ltd. CEO</td>
 									<td>May 17, 2023</td>
@@ -446,9 +411,10 @@
 									<td>2 years</td>
 								</tr>
 								<tr>
-									<td>Lee Ki Won</td>
-									<td class="t-l">Taihan Cable&Solution Co., Ltd. Executive director, CFO</td>
-									<td>March 30, 2023</td>
+									<td>Other non-executive Director</td>
+									<td>Kim Dae heon</td>
+									<td class="t-l">Hoban Group President</td>
+									<td>March 29, 2024</td>
 									<td>2 years</td>
 								</tr>
 								</tbody>
@@ -485,7 +451,10 @@
 								</thead>
 								<tbody>
 								<tr>
-									<td>Outside Director<br>Recommendation Committee</td>
+									<td>
+										Independent Director<br>
+										Recommendation Committee
+									</td>
 									<td>Noh Sang Seop(Chairperson)<br>
 										Lee Ik Jung</td>
 									<td class="t-l">Recommendation of candidates for outside directors</td>
@@ -504,7 +473,7 @@
 									<td>Lee Dong Yeol(Chairperson)<br>
 										Lee Ik Jung<br>
 										Noh Sang Seop<br>
-										Lee Ki Won
+										Kim Joon Seok
 									</td>
 									<td class="t-l">Deliberation on internal transaction transparency<br>
 										ESG strategy direction and implementation task deduction/review</td>
@@ -545,28 +514,33 @@
 							<tr>
 								<td>Hoban E&C Co., Ltd</td>
 								<td>40%</td>
-								<td class="t-r">499,044,607</td>
+								<td class="t-r">49,904,460</td>
 							</tr>
 							<tr>
 								<td>Financial Institution</td>
-								<td>4%</td>
-								<td class="t-r">55,007,785</td>
+								<td>2%</td>
+								<td class="t-r">2,415,107</td>
+							</tr>
+							<tr>
+								<td>Treasury Stock</td>
+								<td>1%</td>
+								<td class="t-r">772,087</td>
 							</tr>
 							<tr>
 								<td>Other (less than 1%)</td>
-								<td>56%</td>
-								<td class="t-r">690,420,617</td>
+								<td>57%</td>
+								<td class="t-r">71,355,646</td>
 							</tr>
 							<tr>
 								<td>Total</td>
 								<td>100%</td>
-								<td class="t-r">1,244,473,009</td>
+								<td class="t-r">124,447,300</td>
 							</tr>
 
 							</tbody>
 						</table>
 						<ul class="list-type v3">
-							<li> Based on 2022 Audit report</li>
+							<li>As of 2023.12.31</li>
 						</ul>
 					</div>
 
@@ -589,7 +563,7 @@
 
 					<div class="table-wrap" data-delighter>
 						<div class="title-wrap3">
-							<h4 class="title-type">The 68th Regular Shareholders' Meeting</h4>
+							<h4 class="title-type">The 69th Regular Shareholders' Meeting</h4>
 						</div>
 						<table class="table-type v2">
 							<colgroup>
@@ -599,7 +573,7 @@
 							<tbody>
 							<tr>
 								<th scope="row" class="bg">Date</th>
-								<td class="t-l">March 30, 2023</td>
+								<td class="t-l">March 29, 2024</td>
 							</tr>
 							<tr>
 								<th scope="row" class="bg">Location</th>
@@ -609,8 +583,8 @@
 							</tbody>
 						</table>
 						<ul class="list-type v3">
-							<li>Total number of shares attended : 569,673,282 shares<br>
-								Attendance rate excluding largest shareholders and related parties 9.56%(70,628,675 shares/738,466,599 shares)
+							<li>Total number of shares attended : 53,910,302 shares<br>
+								Attendance rate excluding largest shareholders and related parties 7.43%(4,005,842 shares/53,910,302 shares)
 							</li>
 						</ul>
 					</div>
@@ -627,8 +601,11 @@
 							<tbody>
 							<tr>
 								<th scope="row" class="bg">Agenda</th>
-								<td class="t-l">1) Business report<br>2) Audit report<br>3) Report on the
-									Operation of the Internal Accounting Management System
+								<td class="t-l">
+									1) Business report<br>
+									2) Audit report<br>
+									3) Report on the Aappointment of external auditors<br>
+									4) Report on the Operation of the Internal Accounting Management System
 								</td>
 							</tr>
 							</tbody>
@@ -660,80 +637,32 @@
 								<tbody>
 								<tr>
 									<td>1</td>
-									<td>Approval of the 68th Fiscal Year(2022.1.1 ~ 2022.12.31) Financial Statements</td>
-									<td>99.26%</td>
+									<td>Approval of the Financial Statements for the 69th fiscal year (2023.1.1~2023.12.31)</td>
+									<td>99.23%</td>
 									<td>Approval</td>
 								</tr>
 								<tr>
-									<td>2-1</td>
-									<td>Proposal for Changing the Par Value and authorized capital</td>
-									<td>98.52%</td>
+									<td>2</td>
+									<td>Approval of amendments to the Articles of Incorporation(addition of business purpose)</td>
+									<td>99.99%</td>
 									<td>Approval</td>
 								</tr>
 								<tr>
-									<td>2-2</td>
-									<td>Proposal to reduce the executive's responsibility for the company</td>
-									<td>98.48%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>2-3</td>
-									<td>Proposal for the composition and convening of the board of director</td>
-									<td>98.48%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>2-4</td>
-									<td>Proposal for the retention and preparation of financial statements and business reports</td>
-									<td>98.48%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>3-1</td>
-									<td>Appointment of Kim Joon Seok for other non-executive director</td>
-									<td>99.52%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>3-2</td>
-									<td>Appointment of Lee Ki Won for inside director</td>
-									<td>99.75%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>3-3</td>
-									<td>Appointment of Lee Dong Yeol for independent director</td>
-									<td>99.93%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>3-4</td>
-									<td>Appointment of Noh Sang Seop for independent director</td>
-									<td>99.93%</td>
+									<td>3</td>
+									<td>Election of Non-Executive Director (Kim Dae-heon)</td>
+									<td>99.77%</td>
 									<td>Approval</td>
 								</tr>
 								<tr>
 									<td>4</td>
-									<td> Appointment of independent director Hyun Suk to serve for audit committee Member</td>
-									<td>99.62%</td>
+									<td>Approval of the Amendment to the Company Regulation on Executive Officer Severance Payment</td>
+									<td>99.97%</td>
 									<td>Approval</td>
 								</tr>
 								<tr>
-									<td>5-1</td>
-									<td>Appointment of Lee Dong Yeol for audit committee member</td>
-									<td>99.64%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>5-2</td>
-									<td>Appointment of Noh Sang Seop for audit committee member</td>
-									<td>99.64%</td>
-									<td>Approval</td>
-								</tr>
-								<tr>
-									<td>6</td>
-									<td>Approval of total remuneration of directors</td>
-									<td>99.92%</td>
+									<td>5</td>
+									<td>Approval of the Ceiling Amount of Remuneration for Directors</td>
+									<td>99.97%</td>
 									<td>Approval</td>
 								</tr>
 								</tbody>

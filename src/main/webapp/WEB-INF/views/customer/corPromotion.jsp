@@ -135,20 +135,44 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/oai1tWYh3cw?si=597ZdPc-uW_vpNRo?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/dE59odrnSHQ?si=597ZdPc-uW_vpNRo?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/PmN4x6rQuX0?si=mXCibHXgELWAFLIw?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/S8kHvNpWr2Y?si=mXCibHXgELWAFLIw?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             </div>
                             <div class="narration-box">
                                 <a href="#" class="btn-narration"><spring:message code="rsroom.narration" text="내레이션 보기"/><i class="ico-more2"></i></a>
                                 <div class="text-box">
                                     <c:if test="${LANG eq 'ko'}">
-										대륙을 너머 바다로, 바다를 너머 더 나은 세상으로. 대한전선이 새롭고, 원대한 여정을 시작합니다. 대한전선이 충남 당진에 건설하는 해저케이블 공장은, 세계 최대 규모를 자랑하는 당진공장, 접속재를 생산하는 전력기기 공장과 인접해 있어 ‘케이블 생산의 클러스터’를 조성합니다. 특히, 부두와 맞닿아 있어 해저케이블을 선적하기에 최적화된 루트를 확보하고 있습니다. 또한, 서해안을 중심으로 형성되는 대규모 해상풍력 발전단지와 인접해 있으며, 전 세계의 주요 시장에 빠르고 안전하게 해저케이블을 공급할 수 있는 최적의 입지에 위치하고 있습니다. 대한전선은 현재 건설 중인 해저 1공장의 1단계 투자를 통해 해상풍력 발전단지에 사용하는 66kV 내부망 생산 설비를 구축합니다. 이은 2단계 투자로, 154kV 외부망 설비를 구축하고, 2025년부터 생산할 계획입니다. 이후 해저 2공장에 VCV 타워를 건설해 345kV 외부망과 525kV HVDC 케이블을 생산할 수 있도록 역량을 확대할 예정입니다. 대한전선은 글로벌 해저케이블 수요 확대에 맞춰 공격적인 투자와 기술개발을 통해 적극 대응합니다. 케이블 설계부터, 생산, 시험, 운송, 시공, 준공검사와 유지보수까지 대한전선은 해저케이블 분야의 토탈 솔루션 기업으로서 사업을 확대하고 무한한 역량을 펼쳐 나가겠습니다. 빠르고, 유연하며, 지속가능한 해저케이블이 만들어갈 새로운 세상.그 길에 대한전선이 있습니다.
+                                        대륙을 너머 바다로, 바다를 너머 더 나은 세상으로 대한전선이 새롭고 원대한 여정을 시작합니다.
+                                        대한전선이 충남 당진에 건설하는 해저케이블 공장은, 세계 최대 규모를 자랑하는 당진공장, 접속재를 생산하는 전력기기 공장과 인접해 있어 ‘케이블 생산의 클러스터’를 조성합니다.
+                                        특히, 부두와 맞닿아 있어 해저케이블을 선적하기에 최적화된 루트를 확보하고 있습니다.
+                                        또한, 서해안을 중심으로 형성되는 대규모 해상풍력 발전 단지와 인접해 있을 뿐 아니라, 전 세계의 주요 시장에 빠르고 안전하게 해저케이블을 공급할 수 있는 최적의 입지에 위치하고 있습니다.
+                                        대한전선은 2024년 해저 1공장의 1단계 건설을 완료하고 해상풍력 발전 단지에 사용하는 내부망 케이블 생산에 돌입했습니다.
+                                        해저 1공장 2단계는 외부망 케이블 생산을 위한 설비로, 2025년 2분기부터 가동할 계획입니다.
+                                        그리고 VCV 타워를 갖춘 해저 2공장을 2027년 완공해 외부망과 640kV HVDC 케이블을 생산할 수 있도록 역량을 확대할 예정입니다.
+                                        대한전선은 글로벌 해저케이블 수요 확대에 맞춰 공격적인 투자와 기술개발을 통해 적극 대응합니다.
+                                        대한전선은 해저케이블 전용 포설선을 매입해 해저케이블 시공 역량까지 확보했습니다.  
+                                        케이블 설계부터, 생산, 운송, 시공, 유지보수까지 이제 대한전선은 해저케이블 분야의 토탈 솔루션 기업으로서 사업을 지속 확대하고 무한한 역량을 펼쳐 나갈 것입니다.
+                                        빠르고, 유연하며, 지속가능한 해저케이블이 만드는 새로운 세상.
+                                        그 길에 대한전선이 있습니다.
 									</c:if>
                                     <c:if test="${LANG eq 'en'}">
-										Beyond the continent, into the sea, Towards a better world beyond the ocean. Taihan embarks on a new and grand journey. Taihan's submarine cable plant is located near the world's largest cable plant and cable accessory plant in Dangjin area. These are in the cluster to create great synergy by working closely together. Being next to the quayside, we have secured an optimized transportation route for submarine cable loading. Furthermore, it is adjacent to offshore wind farms centered on the West Sea coast, serving as a global logistics hub, enabling rapid transportation worldwide. Taihan is establishing production facilities for 66kV inter array cables and 154kV export cables for offshore wind farms. Through phased investments, Taihan will build production facilities for 345kV export cables and 525kV HVDC cables. Taihan responds to the expanding global demand for submarine cables by making timely investments in order to meet market needs. From cable design to production, transportation, installation, testing, and maintenance, Taihan provides total solutions in the submarine cable field, and will expand to demonstrate limitless capabilities. Flexible, Reliable, Sustainable Creating a new world shaped by submarine cables. On that path, there is Taihan.
+                                        Beyond the continent, into the sea, Towards a better world beyond the ocean.
+                                        Taihan embarks on a new and grand journey.
+                                        Taihan's submarine cable plant is located near the world's largest cable plant and cable accessory plant in Dangjin area.
+                                        These are in the cluster to create great synergy by working closely together.
+                                        Being next to the quayside, we have secured an optimized transportation route for submarine cable loading.
+                                        Furthermore, it is adjacent to offshore wind farms centered on the West Sea coast, serving as a global logistics hub, enabling rapid transportation worldwide.
+                                        Taihan has constructed the first step of Submarine Cable Plant 1, where it plans to produce inter-array cables for use in offshore wind farms.
+                                        In the second step, the firm is set to establish facilities for producing export cables, with production scheduled to start in 2025.
+                                        At Submarine Cable Plant 2, Taihan aims to expand its capacity to produce export cables and Max. 640kV HVDC cables.
+                                        Taihan responds to the expanding global demand for submarine cables by making timely investments.
+                                        Taihan has acquired a submarine cable laying vessel, enhancing its installation capabilities.
+                                        From cable design to production, transportation, installation and maintenance, Taihan provides total solutions in the submarine cable field, and will expand to demonstrate limitless capabilities.
+                                        Flexible, Reliable, Sustainable Creating a new world shaped by submarine cables.
+                                        On that path, there is Taihan.
 									</c:if>
 								</div>
                             </div>
