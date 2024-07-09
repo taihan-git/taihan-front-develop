@@ -29,10 +29,15 @@
 					</div>
 					<ul class="list-pdf">
 						<li>
-							<a href="/resources/files/Taihan_2022AR.pdf"  target="_blank" class="img-box"><img src="${CON_STATIC_URL}/asset/images/news/report_cover_2022.png" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></a>
-							<div class="title-box"><strong><spring:message code="finance.2022report1" text="2022 애뉴얼리포트" /></strong></div>
+							<a href="/resources/files/Taihan_2023AR.pdf"  target="_blank" class="img-box"><img src="${CON_STATIC_URL}/asset/images/news/report_cover_2023.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></a>
+							<c:if test="${LANG eq 'en'}">
+								<div class="title-box"><strong>2023 Annual Report</strong></div>
+							</c:if>
+							<c:if test="${LANG eq 'ko'}">
+								<div class="title-box"><strong>2023 애뉴얼 리포트</strong></div>
+							</c:if>
 							<div class="btn-wrap">
-								<a href="/resources/files/Taihan_2022AR.pdf"  target="_blank" class="btn-type download-type">
+								<a href="/resources/files/Taihan_2023AR.pdf"  target="_blank" class="btn-type download-type">
 									<span><spring:message code="finance.download" text="다운로드" /></span><i class="ico-down"></i></a>
 							</div>
 						</li>
@@ -51,10 +56,10 @@
 						</li>
 						<c:if test="${LANG eq 'ko'}">
 							<li>
-								<a href="/resources/files/2024_03_business.pdf"  target="_blank" class="img-box"><img src="${CON_STATIC_URL}/asset/images/news/report_business_cover.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></a>
-								<div class="title-box"><strong><spring:message code="finance.2021report3" text="2023년 사업보고서" /></strong></div>
+								<a href="/resources/files/2024_05_business.pdf"  target="_blank" class="img-box"><img src="${CON_STATIC_URL}/asset/images/news/report_business_cover.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></a>
+								<div class="title-box"><strong><spring:message code="finance.2021report3" text="2024년 1분기 보고서" /></strong></div>
 								<div class="btn-wrap">
-									<a href="/resources/files/2024_03_business.pdf" class="btn-type download-type"  target="_blank"><span><spring:message code="finance.download" text="다운로드" /></span><i class="ico-down"></i></a>
+									<a href="/resources/files/2024_05_business.pdf" class="btn-type download-type"  target="_blank"><span><spring:message code="finance.download" text="다운로드" /></span><i class="ico-down"></i></a>
 								</div>
 							</li>
 						</c:if>

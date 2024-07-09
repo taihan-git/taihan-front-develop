@@ -85,6 +85,12 @@
 							</p>
 						</div>
 
+						<div class="content-btn bg" data-delighter>
+							<a href="/resources/files/safeManage.pdf" class="btn-type v3 btn-m" target="_blank">
+								안전보건경영방침<i class="ico-arr"></i>
+							</a>
+						</div>
+
 						<div class="content-img" data-delighter>
 							<img src="${CON_STATIC_URL}/asset/images/esg/img_cont_policy_pc.png" alt="" class="pc-display">
 							<img src="${CON_STATIC_URL}/asset/images/esg/img_cont_policy_mo.png" alt="" class="mo-display">

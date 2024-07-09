@@ -281,6 +281,16 @@
   margin-top: 68px;
 }
 
+.content-btn {
+  margin-bottom: 70px;
+  padding-block: 70px;
+  text-align: center;
+}
+
+.content-btn.bg {
+  background-color: #f4f5f7;
+}
+
 .video-box .img-flex {
   width: 70%;
   padding-bottom: 40%;
@@ -442,6 +452,10 @@
   .bg .video-box {
     margin-top: -70px;
     margin-bottom: -70px;
+  }
+  .content-btn {
+    margin-bottom: 30px;
+    padding-block: 30px;
   }
 }
 @media all and (max-width: 1024px) {

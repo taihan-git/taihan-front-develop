@@ -67,13 +67,13 @@
                                 <img src="${CON_STATIC_URL}/asset/images/customer/Corporate_profile.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt="">
                             </div>
 														<c:if test="${LANG eq 'ko'}">
-														<a href="/resources/files/2023_taihan_Corporate_Profile_KOR.pdf" target="_blank" class="btn-type btn-m">
+														<a href="/resources/files/2024_taihan_Corporate_Profile_KOR.pdf" target="_blank" class="btn-type btn-m">
 															<span><spring:message code="rsroom.btnDownload" text="회사 소개 자료 다운로드"/></span>
 															<i class="ico-down"></i>
 														</a>
 														</c:if>
 														<c:if test="${LANG eq 'en'}">
-														<a href="/resources/files/2023_taihan_Corporate_Profile_ENG.pdf" target="_blank" class="btn-type btn-m">
+														<a href="/resources/files/2024_taihan_Corporate_Profile_ENG.pdf" target="_blank" class="btn-type btn-m">
 															<span>Corporate Profile Download</span>
 															<i class="ico-down"></i>
 														</a>

@@ -51,7 +51,7 @@
 							<dl>
 								<dt>인원</dt>
 								<dd>
-									<strong>319명</strong>*2022년 기준
+									<strong>350명 이상</strong>
 								</dd>
 							</dl>
 						</li>
@@ -293,7 +293,7 @@
 									<div class="icon-box"><i class="ico-summary2"></i></div>
 									<dl>
 										<dt>Employees</dt>
-										<dd><strong>319 people</strong>(As of 2022)</dd>
+										<dd><strong>350+</strong></dd>
 									</dl>
 								</li>
 								<li>
