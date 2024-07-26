@@ -90,7 +90,7 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a><br/>
-												<a href="mailto:zadeljd@taihan.com">zadeljd@taihan.com</a>
+												<a href="mailto:jhshim2@taihan.com">jhshim2@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -122,7 +122,7 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:dwafe122@taihan.com">dwafe122@taihan.com</a><br>
-												<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a><br />
+												<a href="mailto:asbgkim@taihan.com">asbgkim@taihan.com</a><br />
 												<a href="mailto:info@taihan.co.uk">info@taihan.co.uk</a>
 											</dd>
 										</dl>
@@ -287,7 +287,7 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:jhhan@taihan.com">jhhan@taihan.com</a><br/>
-														<a href="mailto:zadeljd@taihan.com">zadeljd@taihan.com</a>
+														<a href="mailto:jhshim2@taihan.com">jhshim2@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -317,7 +317,7 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:dwafe122@taihan.com">dwafe122@taihan.com</a><br>
-														<a href="mailto:songyun.seol@taihan.com">songyun.seol@taihan.com</a><br />
+														<a href="mailto:asbgkim@taihan.com">asbgkim@taihan.com</a><br />
 														<a href="mailto:info@taihan.co.uk">info@taihan.co.uk</a>
 													</dd>
 												</dl>
