@@ -66,18 +66,18 @@
                             <div class="img-box">
                                 <img src="${CON_STATIC_URL}/asset/images/customer/Corporate_profile.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt="">
                             </div>
-														<c:if test="${LANG eq 'ko'}">
-														<a href="/resources/files/2024_taihan_Corporate_Profile_KOR.pdf" target="_blank" class="btn-type btn-m">
-															<span><spring:message code="rsroom.btnDownload" text="회사 소개 자료 다운로드"/></span>
-															<i class="ico-down"></i>
-														</a>
-														</c:if>
-														<c:if test="${LANG eq 'en'}">
-														<a href="/resources/files/2024_taihan_Corporate_Profile_ENG.pdf" target="_blank" class="btn-type btn-m">
-															<span>Corporate Profile Download</span>
-															<i class="ico-down"></i>
-														</a>
-														</c:if>
+                                <c:if test="${LANG eq 'ko'}">
+                                <a href="/resources/files/2024_taihan_Corporate_Profile_KOR.pdf" target="_blank" class="btn-type btn-m">
+                                    <span><spring:message code="rsroom.btnDownload" text="회사 소개 자료 다운로드"/></span>
+                                    <i class="ico-down"></i>
+                                </a>
+                                </c:if>
+                                <c:if test="${LANG eq 'en'}">
+                                <a href="/resources/files/2024_taihan_Corporate_Profile_ENG.pdf" target="_blank" class="btn-type btn-m">
+                                    <span>Corporate Profile Download</span>
+                                    <i class="ico-down"></i>
+                                </a>
+                                </c:if>
                         </div>
                     </div>
 
@@ -135,10 +135,10 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/dE59odrnSHQ?si=597ZdPc-uW_vpNRo?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/QpJrZWdsx_4?si=xBEc4r3-kAq6OiX_?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/S8kHvNpWr2Y?si=mXCibHXgELWAFLIw?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/sv41guF7th8?si=UMSY11MrfpIS01Rq?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             </div>
                             <div class="narration-box">
