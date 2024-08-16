@@ -76,7 +76,10 @@ public class BusinessServiceImpl implements BusinessService {
 		Map<String, Object> map = new HashMap<String, Object>();
 		if (!"".equals(param.getIdx())) {
 			Product product = businessMapper.getProductDetail(param);
-			String replaceTagInfoList = product.getTagInfoList().replace("부스덕트", "버스덕트");
+			String replaceTagInfoList = null;
+			if (!product.getTitle().contains("Triplex")) {
+				replaceTagInfoList = product.getTagInfoList().replace("부스덕트", "버스덕트");
+			}
 			product.setTagInfoList(replaceTagInfoList);
 			List<ProductTab> tabParam = businessMapper.getProductDetailTab(product);
 			product.setTabList(tabParam);
