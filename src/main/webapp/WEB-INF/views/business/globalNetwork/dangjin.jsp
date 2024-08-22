@@ -17,7 +17,7 @@
 
 			<div class="title-wrap">
 				<div class="inner-box">
-					<h3 class="title-type">당진공장</h3>
+					<h3 class="title-type">당진케이블공장</h3>
 					<p>세계 최대 규모의 단일 케이블 공장</p>
 					<a href="javascript:UI.layerPopUp({ selId: '#pop-sns' });" class="btn-share"><i class="ico-share"><span class="hidden">공유하기</span></i></a>
 				</div>
@@ -28,7 +28,7 @@
 				<div class="bg"></div>
 				<!-- 수정 -->
 				<div class="inner-box">
-					<p class="desc">충청남도 당진시 고대면에 위치한 당진공장은 대한전선 케이블 기술의 산실이자 핵심 생산 기지로, 세계 최대 규모와 효율을 자랑합니다. 초고압, 산업전선, 통신, 소재, 부스덕트 등 5개의 단위 공장과 PQ 시험장 등을 갖추고, 제품 개발부터 생산, 완제품 시험에 이르기까지 케이블 생산의 모든 공정을
+					<p class="desc">충청남도 당진시 고대면에 위치한 당진케이블공장은 대한전선 케이블 기술의 산실이자 핵심 생산 기지로, 세계 최대 규모와 효율을 자랑합니다. 초고압, 산업전선, 통신, 소재, 부스덕트 등 5개의 단위 공장과 PQ 시험장 등을 갖추고, 제품 개발부터 생산, 완제품 시험에 이르기까지 케이블 생산의 모든 공정을
 						수행하고 있습니다. 세계 최고 수준의 VCV (Vertical Continuous Vulcanization) 타워 등 최첨단 생산라인과 친환경 시스템을 기반으로 전 세계 100여 개 국가의 고객을 위한 고품질의 제품을 생산합니다.</p>
 
 					<ul class="list-summary">
@@ -117,7 +117,7 @@
 					<div class="img-flex">
 						<img src="${CON_STATIC_URL}/asset/images/business/global_detail/cont01/img02.jpg">
 					</div>
-					<p class="text">케이블 형태를 모티브로 한 독창적인 외관의 당진공장은 생산성 향상과 효율 극대화, 작업자의 안전 등을 고려해 물류 자동화 및 중앙처리 시스템 등 최첨단의 설비 라인을 갖추고 있습니다.</p>
+					<p class="text">당진케이블공장은 케이블을 모티브로 외관을 디자인하였으며, 생산성 향상과 효율 극대화, 작업자의 안전 등을 고려하여 설계한 스마트 팩토리입니다. 물류 자동화와 중앙처리 시스템 등 최첨단 설비 라인도 갖추고 있습니다.</p>
 					<ul class="list-type v2">
 						<li>IFS(Intelligent Factory System) 운영</li>
 						<li>유기적 물류 시스템 구축 및 자동화</li>
@@ -135,11 +135,11 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery01/img01.jpg"></div>
-										<p class="desc">당진공장 전경</p>
+										<p class="desc">당진케이블공장 전경</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery01/img02.jpg"></div>
-										<p class="desc">당진공장 전경</p>
+										<p class="desc">당진케이블공장 전경</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery01/img03.jpg"></div>
@@ -390,7 +390,7 @@
 							<strong class="title">Smart Factory</strong>
 							<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/cont01/img02.jpg"></div>
 							<p class="text">
-								With its creative exterior complete with a cable motif design, Dangjin Plant is equipped with the latest line of facilities to enhance productivity, maximize efficiency, and put worker safety first, including automated logistics and central processing systems.
+								Dangjin Cable Factory has an exterior design with a cable motif, and is a smart factory designed with consideration for improved productivity, maximized efficiency, and worker safety. It is also equipped with a line of cutting-edge facilities, including logistics automation and central processing systems.
 							</p>
 							<ul class="list-type v2">
 								<li>Operation of IFS (Intelligent Factory System)</li>

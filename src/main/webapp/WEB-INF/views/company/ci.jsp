@@ -61,11 +61,11 @@
 							</li>
 							<li data-delighter>
 								<div class="title-box">
-									<strong class="title">New Starting Point, 당진공장</strong>
+									<strong class="title">New Starting Point, 당진케이블공장</strong>
 								</div>
 								<div class="desc-box">
 									<p>
-										대한전선 성장의 거점이자 경쟁력의 근원지인 당진공장의 VCV 타워를 형상화함으로써<br> 대한전선의 무한한
+										대한전선 성장의 거점이자 경쟁력의 근원지인 당진케이블공장의 VCV 타워를 형상화함으로써<br> 대한전선의 무한한
 										잠재력과 가능성 그리고 미래로 나아가는 힘과 기술을 표현했습니다.
 									</p>
 									<ul class="list-circle">

@@ -334,7 +334,7 @@
 												<img src="${CON_STATIC_URL}/asset/images/esg/img_social_activities03_02.jpg" alt="">
 											</div>
 											<strong class="title">멸종 위기종 보호 활동</strong>
-											<p class="desc v2">당진공장 인근에 서식하고 있는 멸종위기종
+											<p class="desc v2">당진케이블공장 인근에 서식하고 있는 멸종위기종
 												‘금개구리’의 보호 및 관련 생물 보전을 위해
 												환경 정화 활동을 실시합니다.</p>
 										</div>
@@ -499,7 +499,7 @@
 												<img src="${CON_STATIC_URL}/asset/images/esg/img_social_activities03_02.jpg" alt="">
 											</div>
 											<strong class="title">Protection of Endangered Species</strong>
-											<p class="desc v2">Taihan performs environmental purification activities to protect the habitat of gold-spotted pond frog, an endangered species, near Dangjin Plant, and contribute to conservation of the related organisms.</p>
+											<p class="desc v2">Taihan performs environmental purification activities to protect the habitat of gold-spotted pond frog, an endangered species, near Dangjin Cable Plant, and contribute to conservation of the related organisms.</p>
 										</div>
 									</li>
 									<li class="swiper-slide">

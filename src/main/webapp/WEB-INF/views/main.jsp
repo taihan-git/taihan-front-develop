@@ -208,7 +208,7 @@
                         <img src="${CON_STATIC_URL}/asset/images/main/img_product02.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt="">
                         <div class="type-box">
                         	<c:if test="${LANG eq 'ko' }">
-                            <a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/product/productDetail?idx=37" class="type">해저 케이블</a>
+                            <a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/product/productDetail?idx=37" class="type">해저케이블</a>
                             <a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/product/productDetail?idx=39" class="type">태양광 케이블</a>
                             </c:if>
                             <c:if test="${LANG eq 'en' }">

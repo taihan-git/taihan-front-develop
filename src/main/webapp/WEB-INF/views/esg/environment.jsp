@@ -210,7 +210,7 @@
 											<div class="img-flex">
 												<img src="${CON_STATIC_URL}/asset/images/esg/img_policy01.jpg" alt="">
 											</div>
-											<strong class="title t-c"><spring:message code="environment.imgTitle1" text="당진공장 생태습지"/></strong>
+											<strong class="title t-c"><spring:message code="environment.imgTitle1" text="당진케이블공장 생태습지"/></strong>
 										</div>
 									</li>
 									<li class="swiper-slide">

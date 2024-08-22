@@ -30,7 +30,7 @@
 				<div class="bg v2"></div>
 				<!-- 수정 -->
 				<div class="inner-box">
-					<p class="desc">당진 전력기기공장은 접속함, 절연물 등 케이블 접속재를 생산하는 공장입니다. 고객의 요구사항에 완벽하게 부합하는 최적의 제품을 생산하기 위해 기술 고도화에 힘쓰고 있으며, 시공 용이성과 안정성을 개선한 전력기기를 지속적으로 개발하여 제품 경쟁력을 높여 나가고 있습니다.</p>
+					<p class="desc">당진 당진솔루션공장은 접속함, 절연물와 같은 케이블 접속재 등을 생산하는 공장입니다.</p>
 
 					<ul class="list-summary">
 						<li>
@@ -91,7 +91,7 @@
 					</div>
 					<!-- 2022-12-26 -->
 					<p class="text">
-						케이블 접속재는 전력 시스템의 안정성과 신뢰성을 확보하는 데 중요한 요소로 완벽한 품질이 요구됩니다. 당진 전력기기공장은 클래스 10,000 수준의 클린룸을 곳곳에 배치하여, 미세한 먼지까지 전면 차단한 청정구역에서 작업을 수행합니다. 또한 엑스레이, 초음파 등 까다로운 품질 검사 시스템을 도입하여 철저한 품질 관리를 실현합니다.
+						케이블 접속재는 전력 시스템의 안정성과 신뢰성을 확보하는 데 중요한 요소로 완벽한 품질이 요구됩니다. 당진솔루션공장은 클래스 10,000 수준의 클린룸을 곳곳에 배치하여, 미세한 먼지까지 전면 차단한 청정구역에서 작업을 수행합니다. 또한 엑스레이, 초음파 등 까다로운 품질 검사 시스템을 도입하여 철저한 품질 관리를 실현합니다.
 					</p>
 					<!-- 2022-12-26 -->
 				</div>
@@ -123,7 +123,7 @@
 								<div class="img-flex">
 									<img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery02/img01.jpg">
 								</div>
-								<p class="desc">당진 전력기기공장 전경</p>
+								<p class="desc">당진솔루션공장 전경</p>
 							</div>
 							<div class="swiper-slide">
 								<div class="img-flex">
@@ -281,7 +281,7 @@
 
 					<div class="title-wrap">
 						<div class="inner-box">
-							<h3 class="title-type">Dangjin Cable Accessory Plant</h3>
+							<h3 class="title-type">Dangjin Solution Plant</h3>
 							<p>The only integrated Cable Accessory production plant in Korea</p>
 						</div>
 					</div>
@@ -290,7 +290,7 @@
 						<div class="bg v2"></div>
 						<div class="inner-box">
 							<p class="desc">
-								Dangjin Cable Accessory Plant manufactures junction boxes, insulating materials, and other cable accessories. At Dangjin we work daily toward the sophistication of our technology so we’ll be ready with products optimized to customer needs, and our products are becoming more competitive all the time with the development of cable accessories that improve on the ease and reliability of construction.
+								Dangjin Solution Factory manufactures junction boxes, insulating materials, and other cable accessories.
 							</p>
 
 							<ul class="list-summary">
@@ -333,7 +333,7 @@
 							<strong class="title">Rigorous Quality Control</strong>
 							<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/cont02/img01.jpg"></div>
 							<p class="text">
-								Cable accessories are crucial for the stability and reliability of power systems, and no compromise is acceptable on quality. The Dangjin Cable Accessory Plant is installed with Class 10,000 clean rooms throughout, and operations are performed in clean areas with the even the finest dust blocked out. Quality control is performed at the highest standards, with the use of rigorous inspection systems including X-rays and ultrasounds.
+								Cable accessories are crucial for the stability and reliability of power systems, and no compromise is acceptable on quality. The Dangjin Solution Plant is installed with Class 10,000 clean rooms throughout, and operations are performed in clean areas with the even the finest dust blocked out. Quality control is performed at the highest standards, with the use of rigorous inspection systems including X-rays and ultrasounds.
 							</p>
 						</div>
 					</div>
@@ -358,11 +358,11 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery02/img01.jpg"></div>
-										<p class="desc">Dangjin Cable Accessory Plant</p>
+										<p class="desc">Dangjin Solution Plant</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery02/img02.jpg"></div>
-										<p class="desc">Dangjin Cable Accessory Plant Showroom</p>
+										<p class="desc">Dangjin Solution Plant Showroom</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery02/img03.jpg"></div>
@@ -378,15 +378,15 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery02/img06.jpg"></div>
-										<p class="desc">Dangjin Cable Accessory Plant</p>
+										<p class="desc">Dangjin Solution Plant</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery02/img07.jpg"></div>
-										<p class="desc">Dangjin Cable Accessory Plant</p>
+										<p class="desc">Dangjin Solution Plant</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery02/img08.jpg"></div>
-										<p class="desc">Dangjin Cable Accessory Plant</p>
+										<p class="desc">Dangjin Solution Plant</p>
 									</div>
 
 								</div>

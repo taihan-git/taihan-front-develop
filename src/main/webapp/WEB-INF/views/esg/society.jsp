@@ -383,7 +383,7 @@
 								</div>
 								<div class="desc-box">
 									<ul class="list-type v2">
-										<li>당진공장 환경∙안전∙소방 점검</li>
+										<li>당진케이블공장 환경∙안전∙소방 점검</li>
 									</ul>
 								</div>
 							</li>
@@ -487,7 +487,7 @@
 								</div>
 								<div class="desc-box">
 									<ul class="list-type v2">
-										<li>Environmental, safety, and fire inspection in Dangjin Plant</li>
+										<li>Environmental, safety, and fire inspection in Dangjin Cable Plant</li>
 									</ul>
 								</div>
 							</li>

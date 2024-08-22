@@ -1,8 +1,6 @@
 package kr.co.taihan.front.service.impl;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -57,7 +55,15 @@ public class BusinessServiceImpl implements BusinessService {
 		List<Product> product = businessMapper.getProductList(param);
 		if(StringUtils.isNotEmpty(param.getType())) {
 			String[] idxs = product.stream().map(h -> h.getIdx()).toArray(String[]::new);
-			
+
+			List<String> idxsList = new ArrayList<>(Arrays.asList(idxs));
+			idxsList.remove("9");
+			idxsList.remove("11");
+			idxsList.remove("10");
+			idxsList.remove("12");
+
+			idxs = idxsList.toArray(new String[idxsList.size()]);
+
 			TblMapping param2 = new TblMapping();
 			param2.setTbl("PRODUCT");
 			param2.setTblIdxs(idxs);
@@ -77,9 +83,7 @@ public class BusinessServiceImpl implements BusinessService {
 		if (!"".equals(param.getIdx())) {
 			Product product = businessMapper.getProductDetail(param);
 			String replaceTagInfoList = null;
-			if (!product.getTitle().contains("Triplex")) {
-				replaceTagInfoList = product.getTagInfoList().replace("부스덕트", "버스덕트");
-			}
+			replaceTagInfoList = product.getTagInfoList().replace("부스덕트", "버스덕트");
 			product.setTagInfoList(replaceTagInfoList);
 			List<ProductTab> tabParam = businessMapper.getProductDetailTab(product);
 			product.setTabList(tabParam);

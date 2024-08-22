@@ -44,14 +44,14 @@
 				<!-- tab -->
 				<div class="tab-wrap">
 					<ul class="tab-type">
-						<li class="active"><a href="/business/globalNetwork/korea#map-box"><span>국내<em class="count">(6)</em></span></a></li>
+						<li class="active"><a href="/business/globalNetwork/korea#map-box"><span>국내<em class="count">(7)</em></span></a></li>
 						<li><a href="/business/globalNetwork/america#map-box"><span>아메리카<em class="count">(3)</em></span></a></li>
 						<li><a href="/business/globalNetwork/europe#map-box"><span>유럽<em class="count">(5)</em></span></a></li>
 						<li><a href="/business/globalNetwork/middle#map-box"><span>중동<em class="count">(8)</em></span></a></li>
 						<li><a href="/business/globalNetwork/oceania#map-box"><span>오세아니아<em class="count">(2)</em></span></a></li>
 						<li><a href="/business/globalNetwork/asia#map-box"><span>아시아<em class="count">(4)</em></span></a></li>
 						<li><a href="/business/globalNetwork/africa#map-box"><span>아프리카<em class="count">(1)</em></span></a></li>
-						<li><a href="/business/globalNetwork/all#map-box"><span>전체<em class="count">(29)</em></span></a></li><!-- 2022-11-11 수정 -->
+						<li><a href="/business/globalNetwork/all#map-box"><span>전체<em class="count">(30)</em></span></a></li><!-- 2022-11-11 수정 -->
 					</ul>
 				</div>
 				<!-- //tab -->
@@ -62,7 +62,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v2">공장</span>
-									<strong class="title">당진 공장</strong>
+									<strong class="title">당진케이블공장</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -86,7 +86,7 @@
 							<li>
 								<div class="title-box">
 									<span class="label v2">공장</span>
-									<strong class="title">당진 전력기기공장</strong>
+									<strong class="title">당진솔루션공장</strong>
 								</div>
 								<ul class="list-info">
 									<li>
@@ -105,6 +105,30 @@
 									</li>
 								</ul>
 								<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinElect" class="btn-detail">자세히보기<i class="ico-arr"></i></a>
+							</li>
+
+							<li>
+								<div class="title-box">
+									<span class="label v2">공장</span>
+									<strong class="title">당진해저케이블공장</strong>
+								</div>
+								<ul class="list-info">
+									<li>
+										<dl>
+											<dt><i class="ico-location"></i>주소</dt>
+											<dd>충청남도 당진시 송악읍 고대리 346-1<a href="https://www.google.com/maps/place/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%86%A1%EC%95%85%EC%9D%8D+%EA%B3%A0%EB%8C%80%EB%A6%AC+346-1/data=!4m6!3m5!1s0x357b0311f1fe019f:0x129863f07e94526a!8m2!3d36.9849291!4d126.7506167!16s%2Fg%2F11sb783l7s?entry=ttu" target="_blank" class="btn-map"><i
+													class="ico-outer"><span
+													class="hidden">주소보기</span></i></a></dd>
+										</dl>
+									</li>
+									<li>
+										<dl>
+											<dt><i class="ico-tel"></i>연락처</dt>
+											<dd><a href="tel:041-359-9114">041-359-9114</a></dd>
+										</dl>
+									</li>
+								</ul>
+								<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinSubmarine" class="btn-detail">자세히보기<i class="ico-arr"></i></a>
 							</li>
 
 							<li>
@@ -226,14 +250,14 @@
 						<!-- tab -->
 						<div class="tab-wrap">
 							<ul class="tab-type">
-							<li class="active"><a href="/en/business/globalNetwork/korea#map-box"><span>KOREA<em class="count">(6)</em></span></a></li>
+							<li class="active"><a href="/en/business/globalNetwork/korea#map-box"><span>KOREA<em class="count">(7)</em></span></a></li>
 							<li><a href="/en/business/globalNetwork/america#map-box"><span>America<em class="count">(3)</em></span></a></li>
 							<li><a href="/en/business/globalNetwork/europe#map-box"><span>Europe<em class="count">(5)</em></span></a></li>
 							<li><a href="/en/business/globalNetwork/middle#map-box"><span>Middle East<em class="count">(8)</em></span></a></li>
 							<li><a href="/en/business/globalNetwork/oceania#map-box"><span>Oceania<em class="count">(2)</em></span></a></li>
 							<li><a href="/en/business/globalNetwork/asia#map-box"><span>Asia<em class="count">(4)</em></span></a></li>
 							<li><a href="/en/business/globalNetwork/africa#map-box"><span>Africa<em class="count">(1)</em></span></a></li>
-							<li><a href="/en/business/globalNetwork/all#map-box"><span>All<em class="count">(29)</em></span></a></li><!-- 2022-11-11 수정 -->
+							<li><a href="/en/business/globalNetwork/all#map-box"><span>All<em class="count">(30)</em></span></a></li><!-- 2022-11-11 수정 -->
 							</ul>
 						</div>
 						<!-- //tab -->
@@ -244,7 +268,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v2">Plant</span>
-											<strong class="title">Dangjin Plant</strong>
+											<strong class="title">Dangjin Cable Plant</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -266,7 +290,7 @@
 									<li>
 										<div class="title-box">
 											<span class="label v2">Plant</span>
-											<strong class="title">Dangjin Cable Accessory Plant</strong>
+											<strong class="title">Dangjin Solution Plant</strong>
 										</div>
 										<ul class="list-info">
 											<li>
@@ -283,6 +307,29 @@
 											</li>
 										</ul>
 										<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinElect" class="btn-detail">Read more<i class="ico-arr"></i></a>
+									</li>
+
+									<li>
+										<div class="title-box">
+											<span class="label v2">Plant</span>
+											<strong class="title">Dangjin Submarine Plant</strong>
+										</div>
+										<ul class="list-info">
+											<li>
+												<dl>
+													<dt><i class="ico-location"></i>Address</dt>
+													<dd>346-1 Godae-ri, Songak-eup Dangjin-si, Chungcheongnam-do
+														<a href="https://www.google.com/maps/place/%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EB%8B%B9%EC%A7%84%EC%8B%9C+%EC%86%A1%EC%95%85%EC%9D%8D+%EA%B3%A0%EB%8C%80%EB%A6%AC+346-1/data=!3m1!4b1!4m6!3m5!1s0x357b0311f1fe019f:0x129863f07e94526a!8m2!3d36.9849291!4d126.7506167!16s%2Fg%2F11sb783l7s?entry=ttu" target="_blank" class="btn-map"><i class="ico-outer"><span class="hidden">VIEW MAP</span></i></a></dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
+													<dt><i class="ico-tel"></i>Tel</dt>
+													<dd><a href="tel:+82413599114">+82 41-359-9114</a></dd>
+												</dl>
+											</li>
+										</ul>
+										<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinSubmarine" class="btn-detail">Read more<i class="ico-arr"></i></a>
 									</li>
 
 									<li>

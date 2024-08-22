@@ -192,7 +192,18 @@ public class BusinessController {
     
     @GetMapping("/solutionDetail")
     public String solutionDetail(Model model,Solution param) throws Exception {
-    	model.addAllAttributes(businessService.getSolutionDetail(param));
+		Map<String, Object> solutionDetail = businessService.getSolutionDetail(param);
+		Solution solution = (Solution) solutionDetail.get("solution");
+		if ("2".equals(solution.getIdx())) {
+			model.addAllAttributes(solutionDetail);
+			return "/business/solutionDetail_new_ko";
+		}
+		if ("10".equals(solution.getIdx()) && "en".equals(solution.getLang())) {
+			model.addAllAttributes(solutionDetail);
+			return "/business/solutionDetail_new_en";
+		}
+
+		model.addAllAttributes(solutionDetail);
         return "/business/solutionDetail";
     }
 
@@ -271,7 +282,13 @@ public class BusinessController {
 	public String getGlobalNetworkDangjinElect(Model model){
 		return "/business/globalNetwork/dangjinElect";
 	}
-	
+
+	@GetMapping("/globalNetwork/dangjinSubmarine")
+	public String getGlobalNetworkDangjinSubmarine(Model model){
+		return "/business/globalNetwork/dangjinSubmarine";
+	}
+
+
 	@GetMapping("/globalNetwork/vina")
 	public String getGlobalNetworkVina(Model model){
 		return "/business/globalNetwork/vina";

@@ -435,7 +435,7 @@
 								<div class="icon-box mo-display"><i class="ico-system8"></i></div>
 								<dl>
 									<dt><span class="mo-display">08 </span>통근버스</dt>
-									<dd>본사 및 당진공장<br>출퇴근 버스 운행</dd>
+									<dd>본사 및 공장<br>출퇴근 버스 운행</dd>
 								</dl>
 								<div class="icon-box pc-display"><i class="ico-system8"></i></div>
 							</li>
@@ -526,7 +526,7 @@
 									<dl>
 										<dt><span class="mo-display">08 </span>Commuter Bus</dt>
 										<!-- 2022-10-26 텍스트 수정 -->
-										<dd>Commuting bus service to the headquarters and Dangjin Plant</dd>
+										<dd>Commuting bus service to the headquarters and Plant</dd>
 										<!-- //2022-10-26 텍스트 수정 -->
 									</dl>
 									<div class="icon-box pc-display"><i class="ico-system8"></i></div>

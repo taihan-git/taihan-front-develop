@@ -1742,6 +1742,9 @@
 .global-detail .bg.v5 {
   background-image: url(../images/business/global_detail/vis05.jpg);
 }
+.global-detail .bg.v6 {
+  background-image: url(../images/business/global_detail/vis06.jpg);
+}
 .global-detail .inner-box {
   padding: 70px 206px 100px;
   background-color: #fff;

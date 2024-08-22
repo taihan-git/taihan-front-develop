@@ -271,9 +271,9 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjin" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace01.jpg" alt="">
-											<strong class="title">당진공장<i class="ico-arr"></i></strong>
+											<strong class="title">당진케이블공장<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">당진공장<i class="ico-arr"></i></strong> <span class="sub">세계 최대 규모의 단일 케이블 공장</span>
+										<strong class="title">당진케이블공장<i class="ico-arr"></i></strong> <span class="sub">세계 최대 규모의 단일 케이블 공장</span>
 										<p class="desc">초고압, 산업전선, 소재, 통신, 부스덕트 등 전력공급 Value Chain 전체를 아우르는 다양한 제품 포트폴리오를 보유한 최고 시설의 공장입니다.</p>
 									</a>
 								</li>
@@ -281,10 +281,20 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinElect" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace02.jpg" alt="">
-											<strong class="title">당진 전력기기공장<i class="ico-arr"></i></strong>
+											<strong class="title">당진솔루션공장<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">당진 전력기기공장<i class="ico-arr"></i></strong> <span class="sub">국내 유일 단일 전력기기 생산공장</span>
+										<strong class="title">당진솔루션공장<i class="ico-arr"></i></strong> <span class="sub">국내 유일 단일 전력기기 생산공장</span>
 										<p class="desc">케이블 접속자재 및 절연물을 생산하며, 철저한 품질관리와 우수한 제조 경쟁력을 활용하여 고객의 요구사항에 완벽히 부합하는 제품을 제공합니다.</p>
+									</a>
+								</li>
+								<li>
+									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinSubmarine" class="list-item">
+										<div class="img-flex">
+											<img src="${CON_STATIC_URL}/asset/images/business/ndersea_cable_factory.jpg" alt="">
+											<strong class="title">당진해저케이블공장<i class="ico-arr"></i></strong>
+										</div>
+										<strong class="title">당진해저케이블공장<i class="ico-arr"></i></strong> <span class="sub">글로벌 해저케이블 시장의 전초기지</span>
+										<p class="desc">급성장하는 글로벌 해저케이블 수요에 적극 대응할 수 있는 생산 역량을 갖추었으며, 전 세계 해상풍력 시장을 공략하기 위한 전초기지 입니다.</p>
 									</a>
 								</li>
 								<li>
@@ -323,9 +333,9 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjin" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace01.jpg" alt="">
-											<strong class="title">Dangjin Plant<i class="ico-arr"></i></strong>
+											<strong class="title">Dangjin Cable Plant<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">Dangjin Plant<i class="ico-arr"></i></strong>
+										<strong class="title">Dangjin Cable Plant<i class="ico-arr"></i></strong>
 										<span class="sub">Cable production plant of top global scale and efficiency</span>
 										<p class="desc">
 											This plant is the cradle of cable technology and a key production base of Taihan, boasting the world's largest scale and efficiency.
@@ -336,13 +346,23 @@
 									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinElect" class="list-item">
 										<div class="img-flex">
 											<img src="${CON_STATIC_URL}/asset/images/business/workplace02.jpg" alt="">
-											<strong class="title">Cable Accessory at Dangjin<i class="ico-arr"></i></strong>
+											<strong class="title">Dangjin Solution Plant<i class="ico-arr"></i></strong>
 										</div>
-										<strong class="title">Dangjin Cable Accessory Plant<i class="ico-arr"></i></strong>
+										<strong class="title">Dangjin Solution Plant<i class="ico-arr"></i></strong>
 										<span class="sub">The only integrated cable accessory production plant in Korea</span>
 										<p class="desc">
 											The Dangjin Cable Accessory produces cable accessories such as joints and insulators. This plant is striving to advance technology to produce optimal products that perfectly meet customer requirements.
 										</p>
+									</a>
+								</li>
+								<li>
+									<a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/business/globalNetwork/dangjinSubmarine" class="list-item">
+										<div class="img-flex">
+											<img src="${CON_STATIC_URL}/asset/images/business/ndersea_cable_factory.jpg" alt="">
+											<strong class="title">Dangjin Submarine Plant<i class="ico-arr"></i></strong>
+										</div>
+										<strong class="title">Dangjin Submarine Plant<i class="ico-arr"></i></strong> <span class="sub">A Strategic Hub for the Global Submarine Cable Market</span>
+										<p class="desc">It has the production capacity to actively respond to the rapidly growing global demand for submarine cables, positioning ourselves as a strategic hub to target the offshore wind market worldwide</p>
 									</a>
 								</li>
 								<li>

@@ -121,6 +121,28 @@
 									<dd><spring:message code="overview.grade2" text=""/><strong>A</strong><spring:message code="overview.grade" text="등급"/></dd>
 								</dl>
 							</li>
+							<li>
+								<div class="icon-img"><img src="${CON_STATIC_URL}/asset/images/icon/icon_motion06.gif" alt=""></div>
+								<dl>
+									<c:if test="${LANG eq 'ko' }">
+										<dt>
+											<span>국내 유일</span>
+										</dt>
+										<dd>
+											<strong>CLV</strong>보유
+										</dd>
+									</c:if>
+									<c:if test="${LANG eq 'en' }">
+										<dt>
+											<span>Cable Laying</span>
+											<span>Vessel</span>
+										</dt>
+										<dd>
+											<strong>Korea’s Only</strong>
+										</dd>
+									</c:if>
+								</dl>
+							</li>
 
 						</ul>
 					</div>
@@ -158,17 +180,20 @@
 									<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/company/summary02.jpg" onerror="this.src='${CON_STATIC_URL}/asset/images/list.jpg';" alt=""></div>
 									<div class="text-box">
 									<c:if test="${LANG eq 'ko' }">
-										<strong class="title">초고압 전력망의 표준</strong>
+										<strong class="title">미래 기술의 표준</strong>
 										<p class="desc">
-											시스템 디자인과 생산, 시공, 유지보수까지<br>
-											최고의 기술 경쟁력과 턴키 역량으로<br>
-											어떤 환경에서도 안정적인 전력망을 제공합니다.
+											HVDC, 해저케이블 등 차세대 분야의<br>
+											높은 기술 경쟁력을 바탕으로 글로벌<br>
+											시장을 선도합니다
 										</p>
 									</c:if>
 									<c:if test="${LANG eq 'en' }">
-										<strong class="title">Standard for Extra-high Voltage Power Grid</strong>
+										<strong class="title">The Standard of Future Technology</strong>
 										<p class="desc">
-											Taihan provides a stable power grid<br>in any environment with the best technological competitive edge and turnkey capabilities from system design, manufacturing, construction, and maintenance.
+											We lead the global market with<br>
+											advanced technological competitiveness<br>
+											in next-generation fields such as HVDC<br>
+											and submarine cables.
 										</p>
 									</c:if>
 									</div>
@@ -325,7 +350,7 @@
 									<dl>
 										<dt>People People-centric Culture</dt>
 										<dd>
-											A people-centric corporate culture, 
+											A people-centric corporate culture,
 											focusing on communications and mutual trust
 
 										</dd>
@@ -347,7 +372,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="brochure-wrap full">
 					<div class="inner-box">
 						<div class="img-box">
@@ -365,16 +390,16 @@
 								</c:if>
 							</p>
 							<c:if test="${LANG eq 'ko' }">
-								<a href="/resources/files/2023_taihan_Corporate_Profile_KOR.pdf" class="btn-type btn-m"  target="_blank">
+								<a href="/resources/files/2024_taihan_Corporate_Profile_KOR.pdf" class="btn-type btn-m"  target="_blank">
 									<span><spring:message code="overview.btnDownload" text="회사 소개 자료 다운로드"/></span><i class="ico-down"></i>
 								</a>
 							</c:if>
 							<c:if test="${LANG eq 'en' }">
-								<a href="/resources/files/2023_taihan_Corporate_Profile_ENG.pdf" class="btn-type btn-m"  target="_blank">
+								<a href="/resources/files/2024_taihan_Corporate_Profile_ENG.pdf" class="btn-type btn-m"  target="_blank">
 									<span>Corporate Profile Download</span><i class="ico-down"></i>
 								</a>
 							</c:if>
-							
+
 						</div>
 					</div>
 				</div>
@@ -386,7 +411,7 @@
 	$(document).ready(function(){
 	    //gnb세팅
 	    setTimeout(function() {
-	        setmenu( 2, '0101') 
+	        setmenu( 2, '0101')
 	    },100);
 	    explainSwiperInit();
 	  //수정
@@ -424,7 +449,7 @@
 	    }
 	})
 	var explainSwiper = undefined;
-	
+
 	function explainSwiperInit() {
 		/*
 		breakpoints 버그있음.
@@ -438,7 +463,7 @@
 			if (explainSwiper != undefined) {
 				explainSwiper.destroy(true);
 			}
-	
+
 			gsap.timeline({
 				scrollTrigger: {
 					trigger: ".explain-wrap .bg",
@@ -455,7 +480,7 @@
 				explainSwiper = new Swiper('.explain-swiper', {
 					slidesPerView: 1.2,
 					centeredSlides: true,
-					spaceBetween: 15, 
+					spaceBetween: 15,
 					observer: true,
 					pagination: {
 						el: ".swiper-pagination",
@@ -468,7 +493,7 @@
 			explainSwiper = new Swiper('.explain-swiper', {
 				slidesPerView: 1.2,
 				centeredSlides: true,
-				spaceBetween: 15, 
+				spaceBetween: 15,
 				observer: true,
 				pagination: {
 					el: ".swiper-pagination",
@@ -477,7 +502,7 @@
 			})
 		}
 	}
-	
+
 	$(window).resize(function () {
 		explainSwiperInit();
 	});
