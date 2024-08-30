@@ -73,7 +73,7 @@
 								<div class="list-box">
 									<span class="item">본사<strong>1</strong></span>
 									<span class="item">본점<strong>1</strong></span>
-									<span class="item">공장<strong>2</strong></span>
+									<span class="item">공장<strong>3</strong></span>
 									<span class="item">영업소<strong>2</strong></span>
 									<i class="ico-arr"></i>
 								</div>
@@ -169,7 +169,7 @@
 								<div class="list-box">
 									<span class="item">Office<strong>1</strong></span>
 									<span class="item">Main Office<strong>1</strong></span>
-									<span class="item">Plant<strong>2</strong></span>
+									<span class="item">Plant<strong>3</strong></span>
 									<span class="item">Sales Office<strong>2</strong></span>
 									<i class="ico-arr"></i>
 								</div>
@@ -294,7 +294,12 @@
 											<strong class="title">당진해저케이블공장<i class="ico-arr"></i></strong>
 										</div>
 										<strong class="title">당진해저케이블공장<i class="ico-arr"></i></strong> <span class="sub">글로벌 해저케이블 시장의 전초기지</span>
-										<p class="desc">급성장하는 글로벌 해저케이블 수요에 적극 대응할 수 있는 생산 역량을 갖추었으며, 전 세계 해상풍력 시장을 공략하기 위한 전초기지 입니다.</p>
+										<p class="desc">
+											급성장하는 글로벌 해저케이블 수요에<br>
+											적극 대응할 수 있는 생산 역량을 갖추었습니다.<br>
+											전 세계 해상 풍력 시장을 공략하기 위한 전초기지로<br>
+											발돋움해 나갈 것입니다.
+										</p>
 									</a>
 								</li>
 								<li>

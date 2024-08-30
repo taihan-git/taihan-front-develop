@@ -124,7 +124,6 @@
 									<li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:041-359-9114">041-359-9114</a></dd>
 										</dl>
 									</li>
 								</ul>
@@ -325,7 +324,6 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+82413599114">+82 41-359-9114</a></dd>
 												</dl>
 											</li>
 										</ul>

@@ -18,7 +18,7 @@ public enum EmailAdmin {
     PRODUCTS_KO_6("ko_inqu_0106","통신","skida83@taihan.com"),
     PRODUCTS_KO_7("ko_inqu_0107","소재","KJW0721@taihan.com"),
 
-    INVEST_INFO_KO_1("ko_inqu_02","투자정보","jwkim@taihan.com"),
+    INVEST_INFO_KO_1("ko_inqu_02","투자정보","sunyul0407@taihan.com"),
     ENVIRMENT_KO_1("ko_inqu_03","채용","uskim@taihan.com"),
 
     ETC_KO_1("ko_inqu_0401","기술개발 제안","hskwon@taihan.com,gocharge89@taihan.com"),

@@ -107,38 +107,42 @@
 						<div class="scroll-wrap shadow-none">
 							<table class="table-type">
 								<colgroup>
-									<col width="50%">
-									<col width="50%">
+									<col width="20%">
+									<col width="40%">
+									<col width="40%">
 								</colgroup>
-								<thead>
-								<tr>
-									<th>CLV(Cable Laying Vessel)</th>
-									<th>CLB (Cable Laying Barge)</th>
-								</tr>
-								</thead>
 								<tbody>
-								<tr>
-									<td>해저케이블 포설 목적으로 건조</td>
-									<td>해저케이블 포설을 위해 운송 목적의 바지선을 개조</td>
-								</tr>
-								<tr>
-									<td>자항능력</td>
-									<td>예인선 필요</td>
-								</tr>
-								<tr>
-									<td>13km/day</td>
-									<td>평균 속도 : 3km/day</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li>DPS 기능을 통한 정밀한 위치 제어</li>
-											<li>자항 능력 보유하여 작업시간 단축</li>
-											<li>별도의 보조선박 없이 단독 시공 가능</li>
-										</ul>
-									</td>
-									<td>Anchor Mooring 을 통한 위치 제어 및 이동으로 작업에 장시간 소요</td>
-								</tr>
+									<tr>
+										<th>구분</th>
+										<td>CLV(Cable Laying Vessel)</td>
+										<td>CLB (Cable Laying Barge)</td>
+									</tr>
+									<tr>
+										<th>내용</th>
+										<td>해저케이블 포설 목적으로 건조</td>
+										<td>해저케이블 포설을 위해 운송 목적의 바지선을 개조</td>
+									</tr>
+									<tr>
+										<th>운항</th>
+										<td>자항능력</td>
+										<td>예인선 필요</td>
+									</tr>
+									<tr>
+										<th>평균 시공 속도</th>
+										<td>13km/day</td>
+										<td>3km/day</td>
+									</tr>
+									<tr>
+										<th>특징</th>
+										<td>
+											<ul>
+												<li>DPS 기능을 통한 정밀한 위치 제어</li>
+												<li>자항 능력 보유하여 작업시간 단축</li>
+												<li>별도의 보조선박 없이 단독 시공 가능</li>
+											</ul>
+										</td>
+										<td>Anchor Mooring 을 통한 위치 제어 및 이동으로 작업에 장시간 소요</td>
+									</tr>
 								</tbody>
 							</table>
 						</div>
@@ -202,38 +206,46 @@
 						<div class="scroll-wrap shadow-none">
 							<table class="table-type">
 								<colgroup>
-									<col width="50%">
-									<col width="50%">
+									<col width="20%">
+									<col width="40%">
+									<col width="40%">
 								</colgroup>
-								<thead>
-								<tr>
-									<th>CLV (Cable Laying Vessel)</th>
-									<th>CLB (Cable Laying Barge)</th>
-								</tr>
-								</thead>
 								<tbody>
-								<tr>
-									<td>Built specifically for laying submarine cables</td>
-									<td>Modified cargo barges for the purpose of laying submarine cables</td>
-								</tr>
-								<tr>
-									<td>Capable of self-propulsion</td>
-									<td>Need for auxiliary vessels like a tugboat</td>
-								</tr>
-								<tr>
-									<td>Average Installation Speed : 13 km/day</td>
-									<td>Average Installation Speed : 3km/day</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li>DPS-enabled, precise positioning</li>
-											<li>Shorter installation time due to self-propulsion</li>
-											<li>No need for auxiliary vessels for installation</li>
-										</ul>
-									</td>
-									<td>Long installation time due to anchor mooring for positioning and movement</td>
-								</tr>
+									<tr>
+										<th>Division</th>
+										<td>CLV (Cable Laying Vessel)</td>
+										<td>CLB (Cable Laying Barge)</td>
+									</tr>
+									<tr>
+										<th>Content</th>
+										<td>Built specifically for laying submarine cables</td>
+										<td>Modified cargo barges for the purpose of laying submarine cables</td>
+									</tr>
+									<tr>
+										<th>Operation</th>
+										<td>Capable of self-propulsion</td>
+										<td>Need for auxiliary vessels like a tugboat</td>
+									</tr>
+									<tr>
+										<th>Average Installation Speed</th>
+										<td>13 km/day</td>
+										<td>3km/day</td>
+									</tr>
+									<tr>
+										<th>Features</th>
+										<td>
+											<ul>
+												<li>DPS-enabled, precise positioning</li>
+												<li>Shorter installation time due to self-propulsion</li>
+												<li>No need for auxiliary vessels for installation</li>
+											</ul>
+										</td>
+										<td>
+											<ul>
+												<li>Long installation time due to anchor mooring for positioning and movement</li>
+											</ul>
+										</td>
+									</tr>
 								</tbody>
 							</table>
 						</div>

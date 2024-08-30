@@ -51,10 +51,12 @@
 		<div class="content-box type2">
 			<div class="inner-box">
 				<div class="text-wrap">
-					<h3>해저케이블의 전체 밸류 체인(Value chain) 수행 가능한 경쟁력 확보</h3>
+					<h3>해저케이블 관련 전체 벨류 체인(Value Chain)의 역량 확보</h3>
 					<p>
 						대한전선은 해저케이블 시장에서의 안정적인 사업을 수행하고 다양한 수주 기회를 발굴하기 위해 국내 유일의 해상풍력용 포설선 CLV인 팔로스(PALOS)를 확보하였습니다.<br>
-						포설선은 설계 단계부터 해저케이블 포설을 위해 건조된 CLV와 화물 운반이 목적인 바지선을 개조해 만든 CLB(CLB: Cable Laying Barge)로 구분됩니다. CLV인 팔로스 일반 선박과 달리 바닥이 평평해 수심에 관계없이 여러 현장에 투입이 가능하며, 선박위치정밀제어시스템(DP2 : Dynamic Position) 등의 최신 기능까지 탑재하고 있습니다. 또한 최대 9노트(knot)의 속도로 운항할 수 있는 동력선으로, 예인선의 견인으로 움직여 기상변화 및 조류에 능동적으로 대처하지 못하는 CLB 대비 매우 안정적이고 섬세하게 해저케이블을 포설할 수 있습니다.
+						CLV는 설계 단계부터 해저케이블 포설을 위해 건조된 특수 선박으로, 화물 운반용인 바지선을 개조해 만든 CLB(CLB: Cable Laying Barge)보다 성능 및 기능이 우수합니다.<br>
+						팔로스는 최대 9노트(knot)의 속도로 운항할 수 있는 동력선으로, 예인선의 견인으로 움직여 기상변화 및 조류에 능동적으로 대처하지 못하는 CLB 대비 매우 안정적이고 섬세하게 해저케이블을 포설할 수 있습니다.<br>
+						또한 지정한 위치에 선박을 장시간 유지시키는 선박위치정밀제어시스템(DP2 : Dynamic Position) 등의 최신 기능이 탑재되어 정확한 포설과 안정적인 선박 운용이 가능합니다.  일반 선박과 달리 바닥이 평평해 수심에 관계없이 여러 현장에 투입이 가능하다는 특징도 있습니다.
 					</p>
 				</div>
 				<div class="table-wrap">
@@ -106,38 +108,46 @@
 					<div class="scroll-wrap shadow-none">
 						<table class="table-type">
 							<colgroup>
-								<col width="50%">
-								<col width="50%">
+								<col width="20%">
+								<col width="40%">
+								<col width="40%">
 							</colgroup>
-							<thead>
-							<tr>
-								<th>CLV(Cable Laying Vessel)</th>
-								<th>CLB (Cable Laying Barge)</th>
-							</tr>
-							</thead>
 							<tbody>
-							<tr>
-								<td>해저케이블 포설 목적으로 건조</td>
-								<td>해저케이블 포설을 위해 운송 목적의 바지선을 개조</td>
-							</tr>
-							<tr>
-								<td>자항능력</td>
-								<td>예인선 필요</td>
-							</tr>
-							<tr>
-								<td>13km/day</td>
-								<td>평균 속도 : 3km/day</td>
-							</tr>
-							<tr>
-								<td>
-									<ul>
-										<li>DPS 기능을 통한 정밀한 위치 제어</li>
-										<li>자항 능력 보유하여 작업시간 단축</li>
-										<li>별도의 보조선박 없이 단독 시공 가능</li>
-									</ul>
-								</td>
-								<td>Anchor Mooring 을 통한 위치 제어 및 이동으로 작업에 장시간 소요</td>
-							</tr>
+								<tr>
+									<th>구분</th>
+									<td>CLV(Cable Laying Vessel)</td>
+									<td>CLB (Cable Laying Barge)</td>
+								</tr>
+								<tr>
+									<th>내용</th>
+									<td>해저케이블 포설 목적으로 건조</td>
+									<td>해저케이블 포설을 위해 운송 목적의 바지선을 개조</td>
+								</tr>
+								<tr>
+									<th>운항</th>
+									<td>자항능력</td>
+									<td>예인선 필요</td>
+								</tr>
+								<tr>
+									<th>평균 시공 속도</th>
+									<td>13km/day</td>
+									<td>3km/day</td>
+								</tr>
+								<tr>
+									<th>특징</th>
+									<td>
+										<ul>
+											<li>DPS 기능을 통한 정밀한 위치 제어</li>
+											<li>자항 능력 보유하여 작업시간 단축</li>
+											<li>별도의 보조선박 없이 단독 시공 가능</li>
+										</ul>
+									</td>
+									<td>
+										<ul>
+											<li>Anchor Mooring 을 통한 위치 제어 및 이동으로 작업에 장시간 소요</li>
+										</ul>
+									</td>
+								</tr>
 							</tbody>
 						</table>
 					</div>

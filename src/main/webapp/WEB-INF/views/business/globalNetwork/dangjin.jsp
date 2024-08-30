@@ -309,7 +309,7 @@
 
 					<div class="title-wrap">
 						<div class="inner-box">
-							<h3 class="title-type">Dangjin Plant</h3>
+							<h3 class="title-type">Dangjin Cable Plant</h3>
 							<p>Cable production plant of top global scale and efficiency</p>
 						</div>
 					</div>
@@ -318,7 +318,7 @@
 						<div class="bg"></div>
 						<div class="inner-box">
 							<p class="desc">
-								Located at the center of international transport networks at Dangjin, Chungnam, the Dangjin Plant is the core production base for Taihan’s cable technology. Its scale and efficiency are second to none the world over. Boasting five unit factories for EHV, industrial cable, communication cables, base metal, and bus ducts, and PQ test site, it operates at every stage of cable production from product development and production to the finished product testing. The Dangjin Plant is responsible for high-quality products destined for customers in 100 countries around the world, thanks to a state-of-the-art production line and environmentally friendly systems including a world-class VCV (Vertical Continuous Vulcanization) tower.
+								Located at the center of international transport networks at Dangjin, Chungnam, the Dangjin Cable Plant is the core production base for Taihan’s cable technology. Its scale and efficiency are second to none the world over. Boasting five unit factories for EHV, industrial cable, communication cables, base metal, and bus ducts, and PQ test site, it operates at every stage of cable production from product development and production to the finished product testing. The Dangjin Cable Plant is responsible for high-quality products destined for customers in 100 countries around the world, thanks to a state-of-the-art production line and environmentally friendly systems including a world-class VCV (Vertical Continuous Vulcanization) tower.
 							</p>
 
 							<ul class="list-summary">
@@ -371,7 +371,7 @@
 							<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/cont01/img01.jpg"></div>
 							<p class="text">
 								<!-- 2022-11-25 수정 -->
-								Dangjin Plant was designed from the ground up to be environmentally friendly and low-emission, with environmental protection and ecological restoration in consideration from the early stages of construction. <br>
+								Dangjin Cable Plant was designed from the ground up to be environmentally friendly and low-emission, with environmental protection and ecological restoration in consideration from the early stages of construction. <br>
 								With environmentally friendly systems including natural lighting and wastewater recycling not found in ordinary manufacturing plants, we continue our efforts to minimize our environmental footprint and preserve nature.
 								<!-- //2022-11-25 수정 -->
 							</p>
@@ -409,11 +409,11 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery01/img01.jpg"></div>
-										<p class="desc">Dangjin Plant</p>
+										<p class="desc">Dangjin Cable Plant</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery01/img02.jpg"></div>
-										<p class="desc">Dangjin Plant</p>
+										<p class="desc">Dangjin Cable Plant</p>
 									</div>
 									<div class="swiper-slide">
 										<div class="img-flex"><img src="${CON_STATIC_URL}/asset/images/business/global_detail/gallery01/img03.jpg"></div>

@@ -526,7 +526,7 @@
 									<dl>
 										<dt><span class="mo-display">08 </span>Commuter Bus</dt>
 										<!-- 2022-10-26 텍스트 수정 -->
-										<dd>Commuting bus service to the headquarters and Plant</dd>
+										<dd>Commuting bus service to the headquarters and plant</dd>
 										<!-- //2022-10-26 텍스트 수정 -->
 									</dl>
 									<div class="icon-box pc-display"><i class="ico-system8"></i></div>

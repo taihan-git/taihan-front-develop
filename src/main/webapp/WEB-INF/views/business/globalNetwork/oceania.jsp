@@ -41,14 +41,14 @@
 				<!-- tab -->
 				<div class="tab-wrap">
 					<ul class="tab-type">
-						<li><a href="/business/globalNetwork/korea#map-box"><span>국내<em class="count">(6)</em></span></a></li>
+						<li><a href="/business/globalNetwork/korea#map-box"><span>국내<em class="count">(7)</em></span></a></li>
 						<li><a href="/business/globalNetwork/america#map-box"><span>아메리카<em class="count">(3)</em></span></a></li>
 						<li><a href="/business/globalNetwork/europe#map-box"><span>유럽<em class="count">(5)</em></span></a></li>
 						<li><a href="/business/globalNetwork/middle#map-box"><span>중동<em class="count">(8)</em></span></a></li>
 						<li class="active"><a href="/business/globalNetwork/oceania#map-box"><span>오세아니아<em class="count">(2)</em></span></a></li>
 						<li><a href="/business/globalNetwork/asia#map-box"><span>아시아<em class="count">(4)</em></span></a></li>
 						<li><a href="/business/globalNetwork/africa#map-box"><span>아프리카<em class="count">(1)</em></span></a></li>
-						<li><a href="/business/globalNetwork/all#map-box"><span>전체<em class="count">(29)</em></span></a></li><!-- 2022-11-11 수정 -->
+						<li><a href="/business/globalNetwork/all#map-box"><span>전체<em class="count">(30)</em></span></a></li><!-- 2022-11-11 수정 -->
 					</ul>
 				</div>
 				<!-- //tab -->
@@ -92,8 +92,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-											  <a href="mailto:jameskim@taihan.com">jameskim@taihan.com.au</a><br>
-											  <a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a>
+											  <a href="mailto:sales@taihan.com.au">sales@taihan.com.au</a>
 										  </dd>
 										</dl>
 									</li>
@@ -114,16 +113,16 @@
 									<li>
 										<dl>
 											<dt><i class="ico-tel"></i>연락처</dt>
-											<dd><a href="tel:+6499735062">+64-9-973-5062 </a></dd>
+											<dd><a href="tel:+640276532359">+64-(0)27-653-2359</a></dd>
 										</dl>
 									</li>
 									<li>
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-                                                      <a href="mailto:jameskim@taihan.com.au">jameskim@taihan.com.au</a><br>
-                                                      <a href="mailto:c.kim@taihan.co.nz">c.kim@taihan.co.nz</a>
-                                                  </dd>
+												<a href="mailto:jhkim@taihan.com">jhkim@taihan.com</a><br>
+												<a href="mailto:c.kim@taihan.co.nz">c.kim@taihan.co.nz</a>
+											</dd>
 										</dl>
 									</li>
 								</ul>
@@ -146,14 +145,14 @@
 						<!-- tab -->
 						<div class="tab-wrap">
 							<ul class="tab-type">
-								<li ><a href="/en/business/globalNetwork/korea#map-box"><span>KOREA<em class="count">(6)</em></span></a></li>
+								<li ><a href="/en/business/globalNetwork/korea#map-box"><span>KOREA<em class="count">(7)</em></span></a></li>
 								<li ><a href="/en/business/globalNetwork/america#map-box"><span>America<em class="count">(3)</em></span></a></li>
 								<li ><a href="/en/business/globalNetwork/europe#map-box"><span>Europe<em class="count">(5)</em></span></a></li>
 								<li><a href="/en/business/globalNetwork/middle#map-box"><span>Middle East<em class="count">(8)</em></span></a></li>
 								<li class="active"><a href="/en/business/globalNetwork/oceania#map-box"><span>Oceania<em class="count">(2)</em></span></a></li>
 								<li><a href="/en/business/globalNetwork/asia#map-box"><span>Asia<em class="count">(4)</em></span></a></li>
 								<li><a href="/en/business/globalNetwork/africa#map-box"><span>Africa<em class="count">(1)</em></span></a></li>
-								<li><a href="/en/business/globalNetwork/all#map-box"><span>All<em class="count">(29)</em></span></a></li><!-- 2022-11-11 수정 -->
+								<li><a href="/en/business/globalNetwork/all#map-box"><span>All<em class="count">(30)</em></span></a></li><!-- 2022-11-11 수정 -->
 							</ul>
 						</div>
 						<!-- //tab -->
@@ -197,8 +196,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														 <a href="mailto:jameskim@taihan.com">jameskim@taihan.com.au</a><br>
-														 <a href="mailto:daniellee@taihan.com.au">daniellee@taihan.com.au</a>
+														<a href="mailto:sales@taihan.com.au">sales@taihan.com.au</a>
 													</dd>
 												</dl>
 											</li>
@@ -219,14 +217,14 @@
 											<li>
 												<dl>
 													<dt><i class="ico-tel"></i>Tel</dt>
-													<dd><a href="tel:+6499735062">+64-9-973-5062 </a></dd>
+													<dd><a href="tel:+640276532359">+64-(0)27-653-2359</a></dd>
 												</dl>
 											</li>
 											<li>
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:jameskim@taihan.com.au">jameskim@taihan.com.au</a><br>
+														<a href="mailto:jhkim@taihan.com">jhkim@taihan.com</a><br>
 														<a href="mailto:c.kim@taihan.co.nz">c.kim@taihan.co.nz</a>
 													</dd>
 												</dl>

@@ -210,7 +210,7 @@
 							</li>
 							<li data-delighter>
 								<div class="title-box">
-									<strong class="title">New Starting Point, Dangjin Plant </strong>
+									<strong class="title">New Starting Point, Dangjin Cable Plant</strong>
 								</div>
 								<div class="desc-box">
 									<p>

@@ -66,8 +66,8 @@
                 <strong class="title-box en"><span class="title-motion">We Connect</span></strong>
                 <strong class="title-box en"><span class="title-motion">the Future</span></strong>
                 <p class="title-box"><span class="title-motion">더 큰 세계, 더 나은 내일을 향한</span></p>
-                <p class="title-box"><span class="title-motion">우리의 여정은</span></p>
-                <p class="title-box"><span class="title-motion">지금부터가 시작입니다.</span></p>
+                <p class="title-box"><span class="title-motion">우리의 담대한 전진은</span></p>
+                <p class="title-box"><span class="title-motion">지금부터 시작입니다.</span></p>
                 <p class="title-box"><span class="title-motion"><a href="${LANG eq 'ko' ? '' : '/'.concat(LANG)}/company/overview" class="btn-more">MORE<i class="ico-more"></i></a></span></p>
             </div>
         </div>
@@ -100,9 +100,9 @@
                 <strong class="title-box en"><span class="title-motion">the Future</span></strong>
                 <p class="title-box">
 							<span class="title-motion">
-								Our journey<br>
-								toward broader horizons<br>
-								and a better tomorrow has just begun.<br>
+							    Toward broader horizons<br>
+								and a better tomorrow,<br>
+								our bold step forward begins now
 							</span>
                 </p>
 

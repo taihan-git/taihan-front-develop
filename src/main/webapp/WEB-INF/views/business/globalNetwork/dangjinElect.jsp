@@ -17,7 +17,7 @@
 
 			<div class="title-wrap">
 				<div class="inner-box">
-					<h3 class="title-type">당진 전력기기공장</h3>
+					<h3 class="title-type">당진솔루션공장</h3>
 					<p>국내 유일의 단일 전력기기 생산공장</p>
 					<a href="javascript:UI.layerPopUp({ selId: '#pop-sns' });" class="btn-share">
 						<i class="ico-share"><span class="hidden">공유하기</span></i>
@@ -30,7 +30,7 @@
 				<div class="bg v2"></div>
 				<!-- 수정 -->
 				<div class="inner-box">
-					<p class="desc">당진 당진솔루션공장은 접속함, 절연물와 같은 케이블 접속재 등을 생산하는 공장입니다.</p>
+					<p class="desc">당진솔루션공장은 접속함, 절연물와 같은 케이블 접속재 등을 생산하는 공장입니다. 고객의 요구사항에 완벽하게 부합하는 최적의 제품을 생산하기 위해 기술 고도화에 힘쓰고 있으며, 시공 용이성과 안정성을 개선한 전력기기를 지속적으로 개발하여 제품 경쟁력을 높여 나가고 있습니다.</p>
 
 					<ul class="list-summary">
 						<li>
@@ -290,7 +290,8 @@
 						<div class="bg v2"></div>
 						<div class="inner-box">
 							<p class="desc">
-								Dangjin Solution Factory manufactures junction boxes, insulating materials, and other cable accessories.
+								Dangjin Solution Plant manufactures junction boxes, insulating materials, and other cable accessories.
+								We are striving to advance technology to produce the best products that perfectly meet our customers' requirements, and we are increasing our product competitiveness by continuously developing power devices that improve construction ease and stability.
 							</p>
 
 							<ul class="list-summary">

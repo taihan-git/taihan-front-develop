@@ -88,10 +88,10 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/nXOrZkHU-DQ?si=TemIFBUb6zAwCGxx?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/95ksYD4l8Ro?si=aFGJauM7WTaSSKlI?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/PI6HtQAWSvY?si=GeLrag04fYhi1REP&autoplay&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/C7sbdZ8juqc?si=1WjzsnTpoQeq2mC9?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             </div>
                             <div class="narration-box">
@@ -135,10 +135,10 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/QpJrZWdsx_4?si=xBEc4r3-kAq6OiX_?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/cZJx5iR3LU8?si=hUlmPkUKwMzpFORA?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/sv41guF7th8?si=UMSY11MrfpIS01Rq?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/wJpvMOhUG7g?si=IzfjQ9gMgmibwxyE?&autoplay=1&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             </div>
                             <div class="narration-box">
