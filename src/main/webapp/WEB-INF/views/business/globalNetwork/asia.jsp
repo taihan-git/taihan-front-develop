@@ -81,7 +81,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-site"></i>웹사이트</dt>
-											<dd><a href="www.taihancable.com.vn"
+											<dd><a href="http://www.taihancable.com.vn/"
 													target="_blank">www.taihancable.com.vn</a></dd>
 										</dl>
 									</li>
@@ -127,7 +127,7 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
                                                       <a href="mailto:jshuh@taihan.com">jshuh@taihan.com</a><br>
-                                                      <a href="mailto:bheeyup@taihan.com">bheeyup@taihan.com</a>
+                                                      <a href="mailto:dennis@taihan.com">dennis@taihan.com</a>
                                                   </dd>
 										</dl>
 									</li>
@@ -253,7 +253,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-site"></i>Site</dt>
-													<dd><a href="https://www.taihancable.com.vn" target="_blank">www.taihancable.com.vn</a></dd>
+													<dd><a href="http://www.taihancable.com.vn/" target="_blank">www.taihancable.com.vn</a></dd>
 												</dl>
 											</li>
 											<li>
@@ -297,7 +297,7 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:jshuh@taihan.com">jshuh@taihan.com</a><br>
-														<a href="mailto:bheeyup@taihan.com">bheeyup@taihan.com</a>
+														<a href="mailto:dennis@taihan.com">dennis@taihan.com</a>
 													</dd>
 												</dl>
 											</li>

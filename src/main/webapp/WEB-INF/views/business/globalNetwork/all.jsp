@@ -287,8 +287,8 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd> 
-												<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-												<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
+												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a><br>
+												<a href="mailto:hykims09@taihan.com">hykims09@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -317,7 +317,7 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br> 
-												<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
+												<a href="mailto:c15940@taihan.com">c15940@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -513,7 +513,9 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
+												<a href="mailto:swcho@taihan.com">swcho@taihan.com</a>
+												<br>
+												<a href="mailto:jkpak@taihan.com">jkpak@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -595,7 +597,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:jmcho@taihan.com">jmcho@taihan.com</a>
+												<a href="mailto:htchoi2@taihan.com">htchoi2@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -901,7 +903,7 @@
 									<li>
 										<dl>
 											<dt><i class="ico-site"></i>웹사이트</dt>
-											<dd><a href="https://www.taihancable.com.vn" target="_blank">www.taihancable.com.vn</a></dd>
+											<dd><a href="http://www.taihancable.com.vn/" target="_blank">www.taihancable.com.vn</a></dd>
 										</dl>
 									</li>
 									<li>
@@ -945,7 +947,7 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<a href="mailto:jshuh@taihan.com">jshuh@taihan.com</a><br>
-												<a href="mailto:bheeyup@taihan.com">bheeyup@taihan.com</a>
+												<a href="mailto:dennis@taihan.com">dennis@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -1326,8 +1328,8 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd> 
-														<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-														<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
+														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a><br>
+														<a href="mailto:hykims09@taihan.com">hykims09@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1356,7 +1358,7 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br> 
-														<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
+														<a href="mailto:c15940@taihan.com">c15940@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1551,7 +1553,9 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
+														<a href="mailto:swcho@taihan.com">swcho@taihan.com</a>
+														<br>
+														<a href="mailto:jkpak@taihan.com">jkpak@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1633,7 +1637,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:jmcho@taihan.com">jmcho@taihan.com</a>
+														<a href="mailto:htchoi2@taihan.com">htchoi2@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -1938,7 +1942,7 @@
 											<li>
 												<dl>
 													<dt><i class="ico-site"></i>Site</dt>
-													<dd><a href="https://www.taihancable.com.vn" target="_blank">www.taihancable.com.vn</a></dd>
+													<dd><a href="http://www.taihancable.com.vn/" target="_blank">www.taihancable.com.vn</a></dd>
 												</dl>
 											</li>
 											<li>
@@ -1982,7 +1986,7 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<a href="mailto:jshuh@taihan.com">jshuh@taihan.com</a><br>
-														<a href="mailto:bheeyup@taihan.com">bheeyup@taihan.com</a>
+														<a href="mailto:dennis@taihan.com">dennis@taihan.com</a>
 													</dd>
 												</dl>
 											</li>

@@ -88,7 +88,7 @@
                         <div class="promotion-wrap">
                             <div class="img-flex">
                             <c:if test="${LANG eq 'ko'}">
-                                <iframe type="text/html" src="https://www.youtube.com/embed/95ksYD4l8Ro?si=aFGJauM7WTaSSKlI?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
+                                <iframe type="text/html" src="https://www.youtube.com/embed/jb2T9P7AOQg?si=aFGJauM7WTaSSKlI?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
                             </c:if>
                             <c:if test="${LANG eq 'en'}">
                                 <iframe type="text/html" src="https://www.youtube.com/embed/C7sbdZ8juqc?si=1WjzsnTpoQeq2mC9?&autoplay&rel=0&controls=0" frameborder="0"></iframe>

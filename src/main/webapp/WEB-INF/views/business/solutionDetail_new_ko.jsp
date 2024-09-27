@@ -103,7 +103,7 @@
 				</div>
 				<div class="table-wrap">
 					<div class="title-wrap3">
-						<h4 class="title-type">CLV VS CLB</h4>
+						<h4 class="title-type">CLV와 CLB 비교</h4>
 					</div>
 					<div class="scroll-wrap shadow-none">
 						<table class="table-type">

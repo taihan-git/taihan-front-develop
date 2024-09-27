@@ -54,7 +54,7 @@
 						<div class="video-box" data-delighter>
 							<div class="img-flex">
 							<c:if test="${LANG eq 'ko' }">
-								<iframe type="text/html" src="https://www.youtube.com/embed/95ksYD4l8Ro?si=aFGJauM7WTaSSKlI?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
+								<iframe type="text/html" src="https://www.youtube.com/embed/jb2T9P7AOQg?si=aFGJauM7WTaSSKlI?&autoplay&rel=0&controls=0" frameborder="0"></iframe>
 							</c:if>
 							<c:if test="${LANG eq 'en' }">
 								<!-- 2022-11-29 -->
@@ -138,7 +138,8 @@
 											<span>Vessel</span>
 										</dt>
 										<dd>
-											Korea’s Only
+											Korea’s 
+											<strong>Only</strong>
 										</dd>
 									</c:if>
 								</dl>

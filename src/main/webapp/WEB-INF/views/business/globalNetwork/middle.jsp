@@ -86,7 +86,9 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
+												<a href="mailto:swcho@taihan.com">swcho@taihan.com</a>
+												<br>
+												<a href="mailto:jkpak@taihan.com">jkpak@taihan.com</a>
 												<!--br>
 												<a href="mailto:si.kim@sauditaihan.com">si.kim@sauditaihan.com</a-->
 											</dd>
@@ -170,7 +172,7 @@
 										<dl>
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
-												<a href="mailto:jmcho@taihan.com">jmcho@taihan.com</a>
+												<a href="mailto:htchoi2@taihan.com">htchoi2@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -457,7 +459,9 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<!--a href="mailto:sikim@taihan.com">sikim@taihan.com</a><br-->
-														<a href="mailto:frkwak@taihan.com">frkwak@taihan.com</a>
+														<a href="mailto:swcho@taihan.com">swcho@taihan.com</a>
+														<br>
+														<a href="mailto:jkpak@taihan.com">jkpak@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -539,7 +543,7 @@
 												<dl>
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
-														<a href="mailto:jmcho@taihan.com">jmcho@taihan.com</a>
+														<a href="mailto:htchoi2@taihan.com">htchoi2@taihan.com</a>
 													</dd>
 												</dl>
 											</li>

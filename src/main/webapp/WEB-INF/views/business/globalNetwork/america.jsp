@@ -132,8 +132,8 @@
 											<dt><i class="ico-mail"></i>메일</dt>
 											<dd>
 												<!--a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br-->
-												<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-												<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
+												<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a><br>
+												<a href="mailto:hykims09@taihan.com">hykims09@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -165,7 +165,7 @@
 											<dd>
 												<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br>
 												<!--a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br-->
-												<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
+												<a href="mailto:c15940@taihan.com">c15940@taihan.com</a>
 											</dd>
 										</dl>
 									</li>
@@ -277,8 +277,8 @@
 													<dt><i class="ico-mail"></i>E-Mail</dt>
 													<dd>
 														<!--a href="mailto:cwlee@taihanusa.com">cwlee@taihanusa.com</a><br-->
-														<a href="mailto:krkycho2@taihanusa.com">krkycho2@taihanusa.com</a><br>
-														<a href="mailto:bryce@taihanusa.com">bryce@taihanusa.com</a>
+														<a href="mailto:hslee0822@taihan.com">hslee0822@taihan.com</a><br>
+														<a href="mailto:hykims09@taihan.com">hykims09@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
@@ -308,7 +308,7 @@
 													<dd>
 														<a href="mailto:okkwon@taihanusa.com">okkwon@taihanusa.com</a><br>
 														<!--a href="mailto:sky@taihanusa.com">sky@taihanusa.com</a><br-->
-														<a href="mailto:manny@taihanusa.com">manny@taihanusa.com</a>
+														<a href="mailto:c15940@taihan.com">c15940@taihan.com</a>
 													</dd>
 												</dl>
 											</li>
